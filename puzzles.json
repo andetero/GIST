@@ -1,20 +1,19 @@
 [
   {
-    "answer": "obsession",
+    "answer": "perspective",
     "difficulty": "MEDIUM",
     "sentences": [
-      "It begins as a gentle current in the mind's river, almost pleasant in its singular direction.",
-      "What starts as interest transforms into something that rewrites the architecture of daily life.",
-      "Sleep becomes secondary to the magnetic pull of a single idea, person, or pursuit that demands constant attention.",
-      "Friends and family watch helplessly as reasonable boundaries dissolve into an all-consuming focus that excludes nearly everything else.",
-      "The Latin root means 'to besiege' — a perfect description of how one thought can lay siege to an entire consciousness."
+      "Two people can witness the identical event yet carry away entirely different truths, each convinced of their accuracy.",
+      "Artists have long understood that changing one's physical position by mere inches can transform a mundane scene into something extraordinary.",
+      "Time has a way of shifting it — what seemed catastrophic at twenty may appear trivial at fifty.",
+      "It explains why the same joke can be hilarious to one person and offensive to another, why the same sunset can inspire or bore.",
+      "The word literally means 'to look through' — the particular lens through which each mind interprets the world around it."
     ],
     "close": [
-      "obsessed",
-      "obsessing",
-      "obsessive",
-      "fixation",
-      "compulsion"
+      "viewpoint",
+      "outlook",
+      "standpoint",
+      "perspectives"
     ],
     "id": 28
   },
