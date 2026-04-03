@@ -41,3 +41,14 @@ jobs:
           git add gist.html puzzles.json
           git diff --staged --quiet || git commit -m "puzzle #$(date +'%Y-%m-%d')"
           git push
+
+      - name: Sync puzzles.json to pyoba repo
+        run: |
+          git clone https://x-access-token:${{ secrets.PYOBA_SYNC_TOKEN }}@github.com/andetero/pyoba.git
+          cp puzzles.json pyoba/puzzles.json
+          cd pyoba
+          git config user.name "gist-bot"
+          git config user.email "joe@pyoba.com"
+          git add puzzles.json
+          git diff --staged --quiet || git commit -m "sync puzzles.json"
+          git push
