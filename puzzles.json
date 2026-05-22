@@ -1,5 +1,24 @@
 [
   {
+    "answer": "vindictiveness",
+    "difficulty": "HARD",
+    "sentences": [
+      "It transforms justice into something personal, warping the scales until they serve not balance but satisfaction.",
+      "Ancient civilizations codified it into law, yet modern ethics condemn its practice as a corruption of fairness.",
+      "It feeds on memory, growing stronger with each recalled slight, each rehearsed grievance stored away for future use.",
+      "Unlike anger, which burns hot and fast, this emotion calcifies into strategy, patient and methodical in its pursuit.",
+      "The desire for retribution becomes an end in itself, where the punishment matters less than the act of punishing."
+    ],
+    "close": [
+      "vindictive",
+      "vengeance",
+      "revenge",
+      "retribution",
+      "spite"
+    ],
+    "id": 78
+  },
+  {
     "answer": "discipline",
     "difficulty": "MEDIUM",
     "sentences": [
