@@ -1,5 +1,24 @@
 [
   {
+    "answer": "refraction",
+    "difficulty": "WILDCARD",
+    "sentences": [
+      "It is the universe's way of revealing that nothing travels in perfectly straight lines when crossing boundaries.",
+      "Ancient Greek philosophers puzzled over why objects submerged in water appeared broken, displaced from their true positions.",
+      "Rainbows exist because white light cannot maintain its unity when passing through countless suspended droplets.",
+      "Every lens depends on this phenomenon to focus or scatter rays, bending them at precise angles calculated by Snell's law.",
+      "The word describes what happens when waves of any kind—light, sound, or water—change direction upon entering a new medium."
+    ],
+    "close": [
+      "refract",
+      "refracting",
+      "refracted",
+      "refractive",
+      "diffraction"
+    ],
+    "id": 80
+  },
+  {
     "answer": "empathy",
     "difficulty": "HARD",
     "sentences": [
