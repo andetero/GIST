@@ -1,5 +1,23 @@
 [
   {
+    "answer": "gratitude",
+    "difficulty": "EASY",
+    "sentences": [
+      "It transforms the ordinary into abundance, making what we already possess feel like gifts we never noticed.",
+      "Psychologists have discovered it rewires the brain, creating pathways that lead naturally toward contentment.",
+      "Children learn it through rituals — saying please and thank you, writing notes to grandparents, counting blessings at bedtime.",
+      "It requires no material wealth, yet it makes people feel instantly richer than they were moments before.",
+      "The simple act of acknowledging what others have given us creates this warm recognition that flows both inward and outward."
+    ],
+    "close": [
+      "grateful",
+      "appreciation",
+      "thankfulness",
+      "gratefulness"
+    ],
+    "id": 81
+  },
+  {
     "answer": "refraction",
     "difficulty": "WILDCARD",
     "sentences": [
