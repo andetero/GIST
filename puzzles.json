@@ -1,5 +1,24 @@
 [
   {
+    "answer": "exhaustion",
+    "difficulty": "EASY",
+    "sentences": [
+      "It arrives like a heavy blanket thrown over the mind, muffling thoughts and slowing time to a crawl.",
+      "Athletes know it as the moment when muscle memory takes over because conscious control has abandoned ship.",
+      "Parents recognize it in the evening hours when even simple decisions become monumental tasks.",
+      "It differs from sleepiness — this is the body's protest against demands that exceed its capacity to respond.",
+      "The cure isn't always sleep; sometimes it requires weeks of gentler living to restore what has been depleted."
+    ],
+    "close": [
+      "tired",
+      "fatigue",
+      "exhausted",
+      "weariness",
+      "depleted"
+    ],
+    "id": 82
+  },
+  {
     "answer": "gratitude",
     "difficulty": "EASY",
     "sentences": [
