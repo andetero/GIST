@@ -1,5 +1,24 @@
 [
   {
+    "answer": "compromise",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "It is the art of everyone getting less than they wanted while somehow achieving more than they could alone.",
+      "In nature, it appears as the bend that keeps the tree from breaking, the river that carves around the mountain rather than through it.",
+      "Children resist it instinctively, sensing perhaps that pure desires should not be diluted by the messy negotiations of shared existence.",
+      "Democracy depends on it, marriages are built from it, and peace treaties are its formal expression between nations.",
+      "The word itself suggests a mutual promise that has been pressed together, each side yielding something precious to create a middle ground."
+    ],
+    "close": [
+      "compromising",
+      "compromised",
+      "concession",
+      "negotiation",
+      "settlement"
+    ],
+    "id": 83
+  },
+  {
     "answer": "exhaustion",
     "difficulty": "EASY",
     "sentences": [
