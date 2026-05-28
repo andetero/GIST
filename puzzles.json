@@ -1,5 +1,24 @@
 [
   {
+    "answer": "rhythm",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "It exists in the spaces between things as much as in the things themselves, creating order from what would otherwise be chaos.",
+      "Ancient cultures believed it was the heartbeat of the universe, the pulse that governed everything from seasons to sleep.",
+      "Musicians spend years learning to feel it instinctively, while dancers surrender their bodies to its invisible command.",
+      "It can be found in poetry, in breathing, in the way waves meet shore, and in the steady tick of time itself.",
+      "When it's disrupted in the human body, we call it arrhythmia — the breaking of life's most essential pattern."
+    ],
+    "close": [
+      "rhythmic",
+      "rhythms",
+      "beat",
+      "tempo",
+      "pulse"
+    ],
+    "id": 84
+  },
+  {
     "answer": "compromise",
     "difficulty": "MEDIUM",
     "sentences": [
