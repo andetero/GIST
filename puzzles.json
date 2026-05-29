@@ -1,5 +1,23 @@
 [
   {
+    "answer": "complacency",
+    "difficulty": "HARD",
+    "sentences": [
+      "It blooms most luxuriously in the soil of past victories, feeding on the nutrients of what once was struggle.",
+      "Organizations that reach the summit often find themselves afflicted by this peculiar blindness to the changing landscape below.",
+      "It whispers that effort is no longer necessary, that the current state of affairs will persist indefinitely without tending.",
+      "Unlike contentment, which acknowledges present blessings, this condition assumes they are permanent and deserved.",
+      "It is the satisfied smile that appears just before the ground shifts, the dangerous comfort that mistakes temporary success for eternal security."
+    ],
+    "close": [
+      "complacent",
+      "smugness",
+      "self-satisfaction",
+      "overconfidence"
+    ],
+    "id": 85
+  },
+  {
     "answer": "rhythm",
     "difficulty": "MEDIUM",
     "sentences": [
