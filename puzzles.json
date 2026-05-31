@@ -1,5 +1,24 @@
 [
   {
+    "answer": "fervor",
+    "difficulty": "WILDCARD",
+    "sentences": [
+      "It transforms the quiet scholar into a street corner evangelist, the casual hobbyist into a sleepless obsessive.",
+      "Medieval mystics described it as divine fire coursing through mortal veins, while modern neuroscientists locate it in the limbic system's electrical storms.",
+      "It can attach itself to anything — political movements, artistic pursuits, romantic love, or even the perfect temperature for brewing tea.",
+      "The word shares its etymology with the Latin for 'to boil,' suggesting the way it bubbles up from somewhere deep and uncontrollable.",
+      "At its peak, it makes the impossible seem inevitable, turning believers into forces of nature who reshape the world through pure intensity of feeling."
+    ],
+    "close": [
+      "passion",
+      "zeal",
+      "ardor",
+      "fervency",
+      "fervent"
+    ],
+    "id": 87
+  },
+  {
     "answer": "symmetry",
     "difficulty": "HARD",
     "sentences": [
