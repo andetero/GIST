@@ -1,5 +1,24 @@
 [
   {
+    "answer": "pride",
+    "difficulty": "EASY",
+    "sentences": [
+      "It can transform a simple accomplishment into something that glows from within, changing how we carry ourselves through the world.",
+      "Parents feel it watching their children take first steps, graduate, or simply choose kindness when no one is looking.",
+      "It walks a fine line between healthy self-regard and the kind of inflated self-importance that isolates us from others.",
+      "Athletes display it in their posture after crossing the finish line, artists feel it signing their name to completed work.",
+      "It swells in the chest when we've earned something through effort, the warm recognition of our own worth and achievement."
+    ],
+    "close": [
+      "proud",
+      "satisfaction",
+      "accomplishment",
+      "dignity",
+      "honor"
+    ],
+    "id": 89
+  },
+  {
     "answer": "panic",
     "difficulty": "EASY",
     "sentences": [
