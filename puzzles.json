@@ -1,5 +1,24 @@
 [
   {
+    "answer": "addiction",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "It begins as a choice and slowly transforms into something that makes choices for you.",
+      "The brain rewires itself around a single priority, creating neural pathways that grow stronger with each repetition.",
+      "What once brought pleasure eventually becomes merely the absence of pain, yet the cycle continues.",
+      "Recovery requires not just stopping a behavior, but rebuilding an entire relationship with desire itself.",
+      "Twelve-step programs call it a disease, while others see it as a learned response that can be unlearned through patience and support."
+    ],
+    "close": [
+      "addicted",
+      "dependency",
+      "habit",
+      "compulsion",
+      "dependence"
+    ],
+    "id": 90
+  },
+  {
     "answer": "pride",
     "difficulty": "EASY",
     "sentences": [
