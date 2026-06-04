@@ -1,5 +1,24 @@
 [
   {
+    "answer": "loyalty",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "It exists in the space between choice and obligation, where freedom meets devotion.",
+      "Ancient codes of honor built entire civilizations around this invisible bond that could not be bought or sold.",
+      "It survives betrayal better than indifference, and grows stronger under pressure than in comfort.",
+      "Dogs are celebrated for it, friends are tested by it, and nations demand it from their citizens.",
+      "It is the steadfast adherence to a person, cause, or ideal even when circumstances make departure easier."
+    ],
+    "close": [
+      "faithful",
+      "devotion",
+      "allegiance",
+      "loyal",
+      "fidelity"
+    ],
+    "id": 91
+  },
+  {
     "answer": "addiction",
     "difficulty": "MEDIUM",
     "sentences": [
