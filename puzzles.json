@@ -1,5 +1,24 @@
 [
   {
+    "answer": "reverie",
+    "difficulty": "HARD",
+    "sentences": [
+      "It exists in the space between sleeping and waking, where the mind's tether to immediate reality grows slack.",
+      "Poets have called it the soul's natural habitat, that realm where thoughts drift like clouds across an inner sky.",
+      "It can be triggered by a fragment of music, the quality of afternoon light, or the rhythm of rain against windows.",
+      "Children are natural inhabitants of this state, though adults must often struggle to find their way back to it.",
+      "The French gave us the word for this gentle wandering of consciousness, this pleasant loss of focus that feels more like finding than losing."
+    ],
+    "close": [
+      "daydream",
+      "daydreaming",
+      "dreaming",
+      "musing",
+      "contemplation"
+    ],
+    "id": 93
+  },
+  {
     "answer": "transcendence",
     "difficulty": "HARD",
     "sentences": [
