@@ -1,5 +1,24 @@
 [
   {
+    "answer": "erosion",
+    "difficulty": "WILDCARD",
+    "sentences": [
+      "It is the universe's quiet insistence that all permanence is illusion, working with such patience that its progress becomes visible only across lifetimes.",
+      "Mountains bow to its authority, though it arrives not as conqueror but as countless gentle touches, each seemingly insignificant.",
+      "Water serves as its most faithful servant, though wind and ice offer their services with equal devotion.",
+      "Geologists read its signature in every canyon wall and river valley, a autobiography written in stone and sediment.",
+      "The Grand Canyon stands as its masterpiece, carved grain by grain over millions of years by the persistent Colorado River."
+    ],
+    "close": [
+      "eroding",
+      "eroded",
+      "erosive",
+      "weathering",
+      "corrosion"
+    ],
+    "id": 94
+  },
+  {
     "answer": "reverie",
     "difficulty": "HARD",
     "sentences": [
