@@ -1,5 +1,24 @@
 [
   {
+    "answer": "migration",
+    "difficulty": "EASY",
+    "sentences": [
+      "It writes invisible highways across the sky, carved by instinct older than memory.",
+      "The pull becomes strongest when seasons begin their ancient dance of change.",
+      "Entire populations abandon familiar territories, following internal compasses that never fail.",
+      "Scientists study the magnetic fields and celestial navigation that guide these epic journeys.",
+      "Birds gather in great flocks, preparing for their twice-yearly pilgrimage to distant lands."
+    ],
+    "close": [
+      "migrate",
+      "migrating",
+      "migrated",
+      "journey",
+      "pilgrimage"
+    ],
+    "id": 95
+  },
+  {
     "answer": "erosion",
     "difficulty": "WILDCARD",
     "sentences": [
