@@ -1,5 +1,24 @@
 [
   {
+    "answer": "wonder",
+    "difficulty": "EASY",
+    "sentences": [
+      "It arrives uninvited, transforming the ordinary into something that demands a second look.",
+      "Children possess it in abundance, their eyes wide at things adults have learned to overlook.",
+      "Scientists and poets share this quality, though they express it through different vocabularies.",
+      "It can be sparked by a sunset, a mathematical proof, or the simple fact that anything exists at all.",
+      "The feeling makes us pause, tilt our heads, and ask questions that begin with 'how' and 'why.'"
+    ],
+    "close": [
+      "wondering",
+      "wonders",
+      "wondered",
+      "amazement",
+      "awe"
+    ],
+    "id": 96
+  },
+  {
     "answer": "migration",
     "difficulty": "EASY",
     "sentences": [
