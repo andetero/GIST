@@ -1,5 +1,24 @@
 [
   {
+    "answer": "contingency",
+    "difficulty": "HARD",
+    "sentences": [
+      "It whispers in the space between certainty and chaos, reminding us that the universe operates on probabilities rather than promises.",
+      "Philosophers debate whether it is the engine of freedom or the source of all anxiety, the crack in determinism through which possibility seeps.",
+      "Insurance companies build entire industries around its mathematics, calculating premiums for events that may never occur.",
+      "Military strategists obsess over it, crafting elaborate plans for scenarios that exist only in the realm of 'what if.'",
+      "It is the quality of being dependent on chance or circumstances — the fundamental uncertainty that makes tomorrow both terrifying and full of potential."
+    ],
+    "close": [
+      "contingent",
+      "contingencies",
+      "uncertainty",
+      "possibility",
+      "chance"
+    ],
+    "id": 99
+  },
+  {
     "answer": "restlessness",
     "difficulty": "MEDIUM",
     "sentences": [
