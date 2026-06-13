@@ -1,5 +1,24 @@
 [
   {
+    "answer": "epiphany",
+    "difficulty": "HARD",
+    "sentences": [
+      "It arrives uninvited, like lightning illuminating a landscape that was always there but never before visible.",
+      "The Greeks gave it a name that meant 'showing forth' — the moment when the hidden becomes manifest.",
+      "Scientists chase it through years of careful work, yet it often comes while walking, showering, or lying half-asleep.",
+      "What felt impossibly complex suddenly arranges itself into perfect clarity, as if puzzle pieces have found their natural positions.",
+      "The insight changes everything that came before it, transforming confusion into understanding in a single, brilliant instant of recognition."
+    ],
+    "close": [
+      "revelation",
+      "realization",
+      "insight",
+      "enlightenment",
+      "epiphanies"
+    ],
+    "id": 100
+  },
+  {
     "answer": "contingency",
     "difficulty": "HARD",
     "sentences": [
