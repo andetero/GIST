@@ -1,5 +1,23 @@
 [
   {
+    "answer": "topology",
+    "difficulty": "WILDCARD",
+    "sentences": [
+      "It cares nothing for distance or angle, only for the essential relationships that persist through infinite deformation.",
+      "A coffee cup and a donut are identical in its language, while a sphere and a pretzel occupy entirely different universes.",
+      "Mathematicians in this field study properties that survive the most violent transformations — stretching, bending, twisting — yet break completely with a single cut.",
+      "It distinguishes between surfaces by counting holes: zero makes you a ball, one makes you a tire, two makes you a figure-eight swimming pool.",
+      "This branch of mathematics concerns itself with neighborhoods and continuity, asking not 'how far?' but 'what connects to what?'"
+    ],
+    "close": [
+      "topological",
+      "topologist",
+      "topologies",
+      "geometric"
+    ],
+    "id": 101
+  },
+  {
     "answer": "epiphany",
     "difficulty": "HARD",
     "sentences": [
