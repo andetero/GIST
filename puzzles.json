@@ -1,5 +1,24 @@
 [
   {
+    "answer": "reputation",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "It is a kind of shadow that moves ahead of a person, shaping rooms before they enter them.",
+      "Philosophers have noted its strange dependency: it lives entirely in the minds of others, yet its consequences fall entirely on one.",
+      "It can be built over decades and demolished in an afternoon, which is why those who possess a good one guard it with an almost physical vigilance.",
+      "Institutions have it as readily as individuals do — a university, a restaurant, a nation can each carry one that precedes every encounter.",
+      "The Latin root speaks of repeated reckoning, the act of counting and recounting what someone is worth in the eyes of a community."
+    ],
+    "close": [
+      "reputations",
+      "repute",
+      "standing",
+      "prestige",
+      "renown"
+    ],
+    "id": 104
+  },
+  {
     "answer": "grief",
     "difficulty": "EASY",
     "sentences": [
