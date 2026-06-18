@@ -1,5 +1,24 @@
 [
   {
+    "answer": "plagiarism",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "It is a shadow that moves through culture quietly, wearing borrowed clothes and hoping no one notices the fit.",
+      "Societies have long debated where influence ends and theft begins, since all creative work builds on what came before.",
+      "The word entered English through Latin, rooted in the idea of kidnapping — the abduction of someone else's offspring.",
+      "Academic institutions treat it as a serious offense, one that undermines the implicit contract between a creator and their audience.",
+      "It is defined by the deliberate concealment of a source — presenting another person's ideas, words, or work as one's own."
+    ],
+    "close": [
+      "plagiarize",
+      "plagiarized",
+      "plagiarizing",
+      "plagiarist",
+      "copying"
+    ],
+    "id": 105
+  },
+  {
     "answer": "reputation",
     "difficulty": "MEDIUM",
     "sentences": [
