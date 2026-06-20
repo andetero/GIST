@@ -1,5 +1,24 @@
 [
   {
+    "answer": "reconciliation",
+    "difficulty": "HARD",
+    "sentences": [
+      "It is the art of making two truths inhabit the same room without either one flinching.",
+      "Theologians have described it as the restoration of a broken covenant, while therapists speak of it as the hardest kind of emotional labor — not forgetting, but choosing nonetheless.",
+      "It differs from mere resolution in that something must be surrendered: the clean narrative of who was right, and who was wronged.",
+      "History books record its rarest forms in the meeting of former enemies across a table, though it happens just as often in ordinary kitchens and quiet phone calls made after years of silence.",
+      "At its core, it asks a person to hold injury and continuation together in the same hand, and to walk forward without pretending either one doesn't exist."
+    ],
+    "close": [
+      "reconcile",
+      "reconciled",
+      "reconciling",
+      "reparation",
+      "rapprochement"
+    ],
+    "id": 107
+  },
+  {
     "answer": "accountability",
     "difficulty": "HARD",
     "sentences": [
