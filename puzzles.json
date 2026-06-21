@@ -1,5 +1,24 @@
 [
   {
+    "answer": "camouflage",
+    "difficulty": "WILDCARD",
+    "sentences": [
+      "It is a kind of honesty achieved through deception — the world seen as it insists on being seen, rather than as it is.",
+      "Evolutionary biologists regard it as one of the oldest negotiations between visibility and survival, predating language by hundreds of millions of years.",
+      "Artists and soldiers arrived at the same technique independently, one seeking to dissolve the figure into its background, the other to make the background itself speak.",
+      "The cuttlefish performs it in milliseconds, rippling false textures across its skin with a nervous system that has no concept of what it is imitating.",
+      "The word entered English from French during the First World War, rooted in the Parisian slang for blowing smoke in someone's face — to obscure, to make invisible."
+    ],
+    "close": [
+      "camouflaged",
+      "camouflaging",
+      "concealment",
+      "mimicry",
+      "disguise"
+    ],
+    "id": 108
+  },
+  {
     "answer": "reconciliation",
     "difficulty": "HARD",
     "sentences": [
