@@ -1,5 +1,24 @@
 [
   {
+    "answer": "inheritance",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "It arrives without negotiation, carried forward through time by forces that preceded any individual's consent.",
+      "Some philosophers argue it is the primary mechanism by which the past colonizes the present, shaping lives that have no memory of its origin.",
+      "It can take the form of land, language, temperament, or affliction — sometimes all four at once within a single family.",
+      "The recipient may spend a lifetime either building upon it or quietly trying to escape what was handed to them unbidden.",
+      "Wills and estates formalize only its most material expression; the deeper version passes through blood, story, and the particular silences kept at dinner tables."
+    ],
+    "close": [
+      "inherit",
+      "inherited",
+      "heritage",
+      "legacy",
+      "heirloom"
+    ],
+    "id": 112
+  },
+  {
     "answer": "regret",
     "difficulty": "MEDIUM",
     "sentences": [
