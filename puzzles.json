@@ -1,5 +1,24 @@
 [
   {
+    "answer": "illusion",
+    "difficulty": "HARD",
+    "sentences": [
+      "It is the gap between the world as it arrives and the world as it is — a seam so perfectly hidden that finding it feels like betraying reality itself.",
+      "Every sensory system that has ever evolved is susceptible to it, suggesting that perception was never built to be accurate, only useful.",
+      "Artists have exploited it for millennia, and scientists have catalogued hundreds of its varieties, yet neither group has managed to make it disappear once it is understood.",
+      "It differs from hallucination in that the stimulus is real; the error lives entirely in the interpretation, a faithful mistake made by a trustworthy mind.",
+      "The Latin root means to mock or to play with, and there is something almost affectionate in the way the nervous system continues to be fooled even after it knows the trick."
+    ],
+    "close": [
+      "illusions",
+      "illusive",
+      "illusory",
+      "delusion",
+      "mirage"
+    ],
+    "id": 114
+  },
+  {
     "answer": "dissonance",
     "difficulty": "HARD",
     "sentences": [
