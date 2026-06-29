@@ -1,5 +1,25 @@
 [
   {
+    "answers": "daydream",
+    "answer": "daydream",
+    "difficulty": "EASY",
+    "sentences": [
+      "It is the mind's quiet act of slipping through a door that was never really there.",
+      "Psychologists estimate that people spend nearly half their waking hours inside one, often without noticing the departure.",
+      "A classroom window, a long commute, or a dull meeting can be its most reliable invitation.",
+      "Unlike sleep, the body remains still and present while the mind constructs entire landscapes, conversations, and futures that may never exist.",
+      "It is the effortless wandering of thought into imagined worlds, carried on without intention or effort, somewhere between wish and vision."
+    ],
+    "close": [
+      "daydreaming",
+      "daydreamed",
+      "daydreams",
+      "fantasy",
+      "reverie"
+    ],
+    "id": 116
+  },
+  {
     "answer": "calibration",
     "difficulty": "WILDCARD",
     "sentences": [
