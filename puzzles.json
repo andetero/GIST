@@ -1,5 +1,24 @@
 [
   {
+    "answer": "stubbornness",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "There is a quality in certain objects — old wood, river stone, the roots of a tree — that seems to refuse the world's pressure to change.",
+      "Psychologists distinguish it from conviction, noting that it persists even when the evidence has shifted, when the argument has been won by the other side.",
+      "In children it appears early, a kind of proto-will that exasperates parents while quietly signaling the emergence of a self.",
+      "It can be the armor of the wronged and the blindfold of the mistaken simultaneously, serving opposite purposes in the same soul.",
+      "What separates it from determination is that determination moves toward something, while this digs in and refuses to move at all."
+    ],
+    "close": [
+      "stubborn",
+      "obstinacy",
+      "obstinate",
+      "tenacity",
+      "pigheadedness"
+    ],
+    "id": 118
+  },
+  {
     "answer": "envy",
     "difficulty": "EASY",
     "sentences": [
