@@ -1,5 +1,25 @@
 [
   {
+    "answers": "delegation",
+    "answer": "delegation",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "There is a particular art in knowing what to release from your hands without releasing responsibility for the outcome.",
+      "It requires a strange combination of confidence and humility — faith that another person's path to a result may differ from yours and still arrive at the same place.",
+      "Managers who struggle with it are often praised for their dedication while quietly becoming the bottleneck through which nothing can move.",
+      "Children experience its early logic when a parent asks them to set the table or carry the groceries — small acts of entrusted purpose.",
+      "Organizations that master it tend to scale; those that cannot remain forever the size of one person's attention."
+    ],
+    "close": [
+      "delegate",
+      "delegating",
+      "delegated",
+      "authority",
+      "entrust"
+    ],
+    "id": 119
+  },
+  {
     "answer": "stubbornness",
     "difficulty": "MEDIUM",
     "sentences": [
