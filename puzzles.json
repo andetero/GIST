@@ -1,5 +1,24 @@
 [
   {
+    "answer": "abstinence",
+    "difficulty": "HARD",
+    "sentences": [
+      "It is a kind of presence defined entirely by what is absent — a shape made visible only by the outline of what it refuses.",
+      "Across cultures and centuries, it has been treated as both a form of devotion and a form of protest, a way of saying that power lies in withholding.",
+      "The body often wages war against it, and neuroscience has shown that the anticipation of a denied pleasure can be more activating than the pleasure itself.",
+      "It differs from deprivation in that it is chosen, and from moderation in that it admits no middle ground — it is the full stop, not the comma.",
+      "Whether applied to food, drink, sex, or speech, the word names the deliberate and complete refraining from something the person is otherwise capable of doing."
+    ],
+    "close": [
+      "abstain",
+      "abstaining",
+      "abstained",
+      "temperance",
+      "restraint"
+    ],
+    "id": 120
+  },
+  {
     "answers": "delegation",
     "answer": "delegation",
     "difficulty": "MEDIUM",
