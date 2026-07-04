@@ -1,5 +1,26 @@
 [
   {
+    "puzzle_number": 121,
+    "date": "2026-07-04",
+    "answer": "complicity",
+    "difficulty": "HARD",
+    "sentences": [
+      "It is the quiet warmth of a shared secret, the handshake beneath the table that binds two parties to the same unspoken narrative.",
+      "Moral philosophers distinguish it carefully from mere presence — one can witness wrongdoing without it, but one cannot have it without some form of consent, however reluctant.",
+      "It thrives in institutions, in families, in governments, wherever loyalty is prized above transparency and silence becomes a kind of signature.",
+      "The Nuremberg trials forced the modern world to confront its scope — that following orders, saying nothing, looking away, could each constitute a version of it.",
+      "Derived from the Latin for 'folded together,' it suggests two or more things so entangled that separating guilt from innocence becomes almost geometrically impossible."
+    ],
+    "close": [
+      "complicit",
+      "collusion",
+      "culpability",
+      "collaboration",
+      "conspiracy"
+    ],
+    "id": 121
+  },
+  {
     "answer": "abstinence",
     "difficulty": "HARD",
     "sentences": [
