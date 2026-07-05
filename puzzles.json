@@ -1,5 +1,23 @@
 [
   {
+    "answer": "buoyancy",
+    "difficulty": "WILDCARD",
+    "sentences": [
+      "It is the reason a battleship and a rubber duck share a secret with the human body, a principle that makes the heaviest things in the world seem to forget their weight.",
+      "Archimedes is said to have leapt naked from his bath upon understanding it, recognizing that the water's resistance to being displaced was itself a form of generosity.",
+      "Engineers who design submarines must master its arithmetic precisely — too much and the vessel refuses to descend, too little and it refuses to rise.",
+      "In saltwater the effect is more pronounced than in fresh, which is why the Dead Sea holds swimmers effortlessly on its surface like an open palm.",
+      "The word describes the upward force exerted by a fluid on any object immersed within it, exactly equal to the weight of the fluid that object has pushed aside."
+    ],
+    "close": [
+      "buoyant",
+      "buoyantly",
+      "flotation",
+      "floatation"
+    ],
+    "id": 122
+  },
+  {
     "puzzle_number": 121,
     "date": "2026-07-04",
     "answer": "complicity",
