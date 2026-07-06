@@ -1,5 +1,24 @@
 [
   {
+    "answer": "distraction",
+    "difficulty": "EASY",
+    "sentences": [
+      "It is the small thief that arrives without a mask, borrowing your hours one shining moment at a time.",
+      "Psychologists note that the modern environment is uniquely engineered to produce it, fragmenting attention into smaller and smaller pieces.",
+      "A chirping phone, a passing siren, or even a half-remembered worry can be enough to break the thread of a thought.",
+      "It is not laziness, and not forgetfulness — it is the mind being pulled toward something other than what it intended to hold.",
+      "The word traces back to the Latin for being 'drawn apart,' as though one's focus were a rope being tugged in two directions at once."
+    ],
+    "close": [
+      "distracted",
+      "distractions",
+      "distracting",
+      "distract",
+      "inattention"
+    ],
+    "id": 123
+  },
+  {
     "answer": "buoyancy",
     "difficulty": "WILDCARD",
     "sentences": [
