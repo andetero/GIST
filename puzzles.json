@@ -1,5 +1,24 @@
 [
   {
+    "answer": "flattery",
+    "difficulty": "EASY",
+    "sentences": [
+      "It is a mirror held up at a flattering angle, showing people not what they are but what they wish to be.",
+      "Philosophers have warned against it for centuries, noting that it serves the speaker far more than the listener.",
+      "It differs from a genuine compliment in one key way: it is designed to get something in return.",
+      "Politicians, salespeople, and suitors have long relied on it, knowing that most people are surprisingly susceptible to its charms.",
+      "To shower someone with excessive and insincere praise is to practice one of humanity's oldest and most effective social tricks."
+    ],
+    "close": [
+      "flatter",
+      "flattering",
+      "flattered",
+      "adulation",
+      "sycophancy"
+    ],
+    "id": 124
+  },
+  {
     "answer": "distraction",
     "difficulty": "EASY",
     "sentences": [
