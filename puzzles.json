@@ -1,5 +1,24 @@
 [
   {
+    "answer": "humility",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "There is a particular stillness that comes over a person who has stopped needing to be the loudest voice in the room.",
+      "Ancient philosophers considered it a precondition for wisdom, arguing that only those who acknowledged the limits of their knowledge could ever truly learn.",
+      "It is sometimes confused with weakness or self-deprecation, but its true form requires a kind of quiet confidence — an accurate accounting of one's place in the world.",
+      "Leaders who possess it tend to invite correction more readily than praise, and scientists who practice it are more likely to revise their theories in the face of new evidence.",
+      "The word traces to the Latin humus, meaning earth or ground, suggesting a person who does not place themselves above the soil from which all things grow."
+    ],
+    "close": [
+      "humble",
+      "humbleness",
+      "modesty",
+      "meekness",
+      "humbling"
+    ],
+    "id": 126
+  },
+  {
     "answer": "manipulation",
     "difficulty": "MEDIUM",
     "sentences": [
