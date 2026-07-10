@@ -1,5 +1,24 @@
 [
   {
+    "answer": "reckoning",
+    "difficulty": "HARD",
+    "sentences": [
+      "It arrives not when the deed is done, but when the distance between what was promised and what was delivered can no longer be obscured.",
+      "Cultures have always personified it — as a figure at the crossroads, a ledger balanced at the end of days, a tide that cannot be held back by will alone.",
+      "It operates equally in the personal and the historical, forcing individuals and civilizations alike to stand before the accumulated weight of their choices.",
+      "Unlike punishment, which is imposed from without, this is more intimate — an internal settling of accounts that no authority can administer on another's behalf.",
+      "The word shares its root with arithmetic, the act of counting, because at its core it is a moment when all the uncounted things finally get counted."
+    ],
+    "close": [
+      "reckoned",
+      "reckon",
+      "reckons",
+      "judgment",
+      "atonement"
+    ],
+    "id": 127
+  },
+  {
     "answer": "humility",
     "difficulty": "MEDIUM",
     "sentences": [
