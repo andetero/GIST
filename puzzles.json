@@ -1,5 +1,24 @@
 [
   {
+    "answer": "leverage",
+    "difficulty": "HARD",
+    "sentences": [
+      "Its power lies not in what is possessed, but in the precise angle at which possession is applied.",
+      "Archimedes glimpsed its essence when he spoke of a place to stand and a rod long enough to move the world — understanding that force multiplied by distance defeats brute strength every time.",
+      "In negotiation, it is the invisible currency that determines who speaks first and who concedes last, often without a word being exchanged about it directly.",
+      "Financial institutions use it to amplify returns on borrowed capital, accepting that the same mechanism that inflates gains will equally magnify losses.",
+      "Whether physical, economic, or political, it is the art of accomplishing more than your raw resources should allow, by finding the point where small effort produces large effect."
+    ],
+    "close": [
+      "leveraged",
+      "leveraging",
+      "influence",
+      "advantage",
+      "clout"
+    ],
+    "id": 128
+  },
+  {
     "answer": "reckoning",
     "difficulty": "HARD",
     "sentences": [
