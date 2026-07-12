@@ -1,5 +1,24 @@
 [
   {
+    "answer": "oxidation",
+    "difficulty": "WILDCARD",
+    "sentences": [
+      "It is the universe's slow insistence on taking something back, written in the language of electrons.",
+      "Every breath you take depends on a controlled version of it, and every fire is simply its most dramatic performance.",
+      "Metals undergo it visibly over years, while fats undergo it imperceptibly over days, turning rancid in the pantry without a single witness.",
+      "Winemakers fear its intrusion after uncorking, chefs use lemon juice to forestall its work on sliced apples, and conservators battle it constantly in museum storage rooms.",
+      "The reddish crust on old iron nails, the tarnish on silver cutlery, and the brown edge of a forgotten avocado are all its signatures — the mark of oxygen claiming what it can."
+    ],
+    "close": [
+      "oxidize",
+      "oxidized",
+      "oxidizing",
+      "corrosion",
+      "rust"
+    ],
+    "id": 129
+  },
+  {
     "answer": "leverage",
     "difficulty": "HARD",
     "sentences": [
