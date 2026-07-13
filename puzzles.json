@@ -1,5 +1,23 @@
 [
   {
+    "answer": "homesickness",
+    "difficulty": "EASY",
+    "sentences": [
+      "It is a longing that lives in the body as much as the mind, a dull ache that can be triggered by a smell, a song, or the particular slant of afternoon light.",
+      "Psychologists describe it as a form of grief — mourning not a person but a place and all the feelings of safety that place contained.",
+      "Children at summer camp know it acutely; travelers on long journeys feel it creep in quietly after the novelty fades.",
+      "It is not about a building or a street, but about the version of yourself that existed there, surrounded by familiar people and routines.",
+      "The German word for it, Heimweh, translates literally as 'home-pain' — a hurt that only one particular destination can heal."
+    ],
+    "close": [
+      "homesick",
+      "longing",
+      "yearning",
+      "nostalgia"
+    ],
+    "id": 130
+  },
+  {
     "answer": "oxidation",
     "difficulty": "WILDCARD",
     "sentences": [
