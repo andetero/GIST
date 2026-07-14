@@ -1,5 +1,24 @@
 [
   {
+    "answer": "kindness",
+    "difficulty": "EASY",
+    "sentences": [
+      "It costs the giver almost nothing, yet the receiver may carry it for a lifetime.",
+      "Philosophers debate whether it is a virtue in itself or merely the outward expression of something deeper — a disposition toward the world that refuses to treat others as obstacles.",
+      "Studies show it is contagious: witnessing a single act can prompt strangers to perform their own, rippling outward in ways no one intended.",
+      "It is often confused with weakness, though those who practice it most consistently tend to be among the most resilient people you will ever meet.",
+      "At its simplest, it is the small, deliberate choice to make someone else's day a little easier — holding a door, offering a word, noticing someone who expected not to be seen."
+    ],
+    "close": [
+      "kind",
+      "kinder",
+      "kindly",
+      "generosity",
+      "gentleness"
+    ],
+    "id": 131
+  },
+  {
     "answer": "homesickness",
     "difficulty": "EASY",
     "sentences": [
