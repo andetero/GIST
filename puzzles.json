@@ -1,5 +1,24 @@
 [
   {
+    "answer": "obligation",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "It is the invisible thread that binds what we want to do to what we must, and the tension between them is often where character is revealed.",
+      "Societies could not exist without it — every contract, every promise, every debt of gratitude is a small instance of the same underlying force.",
+      "It can be freely chosen, as when one makes a vow, or inherited without consent, as when a child is born into a family with its unspoken demands.",
+      "Philosophers distinguish it from mere duty by noting that it arises from a specific relationship or act, rather than from abstract principle alone.",
+      "The word descends from the Latin for 'to bind,' and in legal contexts it refers to any tie that compels a party to perform or refrain from some action."
+    ],
+    "close": [
+      "obligated",
+      "obligate",
+      "obligatory",
+      "duty",
+      "commitment"
+    ],
+    "id": 132
+  },
+  {
     "answer": "kindness",
     "difficulty": "EASY",
     "sentences": [
