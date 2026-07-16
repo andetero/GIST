@@ -1,5 +1,24 @@
 [
   {
+    "answer": "closure",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "There is a particular kind of peace that cannot be rushed, only arrived at — and even then, it sometimes refuses to come.",
+      "Psychologists note that the human mind will construct it artificially when the real thing is unavailable, inventing endings where none exist.",
+      "It is what people mean when they say they need to have one final conversation, visit one more time, or simply hear a reason.",
+      "Grief counselors often warn that it is less a destination than a myth — something mourners believe they will feel once some external condition is finally met.",
+      "The word entered common psychological use in the twentieth century, describing the resolution of an unfinished emotional chapter, the moment a door no longer needs to be opened again."
+    ],
+    "close": [
+      "resolution",
+      "finality",
+      "conclusion",
+      "closed",
+      "closing"
+    ],
+    "id": 133
+  },
+  {
     "answer": "obligation",
     "difficulty": "MEDIUM",
     "sentences": [
