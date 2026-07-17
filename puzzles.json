@@ -1,5 +1,24 @@
 [
   {
+    "answer": "stagnation",
+    "difficulty": "HARD",
+    "sentences": [
+      "It is the condition that water warns us about when it ceases to move, and that civilizations fear more than collapse itself.",
+      "Unlike rest, which is chosen and restorative, this state arrives uninvited and compounds quietly, each day of sameness reinforcing the next.",
+      "Economists track it in output figures, biologists find it in still pools where oxygen depletes and life withdraws, and therapists encounter it in patients who describe feeling frozen inside a life that technically continues.",
+      "There is a particular anguish in experiencing it while the world outside seems to accelerate — a sense of being left behind not by misfortune but by some failure of will one cannot locate or name.",
+      "The word derives from the Latin for standing water, and carries that image forward: not drought, not flood, but the slow corruption of something that was once clean and flowing and has simply stopped."
+    ],
+    "close": [
+      "stagnate",
+      "stagnating",
+      "stagnant",
+      "inertia",
+      "stasis"
+    ],
+    "id": 134
+  },
+  {
     "answer": "closure",
     "difficulty": "MEDIUM",
     "sentences": [
