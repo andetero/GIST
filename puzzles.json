@@ -1,5 +1,24 @@
 [
   {
+    "answer": "patina",
+    "difficulty": "WILDCARD",
+    "sentences": [
+      "It is what time leaves behind when it touches something and decides to stay.",
+      "Collectors and conservators disagree fiercely about whether to remove it or protect it, since its presence is simultaneously evidence of neglect and proof of authenticity.",
+      "On bronze statues it appears green; on silverware it darkens to a smoky gray; on leather it deepens the color into something richer than the original dye ever managed.",
+      "The word entered English from Italian, which borrowed it from Latin for a shallow dish — the idea being that a coating forms the way a film settles on still liquid in a wide bowl.",
+      "When antique dealers say a piece has it, they mean the surface has been transformed by decades of handling, oxidation, and exposure into a kind of biography you can see."
+    ],
+    "close": [
+      "patinas",
+      "tarnish",
+      "weathering",
+      "aging",
+      "verdigris"
+    ],
+    "id": 136
+  },
+  {
     "answer": "attrition",
     "difficulty": "HARD",
     "sentences": [
