@@ -1,5 +1,24 @@
 [
   {
+    "answer": "compliment",
+    "difficulty": "EASY",
+    "sentences": [
+      "It costs nothing to give, yet its absence can hollow out a person's day in ways they struggle to name.",
+      "The best ones are specific — they land not because they are generous, but because they are true.",
+      "We are taught as children to say thank you when we receive one, though most of us instinctively deflect it instead.",
+      "It can change the direction of a stranger's afternoon, or remind someone who has forgotten that they are seen.",
+      "A kind word offered sincerely, noting something good in another person, is one of the simplest gifts one human can give another."
+    ],
+    "close": [
+      "compliments",
+      "complimenting",
+      "complimentary",
+      "praise",
+      "flattery"
+    ],
+    "id": 138
+  },
+  {
     "answer": "practice",
     "difficulty": "EASY",
     "sentences": [
