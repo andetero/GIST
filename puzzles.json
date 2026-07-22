@@ -1,5 +1,24 @@
 [
   {
+    "answer": "imitation",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "It is how the world reproduces itself — not through origin, but through echo.",
+      "Philosophers have debated whether it is the sincerest form of admiration or the quietest form of theft, and most cultures have decided it is somehow both.",
+      "Children learn language, gesture, and emotion almost entirely through its practice, long before they understand what they are doing.",
+      "Artists and scientists alike depend on it as the first stage of mastery, a scaffolding that is supposed to come down once the real structure stands.",
+      "The word traces to the Latin for copying or mimicking, and carries within it the old tension between tribute and forgery."
+    ],
+    "close": [
+      "imitate",
+      "imitating",
+      "imitated",
+      "mimicry",
+      "emulation"
+    ],
+    "id": 139
+  },
+  {
     "answer": "compliment",
     "difficulty": "EASY",
     "sentences": [
