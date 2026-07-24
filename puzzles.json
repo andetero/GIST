@@ -1,5 +1,24 @@
 [
   {
+    "answer": "contagion",
+    "difficulty": "HARD",
+    "sentences": [
+      "There is a mathematics to it, hidden inside the ordinary geometry of human closeness.",
+      "It operates not through intention but through proximity, transforming the space between bodies into a kind of invisible corridor.",
+      "Historians trace its role in the collapse of empires, noting that armies have more often been undone by it than by enemy swords.",
+      "The concept migrated long ago from medicine into sociology, where researchers use it to explain how emotions, behaviors, and ideas propagate through networks of people.",
+      "At its most literal, it describes the capacity of a disease — or anything that spreads by contact — to pass from one host to the next."
+    ],
+    "close": [
+      "contagious",
+      "contagiousness",
+      "transmission",
+      "infection",
+      "spread"
+    ],
+    "id": 141
+  },
+  {
     "answer": "coincidence",
     "difficulty": "MEDIUM",
     "sentences": [
