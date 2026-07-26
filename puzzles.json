@@ -1,5 +1,24 @@
 [
   {
+    "answer": "osmosis",
+    "difficulty": "WILDCARD",
+    "sentences": [
+      "There is a kind of crossing that happens not because anything is pushed, but simply because the universe prefers its burdens evenly distributed.",
+      "At its heart is a membrane — a boundary porous enough to let small things through while holding larger ones at bay, creating a slow and patient migration toward equilibrium.",
+      "Biologists cite it as the engine beneath nearly every living cell, the invisible reason a plant wilts without water and swells again when watered.",
+      "The word has migrated into everyday speech, so that we say someone absorbed a language or a culture by this name, meaning they never formally studied it but took it in anyway.",
+      "It describes the movement of a solvent — almost always water — across a semipermeable membrane from a region of lower solute concentration to one of higher, a phenomenon first rigorously described in the nineteenth century by the botanist Wilhelm Pfeffer."
+    ],
+    "close": [
+      "osmotic",
+      "diffusion",
+      "absorption",
+      "permeation",
+      "permeability"
+    ],
+    "id": 143
+  },
+  {
     "answer": "obsolescence",
     "difficulty": "HARD",
     "sentences": [
