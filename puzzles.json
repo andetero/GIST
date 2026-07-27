@@ -1,5 +1,24 @@
 [
   {
+    "answer": "scar",
+    "difficulty": "EASY",
+    "sentences": [
+      "It is the body's way of writing its own history in a language only the skin can speak.",
+      "Some people trace them absently with a fingertip, the way a reader returns to a favorite passage.",
+      "They form when healing happens too quickly, or under too much pressure, the tissue rushing to close what was opened.",
+      "Surgeons try to minimize them, but they are also proof that something broke and was mended.",
+      "Every one marks a specific moment in time — a fall, a blade, a burn — preserved long after the pain has gone."
+    ],
+    "close": [
+      "scars",
+      "scarred",
+      "scarring",
+      "wound",
+      "mark"
+    ],
+    "id": 144
+  },
+  {
     "answer": "osmosis",
     "difficulty": "WILDCARD",
     "sentences": [
