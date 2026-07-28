@@ -1,5 +1,24 @@
 [
   {
+    "answer": "applause",
+    "difficulty": "EASY",
+    "sentences": [
+      "It arrives like a wave that builds from nothing, a collective sound that no single person could make alone.",
+      "For performers of every kind, it is the invisible contract fulfilled — the moment when effort is answered by recognition.",
+      "It can be polite and sparse, or thunderous and overwhelming, and the difference between the two is felt in the chest.",
+      "Children learn it early, clapping their small hands together at birthdays and school plays, before they understand what it truly means to earn it.",
+      "It is the sound an audience makes with their hands to show that something moved them — a wordless, rhythmic form of praise."
+    ],
+    "close": [
+      "clapping",
+      "clap",
+      "ovation",
+      "cheering",
+      "acclaim"
+    ],
+    "id": 145
+  },
+  {
     "answer": "scar",
     "difficulty": "EASY",
     "sentences": [
