@@ -1,5 +1,24 @@
 [
   {
+    "answer": "permission",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "It is a threshold that exists not in the physical world but in the space between one will and another.",
+      "Some people spend their entire lives waiting for it from sources that have no authority to grant it, while others dispense it too freely and later feel its weight.",
+      "Children understand it viscerally — the difference between reaching for something and being allowed to reach — long before they can name the concept.",
+      "It can be explicit, written in contracts and laws, or implicit, communicated through a nod or an open door, and its absence is often more powerful than any lock.",
+      "At its deepest level, the hardest form to obtain is the kind a person must give to themselves."
+    ],
+    "close": [
+      "permit",
+      "permitted",
+      "approval",
+      "consent",
+      "authorization"
+    ],
+    "id": 147
+  },
+  {
     "answer": "credibility",
     "difficulty": "MEDIUM",
     "sentences": [
