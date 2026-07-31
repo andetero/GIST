@@ -1,5 +1,24 @@
 [
   {
+    "answer": "abdication",
+    "difficulty": "HARD",
+    "sentences": [
+      "There is a particular kind of relief that comes from surrendering what you were never sure you wanted, and a particular kind of shame that follows it.",
+      "It differs from defeat, which is imposed from outside, and from resignation, which implies exhaustion — this act is deliberate, formal, and almost always irreversible.",
+      "Historians have noted that the moment itself is rarely dramatic; the drama accumulates in the years before and the decades after.",
+      "It can occur in a throne room or at a kitchen table, whenever a person who holds authority chooses, consciously and finally, to lay it down.",
+      "The word derives from the Latin for 'to proclaim away from oneself' — a public renouncing of the role one was given or assumed."
+    ],
+    "close": [
+      "abdicate",
+      "abdicating",
+      "abdicates",
+      "renunciation",
+      "relinquishment"
+    ],
+    "id": 148
+  },
+  {
     "answer": "permission",
     "difficulty": "MEDIUM",
     "sentences": [
