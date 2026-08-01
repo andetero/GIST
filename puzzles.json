@@ -1,5 +1,24 @@
 [
   {
+    "answer": "resignation",
+    "difficulty": "HARD",
+    "sentences": [
+      "It is the place where resistance ends not in defeat but in a kind of terrible peace.",
+      "Philosophers have distinguished it from acceptance, arguing that one surrenders what the other integrates — that it carries the ghost of a former wanting.",
+      "It can read on a face as stillness, the particular stillness of someone who has stopped expecting the world to behave differently than it does.",
+      "It arrives most often in the aftermath of prolonged struggle, when the energy required to keep fighting exceeds whatever reward the fight once promised.",
+      "The word carries two meanings that illuminate each other: the act of leaving a position one once held, and the quiet yielding to something larger than oneself."
+    ],
+    "close": [
+      "resign",
+      "resigned",
+      "resigning",
+      "acquiescence",
+      "acceptance"
+    ],
+    "id": 149
+  },
+  {
     "answer": "abdication",
     "difficulty": "HARD",
     "sentences": [
