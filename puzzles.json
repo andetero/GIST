@@ -1,5 +1,24 @@
 [
   {
+    "answer": "gossip",
+    "difficulty": "EASY",
+    "sentences": [
+      "It travels faster than truth and arrives with more warmth, carrying the particular pleasure of a secret made temporarily shared.",
+      "Anthropologists have suggested it evolved as a form of social bonding — a way for groups to establish who belongs and who does not.",
+      "It requires at least three people: one to speak, one to listen, and one who is absent.",
+      "It thrives in kitchens, offices, and schoolyards, wherever people gather close enough to lower their voices.",
+      "The word traces back to the Old English term for a godparent — someone so intimate they knew all the family's private business."
+    ],
+    "close": [
+      "gossips",
+      "gossiping",
+      "gossiped",
+      "rumor",
+      "hearsay"
+    ],
+    "id": 151
+  },
+  {
     "answer": "camber",
     "difficulty": "WILDCARD",
     "sentences": [
