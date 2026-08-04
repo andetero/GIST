@@ -1,5 +1,24 @@
 [
   {
+    "answer": "farewell",
+    "difficulty": "EASY",
+    "sentences": [
+      "It is the moment when presence becomes memory, and the future suddenly feels heavier than the past.",
+      "Every culture has developed its own ceremonies around it — some brief and wordless, others elaborate and tearful.",
+      "Children often resist it, clinging to doorframes or the hands of those they love, sensing something true that adults have learned to disguise.",
+      "It can be spoken at an airport, a graveside, the end of a phone call, or the closing page of a letter.",
+      "The word itself is a wish folded into a departure — a hope that the one leaving will travel well."
+    ],
+    "close": [
+      "goodbye",
+      "farewell",
+      "parting",
+      "leave-taking",
+      "adieu"
+    ],
+    "id": 152
+  },
+  {
     "answer": "gossip",
     "difficulty": "EASY",
     "sentences": [
