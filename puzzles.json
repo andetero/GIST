@@ -1,5 +1,26 @@
 [
   {
+    "puzzle_number": 153,
+    "date": "August 5, 2026",
+    "answer": "impatience",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "It is, at its core, a refusal to accept the distance between where one is and where one wishes to be.",
+      "Evolutionary theorists suggest it may have once served a purpose — pushing organisms toward faster decisions when delay meant danger.",
+      "It manifests differently across cultures: what reads as urgency in one society registers as rudeness in another.",
+      "The body often speaks it before the mind acknowledges it — a tapping foot, a glance at the clock, a breath held just a little too long.",
+      "It is what makes a watched pot feel like it never boils, and a slow line feel like a personal affront."
+    ],
+    "close": [
+      "impatient",
+      "impatiently",
+      "restless",
+      "urgency",
+      "eagerness"
+    ],
+    "id": 153
+  },
+  {
     "answer": "farewell",
     "difficulty": "EASY",
     "sentences": [
