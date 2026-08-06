@@ -1,5 +1,24 @@
 [
   {
+    "answer": "distillation",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "There is a kind of clarity that can only be achieved by removing everything that is not essential.",
+      "The process appears in chemistry, in philosophy, and in the arts — wherever the goal is to arrive at something purer than what one started with.",
+      "Heat is often involved, metaphorically or literally, because transformation rarely happens without pressure or intensity.",
+      "A great speech, a fine whiskey, a single perfect line of poetry — each is the product of this same fundamental act of reduction.",
+      "The word comes from the Latin for 'to drip down,' describing the moment a vapor condenses back into its concentrated, essential form."
+    ],
+    "close": [
+      "distill",
+      "distilled",
+      "distilling",
+      "essence",
+      "refinement"
+    ],
+    "id": 154
+  },
+  {
     "puzzle_number": 153,
     "date": "August 5, 2026",
     "answer": "impatience",
