@@ -1,5 +1,23 @@
 [
   {
+    "answer": "alchemy",
+    "difficulty": "HARD",
+    "sentences": [
+      "It is the oldest argument that the world's basest materials are secretly pregnant with glory.",
+      "For centuries, scholars bent over furnaces and crucibles, convinced that transformation was not merely a metaphor but a precise technical achievement waiting to be unlocked.",
+      "Its practitioners left behind a strange inheritance — failed experiments wrapped in mystical language that later chemists had to peel away like a husk to find the science underneath.",
+      "The word travelled from Arabic into medieval Latin, carrying with it a philosophy that matter was not fixed but fluid, that lead's sluggishness was a kind of disease that gold could cure.",
+      "Today we use it less literally but no less seriously, reaching for it whenever we want to describe how something ordinary — labour, suffering, chance — gets converted into something rare and luminous."
+    ],
+    "close": [
+      "alchemist",
+      "alchemical",
+      "alchemists",
+      "transmutation"
+    ],
+    "id": 155
+  },
+  {
     "answer": "distillation",
     "difficulty": "MEDIUM",
     "sentences": [
