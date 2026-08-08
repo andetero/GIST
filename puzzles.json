@@ -1,5 +1,24 @@
 [
   {
+    "answer": "facade",
+    "difficulty": "HARD",
+    "sentences": [
+      "There is a particular courage in maintaining it, and a particular exhaustion too — the energy spent on surfaces that will never be touched.",
+      "Architecture gave us the word, but psychology claimed it: the face a structure presents to the world need not reflect anything about its interior.",
+      "Whole societies can sustain one collectively, agreeing without words to treat the visible as though it were the whole.",
+      "It differs from deception in that everyone, including its author, may eventually forget what lies behind it.",
+      "The word derives from the French for 'face,' and describes the front elevation of a building — the part designed to be seen rather than inhabited."
+    ],
+    "close": [
+      "facades",
+      "front",
+      "pretense",
+      "mask",
+      "veneer"
+    ],
+    "id": 156
+  },
+  {
     "answer": "alchemy",
     "difficulty": "HARD",
     "sentences": [
