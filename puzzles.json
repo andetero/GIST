@@ -1,5 +1,24 @@
 [
   {
+    "answer": "weathering",
+    "difficulty": "WILDCARD",
+    "sentences": [
+      "It is the slow confession that nothing is permanent, written in the language of surfaces.",
+      "Chemists, geologists, and architects each have a version of it — a discipline-specific reckoning with the fact that the world unmakes itself from the outside in.",
+      "Wind, water, heat, frost, and even the invisible work of microorganisms are its instruments, each one patient beyond human comprehension.",
+      "A cliff face, a copper roof, a leather boot, a marble headstone — all are its canvases, each acquiring a biography through exposure.",
+      "The word itself carries a double life: it names both the process of being worn down by the elements and the act of enduring them."
+    ],
+    "close": [
+      "weather",
+      "weathered",
+      "erosion",
+      "wear",
+      "patination"
+    ],
+    "id": 157
+  },
+  {
     "answer": "facade",
     "difficulty": "HARD",
     "sentences": [
