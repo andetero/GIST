@@ -1,5 +1,23 @@
 [
   {
+    "answer": "deadline",
+    "difficulty": "EASY",
+    "sentences": [
+      "It is a line drawn in time, invisible yet absolute, that changes the weight of everything before it.",
+      "Some people find that their best work emerges only in its shadow, when the space for delay has finally collapsed.",
+      "It was originally a literal mark drawn around a prison camp — to cross it meant you could be shot.",
+      "Students, journalists, and surgeons all live differently in relation to it, though each feels its particular pressure.",
+      "It is the moment after which something is either done or it isn't, and the future is no longer negotiable."
+    ],
+    "close": [
+      "deadlines",
+      "due date",
+      "cutoff",
+      "timeframe"
+    ],
+    "id": 158
+  },
+  {
     "answer": "weathering",
     "difficulty": "WILDCARD",
     "sentences": [
