@@ -1,5 +1,24 @@
 [
   {
+    "answer": "mercy",
+    "difficulty": "EASY",
+    "sentences": [
+      "It is the quiet decision to hold power in one hand and lay it gently down with the other.",
+      "Philosophers distinguish it from justice, arguing that while justice gives people what they deserve, this gives them something better.",
+      "It appears in courtrooms, in bedrooms, in the small moments when someone could have said the cruel true thing and chose not to.",
+      "Many religions place it among the highest virtues, believing it reflects something divine in an otherwise indifferent world.",
+      "When a judge reduces a sentence, when a parent forgives without making their child beg, when an enemy is released unharmed — this is what has been shown."
+    ],
+    "close": [
+      "merciful",
+      "mercifully",
+      "mercies",
+      "clemency",
+      "compassion"
+    ],
+    "id": 159
+  },
+  {
     "answer": "deadline",
     "difficulty": "EASY",
     "sentences": [
