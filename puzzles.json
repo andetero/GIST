@@ -1,5 +1,26 @@
 [
   {
+    "puzzle_number": 161,
+    "date": "2026-08-13",
+    "answer": "conformity",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "There is a quiet force that moves through groups like a current, reshaping individuals even as they remain convinced of their own independence.",
+      "Sociologists have observed that it grows strongest not through coercion but through the simple, unbearable weight of being the only one who sees things differently.",
+      "Children are taught to resist it in theory while being rewarded for practicing it every day, from the way they dress to the words they choose at the lunch table.",
+      "It is distinct from agreement, which arises from genuine conviction, because its defining feature is that the belief or behavior would dissolve if the group around it disappeared.",
+      "Experiments by Solomon Asch in the 1950s demonstrated that a person will deny the evidence of their own eyes rather than stand alone against a unanimous room."
+    ],
+    "close": [
+      "conform",
+      "conforming",
+      "conformist",
+      "compliance",
+      "uniformity"
+    ],
+    "id": 161
+  },
+  {
     "puzzle_number": 160,
     "date": "August 12, 2026",
     "answer": "perception",
