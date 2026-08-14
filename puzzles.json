@@ -1,5 +1,24 @@
 [
   {
+    "answer": "pretense",
+    "difficulty": "HARD",
+    "sentences": [
+      "It is the architecture of the space between what is performed and what is felt, built so carefully that the builder sometimes forgets the original floor plan.",
+      "Sociologists observe that entire institutions can sustain themselves on it for generations, their participants bound by an unspoken agreement never to name what everyone privately understands.",
+      "Children are famously bad at it, and this is why adults find them both refreshing and unsettling.",
+      "It differs from lying in that it asks less of language and more of bearing — the body must cooperate, the face must agree, the hands must not betray.",
+      "To abandon it is not always liberation; sometimes the fiction was the only thing holding a relationship, a career, or a peace treaty together."
+    ],
+    "close": [
+      "pretend",
+      "pretending",
+      "pretended",
+      "pretension",
+      "pretensions"
+    ],
+    "id": 162
+  },
+  {
     "puzzle_number": 161,
     "date": "2026-08-13",
     "answer": "conformity",
