@@ -1,5 +1,24 @@
 [
   {
+    "answer": "inference",
+    "difficulty": "HARD",
+    "sentences": [
+      "It is the invisible bridge the mind builds between what is given and what is not, spanning the gap without anyone watching the construction.",
+      "Every detective depends on it, every scientist requires it, and every person reading a face in a crowd performs it dozens of times before breakfast.",
+      "Unlike knowledge acquired through direct experience, it carries a quiet burden of uncertainty — it is always, in some measure, a wager.",
+      "Logicians distinguish between its deductive form, which is certain if the premises hold, and its inductive form, which accumulates probability but never quite arrives at proof.",
+      "At its most ordinary, it is how we know the kitchen smells of coffee before we reach the kitchen."
+    ],
+    "close": [
+      "infer",
+      "inferred",
+      "inferring",
+      "deduction",
+      "conclusion"
+    ],
+    "id": 163
+  },
+  {
     "answer": "pretense",
     "difficulty": "HARD",
     "sentences": [
