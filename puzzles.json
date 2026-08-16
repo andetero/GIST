@@ -1,5 +1,24 @@
 [
   {
+    "answer": "mimicry",
+    "difficulty": "WILDCARD",
+    "sentences": [
+      "It is a form of argument made without words, a conversation between two shapes that have never formally met.",
+      "Evolution discovered it independently across hundreds of lineages, arriving at the same trick through wildly different pathways — butterflies wearing the colors of wasps, orchids sculpting the silhouette of bees.",
+      "In human culture it operates at every scale, from the infant instinctively matching a caregiver's expression to entire architectural movements that copy a predecessor's grammar without understanding its logic.",
+      "The distinction between its sincere and cynical forms is nearly impossible to prove from the outside, which is precisely what makes it so powerful as both survival strategy and art.",
+      "The word derives from the Greek for 'actor' or 'imitator,' and naturalists formalized it in the nineteenth century to describe organisms that gain advantage by resembling something they are not."
+    ],
+    "close": [
+      "imitation",
+      "mimicking",
+      "mimic",
+      "mimesis",
+      "impersonation"
+    ],
+    "id": 164
+  },
+  {
     "answer": "inference",
     "difficulty": "HARD",
     "sentences": [
