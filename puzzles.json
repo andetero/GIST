@@ -1,5 +1,24 @@
 [
   {
+    "answer": "encouragement",
+    "difficulty": "EASY",
+    "sentences": [
+      "It is the quiet wind behind someone who has forgotten they have wings.",
+      "Unlike praise, it is less about what has already been done and more about what might still be possible.",
+      "A good teacher, a patient parent, or even a stranger's offhand remark can carry it with life-changing force.",
+      "It costs the giver almost nothing, yet to the person who receives it, it can feel like permission to keep going.",
+      "The word traces back to the Latin for heart — the idea that you are placing courage directly inside another person."
+    ],
+    "close": [
+      "encourage",
+      "encourages",
+      "encouraged",
+      "support",
+      "motivation"
+    ],
+    "id": 165
+  },
+  {
     "answer": "mimicry",
     "difficulty": "WILDCARD",
     "sentences": [
