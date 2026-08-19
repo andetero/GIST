@@ -1,5 +1,24 @@
 [
   {
+    "answer": "assumption",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "It is the invisible architecture of thought — the load-bearing wall no one remembers installing.",
+      "Every argument, every plan, every relationship rests on a foundation of things accepted without proof, often without awareness.",
+      "When two people talk past each other, it is usually not a failure of language but of this quiet precondition, held differently by each.",
+      "Scientists are trained to identify and test these unexamined premises, while most people move through life collecting them the way furniture collects dust.",
+      "The word carries a second, older meaning — the act of taking something upon oneself — which hints at how we adopt these beliefs as though they were always ours."
+    ],
+    "close": [
+      "assume",
+      "assumptions",
+      "assumed",
+      "presumption",
+      "presupposition"
+    ],
+    "id": 167
+  },
+  {
     "answer": "celebration",
     "difficulty": "EASY",
     "sentences": [
