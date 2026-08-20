@@ -1,5 +1,24 @@
 [
   {
+    "answer": "negotiation",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "It is the art of closing the distance between two truths that both refuse to disappear.",
+      "Every society depends on it, yet it is rarely taught formally — learned instead through childhood arguments over toys and bedtimes.",
+      "At its core, it requires each party to imagine what the other cannot afford to lose, and to work carefully around that edge.",
+      "Diplomats spend years mastering it, but so do spouses, business partners, and anyone who has ever shared a lease.",
+      "The word traces back to the Latin for 'business' — the idea that something of value changes hands only after a careful back-and-forth."
+    ],
+    "close": [
+      "negotiate",
+      "negotiating",
+      "negotiated",
+      "bargaining",
+      "compromise"
+    ],
+    "id": 168
+  },
+  {
     "answer": "assumption",
     "difficulty": "MEDIUM",
     "sentences": [
