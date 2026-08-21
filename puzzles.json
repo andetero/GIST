@@ -1,5 +1,24 @@
 [
   {
+    "answer": "sovereignty",
+    "difficulty": "HARD",
+    "sentences": [
+      "It is the quality that makes a boundary meaningful rather than merely decorative, the invisible force that transforms a line on a map into a wall.",
+      "Philosophers have debated for centuries whether it resides in a people, a ruler, a document, or some abstraction that precedes all three.",
+      "Its most radical claim is not power itself but the right to be the final word — the place where all appeal stops.",
+      "Nations guard it jealously even as treaties, trade, and shared crises quietly hollow it from within.",
+      "The word descends from the Latin for 'above,' suggesting something that sits at the very top of any hierarchy of authority."
+    ],
+    "close": [
+      "sovereign",
+      "autonomy",
+      "independence",
+      "self-determination",
+      "supremacy"
+    ],
+    "id": 169
+  },
+  {
     "answer": "negotiation",
     "difficulty": "MEDIUM",
     "sentences": [
