@@ -1,5 +1,24 @@
 [
   {
+    "answer": "deference",
+    "difficulty": "HARD",
+    "sentences": [
+      "It is the invisible architecture of every room where power and courtesy share the same air.",
+      "Anthropologists find it in every known society, expressed through bowed heads, averted eyes, or simply the habit of letting another speak first.",
+      "It can be freely given as an act of grace, or reluctantly performed as an act of survival, and from the outside the two are often indistinguishable.",
+      "Critics argue that institutions depend on it so heavily that they mistake the gesture for genuine agreement, suppressing the dissent they most need to hear.",
+      "The word derives from the Latin for 'to carry away' — the idea of setting aside one's own judgment and carrying it elsewhere, out of respect for another's authority or expertise."
+    ],
+    "close": [
+      "defer",
+      "deferential",
+      "deferring",
+      "deferred",
+      "submission"
+    ],
+    "id": 170
+  },
+  {
     "answer": "sovereignty",
     "difficulty": "HARD",
     "sentences": [
