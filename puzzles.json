@@ -1,5 +1,24 @@
 [
   {
+    "answer": "approval",
+    "difficulty": "EASY",
+    "sentences": [
+      "It is a small sun that people spend entire lifetimes tilting toward, often without realizing how much of their growth has been shaped by its warmth.",
+      "Children learn to read its presence or absence in a parent's face before they learn to read words.",
+      "It can be given with a nod, a signature, a smile, or a single word — and withheld just as silently.",
+      "Whole careers, relationships, and creative lives have been built around the pursuit of it, sometimes at the cost of authenticity.",
+      "When someone finally receives it from someone they admire, the relief can feel almost physical — as if a long-held breath is finally released."
+    ],
+    "close": [
+      "approve",
+      "approved",
+      "approving",
+      "validation",
+      "acceptance"
+    ],
+    "id": 172
+  },
+  {
     "answer": "calcification",
     "difficulty": "WILDCARD",
     "sentences": [
