@@ -1,5 +1,24 @@
 [
   {
+    "answer": "concession",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "There is a kind of strength that announces itself through retreat, a power that can only be demonstrated by yielding.",
+      "It is the quiet acknowledgment that another's claim, argument, or need holds more weight in this particular moment than one's own.",
+      "Diplomats and parents and lawyers practice it constantly, understanding that holding every position perfectly is the surest way to hold nothing at all.",
+      "It differs from defeat because the person doing it retains agency — they are choosing to give ground rather than being pushed from it.",
+      "Whether at a bargaining table, a courtroom, or a family dinner, the word describes the deliberate act of granting someone a point or a right they have pressed for."
+    ],
+    "close": [
+      "concede",
+      "conceded",
+      "conceding",
+      "concessions",
+      "capitulation"
+    ],
+    "id": 175
+  },
+  {
     "answer": "superstition",
     "difficulty": "MEDIUM",
     "sentences": [
