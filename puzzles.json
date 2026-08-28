@@ -1,5 +1,24 @@
 [
   {
+    "answer": "ambiguity",
+    "difficulty": "HARD",
+    "sentences": [
+      "It is the space between two certainties where meaning refuses to settle, neither confirming nor denying what the mind most wants to know.",
+      "Some find it unbearable, preferring a false clarity to the honest suspension of judgment it demands; others learn to inhabit it like a second home.",
+      "Artists often court it deliberately, understanding that a work which can be read only one way has already exhausted itself.",
+      "In law, it is a flaw to be resolved; in poetry, it is frequently the entire point.",
+      "The word derives from the Latin for 'driving in two directions at once,' capturing the sensation of being pulled toward incompatible truths simultaneously."
+    ],
+    "close": [
+      "ambiguous",
+      "ambiguities",
+      "vagueness",
+      "uncertainty",
+      "equivocation"
+    ],
+    "id": 176
+  },
+  {
     "answer": "concession",
     "difficulty": "MEDIUM",
     "sentences": [
