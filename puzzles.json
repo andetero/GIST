@@ -1,5 +1,24 @@
 [
   {
+    "answer": "recklessness",
+    "difficulty": "HARD",
+    "sentences": [
+      "It is the shadow that speed casts when it outpaces judgment — a kind of freedom that forgets the cost of landing.",
+      "Psychologists distinguish it from impulsivity by the presence of awareness: one knows the risk and chooses indifference to it.",
+      "Cultures have romanticized it in youth, celebrated it in soldiers, and condemned it in leaders, often with little consistency.",
+      "It differs from courage in that courage accepts danger in service of something larger, while this accepts danger for its own intoxicating sake.",
+      "The word traces to an Old English root meaning 'heedless' — a mind that has simply declined to reckon with consequence."
+    ],
+    "close": [
+      "reckless",
+      "recklessly",
+      "rashness",
+      "rash",
+      "audacity"
+    ],
+    "id": 177
+  },
+  {
     "answer": "ambiguity",
     "difficulty": "HARD",
     "sentences": [
