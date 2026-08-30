@@ -1,5 +1,24 @@
 [
   {
+    "answer": "lacquer",
+    "difficulty": "WILDCARD",
+    "sentences": [
+      "It is both armor and confession — a surface that says nothing has changed while sealing everything that has.",
+      "Derived from the sap of a tree native to East Asia, it was traded along routes where silk and porcelain also moved, arriving in Europe as a substance that seemed almost alchemical in its transformation from liquid to eternal skin.",
+      "Applied in dozens of layers, each one polished and dried before the next, it teaches that beauty of this kind cannot be rushed and cannot be faked — shortcuts crack, eventually, and the failure is visible to anyone who looks.",
+      "Furniture, bowls, boxes, and musical instrument bodies have all been transformed by it, their surfaces hardening into something that resists water, heat, and time with an almost arrogant composure.",
+      "The word entered English through Portuguese and Dutch traders in the sixteenth century, describing the gleaming, resinous coating that made Asian craftsmanship look as though it had been dipped in preserved light."
+    ],
+    "close": [
+      "lacquered",
+      "lacquering",
+      "lacquers",
+      "varnish",
+      "shellac"
+    ],
+    "id": 178
+  },
+  {
     "answer": "recklessness",
     "difficulty": "HARD",
     "sentences": [
