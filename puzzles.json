@@ -1,5 +1,24 @@
 [
   {
+    "answer": "praise",
+    "difficulty": "EASY",
+    "sentences": [
+      "It is a kind of light directed at a person, warming them from the outside in.",
+      "Psychologists have found that when it is specific and sincere, it can reshape how someone sees themselves for years afterward.",
+      "Children raised with too little of it often spend their adult lives quietly searching for it from strangers.",
+      "It can be offered in words, in applause, in a simple nod — and the receiver almost always knows when it is genuine versus performed.",
+      "At its most honest, it is one person telling another: what you did, or who you are, has genuine worth."
+    ],
+    "close": [
+      "praised",
+      "praising",
+      "compliment",
+      "admiration",
+      "acclaim"
+    ],
+    "id": 179
+  },
+  {
     "answer": "lacquer",
     "difficulty": "WILDCARD",
     "sentences": [
