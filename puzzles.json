@@ -1,5 +1,24 @@
 [
   {
+    "answer": "echo",
+    "difficulty": "EASY",
+    "sentences": [
+      "It is a voice that arrives late, carrying the shape of something already gone.",
+      "Mountains and canyons are its most famous stages, but empty rooms and tiled hallways know it just as well.",
+      "In Greek mythology, it was personified as a nymph cursed to repeat only the last words spoken to her.",
+      "Scientists describe it as sound waves bouncing off a surface and returning to the listener with a slight delay.",
+      "Children delight in shouting toward a cliff face and hearing their own words returned to them, slightly softened."
+    ],
+    "close": [
+      "echoes",
+      "echoing",
+      "echoed",
+      "reverberation",
+      "reflection"
+    ],
+    "id": 180
+  },
+  {
     "answer": "praise",
     "difficulty": "EASY",
     "sentences": [
