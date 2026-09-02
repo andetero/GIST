@@ -1,5 +1,24 @@
 [
   {
+    "answer": "acknowledgment",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "It costs nothing to give and yet its absence can hollow out the most confident person from the inside.",
+      "Sociologists note that hierarchies are maintained not only by force or money, but by the deliberate withholding of it.",
+      "A nod across a room, a name remembered, a contribution cited in small print — these are its quieter currencies.",
+      "Psychologists distinguish it from praise, which judges quality, because this is simply the act of registering that something or someone exists.",
+      "At its most basic, it is the moment one consciousness turns toward another and says, in word or gesture: I see you."
+    ],
+    "close": [
+      "acknowledge",
+      "acknowledged",
+      "acknowledgement",
+      "recognition",
+      "validation"
+    ],
+    "id": 181
+  },
+  {
     "answer": "echo",
     "difficulty": "EASY",
     "sentences": [
