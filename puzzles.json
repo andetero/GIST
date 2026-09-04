@@ -1,5 +1,24 @@
 [
   {
+    "answer": "sanctimony",
+    "difficulty": "HARD",
+    "sentences": [
+      "It is the armor worn by those who have mistaken the map of virtue for virtue itself.",
+      "Psychologists note it tends to intensify in proportion to the speaker's private doubts, as if volume could substitute for conviction.",
+      "It differs from genuine moral seriousness in the way a performance differs from an act — the audience matters more than the outcome.",
+      "Historically, it has attached itself to reformers and preachers with particular ease, because the language of righteousness provides such convenient cover.",
+      "The word derives from the Latin for holiness, and its irony is complete: it describes the hollow shell left when piety consumes itself from within."
+    ],
+    "close": [
+      "sanctimonious",
+      "self-righteousness",
+      "piety",
+      "moralizing",
+      "priggishness"
+    ],
+    "id": 183
+  },
+  {
     "answer": "adaptation",
     "difficulty": "MEDIUM",
     "sentences": [
