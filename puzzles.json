@@ -1,5 +1,24 @@
 [
   {
+    "answer": "audacity",
+    "difficulty": "HARD",
+    "sentences": [
+      "It occupies the precise border where confidence becomes unnerving and aspiration begins to frighten those who witness it.",
+      "Cultures have never quite agreed on whether it deserves admiration or punishment — history tends to decide retroactively, based on outcome.",
+      "Children possess it naturally, and adults spend years learning whether to recover or suppress it.",
+      "It is distinct from recklessness in that it carries intention, and from bravery in that it often offends.",
+      "The word traces back to the Latin for boldness, carrying always a faint whiff of transgression — the sense that someone has dared more than they were permitted."
+    ],
+    "close": [
+      "audacious",
+      "audaciously",
+      "boldness",
+      "nerve",
+      "gall"
+    ],
+    "id": 184
+  },
+  {
     "answer": "sanctimony",
     "difficulty": "HARD",
     "sentences": [
