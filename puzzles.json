@@ -1,5 +1,24 @@
 [
   {
+    "answer": "tarnish",
+    "difficulty": "WILDCARD",
+    "sentences": [
+      "It is the quiet autobiography of exposure, written in muted golds and smoky browns across surfaces that were once brilliant.",
+      "Chemists understand it as a thin-layer corrosion, a reaction between metal and the sulfurous compounds that drift invisibly through ordinary air.",
+      "Silversmiths and jewelers have always maintained a complicated relationship with it — fighting its advance while acknowledging that some collectors prize the depth it lends to antique pieces.",
+      "The word migrated into moral language long ago, so that a reputation can suffer it just as readily as a candlestick or a trophy.",
+      "Polishing cloths, dips, and pastes exist precisely to reverse it, restoring the original luster that time and atmosphere conspired to dim."
+    ],
+    "close": [
+      "tarnished",
+      "tarnishing",
+      "tarnishes",
+      "corrosion",
+      "discoloration"
+    ],
+    "id": 185
+  },
+  {
     "answer": "audacity",
     "difficulty": "HARD",
     "sentences": [
