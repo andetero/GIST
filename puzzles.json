@@ -1,5 +1,24 @@
 [
   {
+    "answer": "recognition",
+    "difficulty": "EASY",
+    "sentences": [
+      "It is the moment when the world stops being strange and becomes, briefly, yours.",
+      "Neurologists describe it as the brain confirming a match between what is perceived and what is already stored — a small, silent triumph of memory.",
+      "It can happen with a face, a song, a smell, or even a feeling you had once and thought was gone forever.",
+      "Without it, every encounter would feel like meeting a stranger; with it, even a crowded room can feel like coming home.",
+      "When it passes between two people at the same moment — a mutual acknowledgment that each has been seen — it is one of the quietest forms of human connection."
+    ],
+    "close": [
+      "recognize",
+      "recognized",
+      "recognizing",
+      "acknowledgment",
+      "familiarity"
+    ],
+    "id": 186
+  },
+  {
     "answer": "tarnish",
     "difficulty": "WILDCARD",
     "sentences": [
