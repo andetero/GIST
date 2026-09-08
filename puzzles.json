@@ -1,5 +1,24 @@
 [
   {
+    "answer": "congratulations",
+    "difficulty": "EASY",
+    "sentences": [
+      "It arrives in a rush, warm and collective, like a sudden change in weather that everyone feels at once.",
+      "At its best, it requires a kind of selflessness — the ability to set aside your own desires and genuinely celebrate another person's good fortune.",
+      "It is offered at graduations, weddings, promotions, and births — any moment when someone has crossed a threshold worth marking.",
+      "The words can be spoken, written on a card, or expressed with an embrace, but the feeling behind them matters more than the form they take.",
+      "It is what people say when someone has achieved something, won something, or received news that everyone agrees is wonderful."
+    ],
+    "close": [
+      "congratulate",
+      "congratulating",
+      "congratulated",
+      "celebration",
+      "acknowledgment"
+    ],
+    "id": 187
+  },
+  {
     "answer": "recognition",
     "difficulty": "EASY",
     "sentences": [
