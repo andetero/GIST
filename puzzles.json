@@ -1,5 +1,24 @@
 [
   {
+    "answer": "intimidation",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "It is a force that operates entirely in the space between what is said and what is felt, requiring no action to take effect.",
+      "Evolutionary theorists suggest it predates language itself, visible in the posturing of animals who would rather not fight at all.",
+      "Its power depends almost entirely on the target — the same gesture that paralyzes one person leaves another unmoved.",
+      "It can be deployed through a raised voice, a long silence, a reputation, or simply the memory of what someone has done before.",
+      "Courtrooms, playgrounds, boardrooms, and schoolyards all have their own grammar for it — the art of making another person smaller without touching them."
+    ],
+    "close": [
+      "intimidate",
+      "intimidating",
+      "intimidated",
+      "coercion",
+      "menace"
+    ],
+    "id": 188
+  },
+  {
     "answer": "congratulations",
     "difficulty": "EASY",
     "sentences": [
