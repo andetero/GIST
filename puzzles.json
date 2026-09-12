@@ -1,5 +1,24 @@
 [
   {
+    "answer": "severance",
+    "difficulty": "HARD",
+    "sentences": [
+      "It is the moment after which counting begins differently, when the line that was continuous becomes two ends facing away from each other.",
+      "Cultures have developed elaborate ceremonies around it, recognizing that the mind requires ritual to accept what the body already knows has changed.",
+      "It can be clean and deliberate, performed with precision and consent, or ragged and unasked-for, leaving tissue that has no name.",
+      "Employment law codifies it in financial terms, as though the disruption of a sustained pattern between people can be settled with a number.",
+      "At its core, it describes the condition of something that was joined and is now not — a cord, a contract, a relationship, a limb — and the strange new freedom and loss that follow in equal measure."
+    ],
+    "close": [
+      "sever",
+      "severed",
+      "severing",
+      "separation",
+      "rupture"
+    ],
+    "id": 191
+  },
+  {
     "answer": "deflection",
     "difficulty": "HARD",
     "sentences": [
