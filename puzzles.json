@@ -1,5 +1,24 @@
 [
   {
+    "answer": "rehearsal",
+    "difficulty": "EASY",
+    "sentences": [
+      "It is the space between intention and arrival, where imperfection is not only permitted but required.",
+      "Artists, athletes, and surgeons all depend on it — the repeated encounter with a thing before the thing truly counts.",
+      "It borrows from the Old French word for harrowing a field, turning the same ground over and over until it yields.",
+      "A child mouthing the words to a song before the school performance, a couple practicing their vows alone in a kitchen — both know its quiet necessity.",
+      "It is what happens in the hours before the curtain rises, when the stage belongs only to those who are still getting it wrong."
+    ],
+    "close": [
+      "rehearse",
+      "rehearsing",
+      "rehearsed",
+      "practice",
+      "preparation"
+    ],
+    "id": 193
+  },
+  {
     "answer": "precipitation",
     "difficulty": "WILDCARD",
     "sentences": [
