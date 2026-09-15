@@ -1,5 +1,24 @@
 [
   {
+    "answer": "sorrow",
+    "difficulty": "EASY",
+    "sentences": [
+      "It is the quiet that follows after something that cannot be undone.",
+      "Unlike its sharper cousin, it does not arrive in a sudden wave but settles slowly, the way dusk settles over a landscape without anyone noticing the exact moment the light changed.",
+      "It can be carried for years without being named, mistaken for tiredness or distance or the simple weight of getting older.",
+      "Music seems to understand it better than language does — a minor chord can say what a sentence cannot.",
+      "It is not the same as sadness, though the two are often confused; sadness passes, but this is what remains when sadness has done its work and left."
+    ],
+    "close": [
+      "sorrowful",
+      "sorrows",
+      "sorrowed",
+      "sadness",
+      "grief"
+    ],
+    "id": 194
+  },
+  {
     "answer": "rehearsal",
     "difficulty": "EASY",
     "sentences": [
