@@ -1,5 +1,24 @@
 [
   {
+    "answer": "acceleration",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "It is not the thing itself, but the change in the thing — a second-order phenomenon that most people experience without naming.",
+      "Physicists describe it as the rate at which velocity shifts, but poets have always known it as the feeling when something that was slow becomes suddenly, irreversibly fast.",
+      "Children feel it in their stomachs on swings and roller coasters, before they have language for what the body already understands.",
+      "Historians use it metaphorically to describe eras when the pace of change itself begins to quicken — when the world seems to outrun any single mind's ability to comprehend it.",
+      "In its purest physical sense, it requires a force acting on a mass, and its most famous example is a falling object surrendering to gravity with increasing speed."
+    ],
+    "close": [
+      "accelerate",
+      "accelerating",
+      "accelerated",
+      "velocity",
+      "momentum"
+    ],
+    "id": 195
+  },
+  {
     "answer": "sorrow",
     "difficulty": "EASY",
     "sentences": [
