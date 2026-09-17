@@ -1,5 +1,30 @@
 [
   {
+    "closer": [
+      "delaying",
+      "postpone",
+      "deferred",
+      "deferral"
+    ],
+    "answer": "detachment",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "There is a particular quality of distance a person can achieve without moving an inch, a stillness that has nothing to do with the body.",
+      "Philosophers have praised it as the highest form of wisdom, while poets have mourned it as the slow death of feeling.",
+      "It can be cultivated through discipline — monks and stoics have practiced it deliberately — but it can also arrive uninvited, as a consequence of too much loss.",
+      "A person in its grip observes their own life with the mild interest of someone watching a film they have already seen.",
+      "Therapists distinguish between its healthy form, which allows clear judgment under pressure, and its pathological form, in which a person becomes a spectator of their own experience, unable to feel what they know they should."
+    ],
+    "close": [
+      "detached",
+      "disengagement",
+      "disconnection",
+      "indifference",
+      "distance"
+    ],
+    "id": 196
+  },
+  {
     "answer": "acceleration",
     "difficulty": "MEDIUM",
     "sentences": [
