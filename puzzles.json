@@ -1,5 +1,23 @@
 [
   {
+    "answer": "precedent",
+    "difficulty": "HARD",
+    "sentences": [
+      "It is the shadow cast backward in time by an act that has already occurred, shaping all the light that follows.",
+      "Every institution — legal, social, familial — is partly built from accumulated instances of it, each one narrowing the range of what is considered possible or permissible.",
+      "Its power lies not in force but in the quiet authority of the already-done, the sense that because something has happened once, it may happen again — and perhaps must.",
+      "Courts invoke it to constrain judges who might otherwise rule according to personal preference, and politicians cite it to justify changes they could not otherwise defend.",
+      "The Latin root means 'that which goes before,' and in law it is codified as the principle that prior decisions should guide future ones."
+    ],
+    "close": [
+      "precedents",
+      "precedence",
+      "precedented",
+      "unprecedent"
+    ],
+    "id": 197
+  },
+  {
     "closer": [
       "delaying",
       "postpone",
