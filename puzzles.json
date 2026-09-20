@@ -1,5 +1,24 @@
 [
   {
+    "answer": "triage",
+    "difficulty": "WILDCARD",
+    "sentences": [
+      "It is the art of making peace with imperfection by deciding, in advance, which imperfections you will tolerate.",
+      "The word entered English through the French practice of sorting coffee beans by quality, though it found its most famous home in medicine.",
+      "Its central brutality is also its central mercy: by choosing who to help first, it ensures that help reaches someone at all.",
+      "A field surgeon, a flood response coordinator, and an overwhelmed software engineer on a Monday morning are all practicing the same discipline.",
+      "In emergency medicine, patients are sorted into three categories — those who will survive without help, those who will not survive regardless, and those whose survival depends entirely on immediate intervention."
+    ],
+    "close": [
+      "triaged",
+      "triaging",
+      "prioritization",
+      "sorting",
+      "rationing"
+    ],
+    "id": 199
+  },
+  {
     "answer": "conviction",
     "difficulty": "HARD",
     "sentences": [
