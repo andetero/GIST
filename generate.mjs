@@ -9,6 +9,15 @@ if (!ANTHROPIC_API_KEY) {
 
 const TIME_ZONE = "America/Denver";
 const MAX_ATTEMPTS = 20;
+const ALLOWED_PARTS_OF_SPEECH = new Set([
+  "Noun",
+  "Verb",
+  "Verb (infinitive)",
+  "Verb (present participle)",
+  "Verb (past participle)",
+  "Adjective",
+  "Adverb",
+]);
 
 function getLocalParts(date, timeZone = TIME_ZONE) {
   const formatter = new Intl.DateTimeFormat("en-US", {
@@ -68,6 +77,10 @@ function validatePuzzleShape(puzzle) {
   const answer = puzzle.answer.trim();
   if (!/^[A-Za-z][A-Za-z-]*$/.test(answer) || answer.includes(" ")) {
     throw new Error(`Answer must be a single word: ${answer}`);
+  }
+
+  if (typeof puzzle.partOfSpeech !== "string" || !ALLOWED_PARTS_OF_SPEECH.has(puzzle.partOfSpeech)) {
+    throw new Error(`Puzzle partOfSpeech must be one of: ${Array.from(ALLOWED_PARTS_OF_SPEECH).join(", ")}`);
   }
 
   if (!Array.isArray(puzzle.sentences) || puzzle.sentences.length !== 5) {
@@ -225,6 +238,8 @@ Your job: create a puzzle. Choose a concept, emotion, phenomenon, idea, or every
 
 Rules:
 - The answer must be a single English word (not a proper noun, not a phrase)
+- Include "partOfSpeech" for the exact intended grammatical form of the answer. Use exactly one of: "Noun", "Verb", "Verb (infinitive)", "Verb (present participle)", "Verb (past participle)", "Adjective", "Adverb"
+- The part of speech must match how the answer itself is intended. For an -ing answer used as an action/verb form, use "Verb (present participle)"; if an -ing form is intended as a noun/gerund concept, use "Noun"
 - The answer must be different from every prior GIST answer listed above
 - The paragraph must NOT contain the answer word or obvious synonyms
 - Sentence 1 should be the hardest clue (most abstract/indirect)
@@ -236,6 +251,7 @@ Rules:
 Return ONLY valid JSON, no markdown, exactly this format:
 {
   "answer": "loneliness",
+  "partOfSpeech": "Noun",
   "difficulty": "EASY",
   "sentences": [
     "It can exist in the middle of a crowd, invisible to everyone including the person experiencing it.",
@@ -299,7 +315,7 @@ for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt += 1) {
 
 puzzle.id = PUZZLE_ID;
 puzzle.difficulty = DIFFICULTY.label;
-console.log(`✅ Answer: "${puzzle.answer}" [${puzzle.difficulty}]`);
+console.log(`✅ Answer: "${puzzle.answer}" [${puzzle.partOfSpeech}; ${puzzle.difficulty}]`);
 console.log(`📝 Sentences: ${puzzle.sentences.length}`);
 
 // Read template and inject puzzle data
