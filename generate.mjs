@@ -10,7 +10,8 @@ if (!ANTHROPIC_API_KEY) {
 const TIME_ZONE = "America/Denver";
 const MAX_ATTEMPTS = 20;
 const ALLOWED_PARTS_OF_SPEECH = new Set([
-  "Noun",
+  "Noun (singular)",
+  "Noun (plural)",
   "Verb",
   "Verb (infinitive)",
   "Verb (present participle)",
@@ -238,8 +239,9 @@ Your job: create a puzzle. Choose a concept, emotion, phenomenon, idea, or every
 
 Rules:
 - The answer must be a single English word (not a proper noun, not a phrase)
-- Include "partOfSpeech" for the exact intended grammatical form of the answer. Use exactly one of: "Noun", "Verb", "Verb (infinitive)", "Verb (present participle)", "Verb (past participle)", "Adjective", "Adverb"
-- The part of speech must match how the answer itself is intended. For an -ing answer used as an action/verb form, use "Verb (present participle)"; if an -ing form is intended as a noun/gerund concept, use "Noun"
+- Include "partOfSpeech" for the exact intended grammatical form of the answer. Use exactly one of: "Noun (singular)", "Noun (plural)", "Verb", "Verb (infinitive)", "Verb (present participle)", "Verb (past participle)", "Adjective", "Adverb"
+- Every noun MUST specify number: use "Noun (singular)" for singular or mass/uncountable nouns, and "Noun (plural)" for plural nouns
+- The part of speech must match how the answer itself is intended. For an -ing answer used as an action/verb form, use "Verb (present participle)"; if an -ing form is intended as a noun/gerund concept, use "Noun (singular)" unless the answer itself is plural
 - The answer must be different from every prior GIST answer listed above
 - The paragraph must NOT contain the answer word or obvious synonyms
 - Sentence 1 should be the hardest clue (most abstract/indirect)
@@ -251,7 +253,7 @@ Rules:
 Return ONLY valid JSON, no markdown, exactly this format:
 {
   "answer": "loneliness",
-  "partOfSpeech": "Noun",
+  "partOfSpeech": "Noun (singular)",
   "difficulty": "EASY",
   "sentences": [
     "It can exist in the middle of a crowd, invisible to everyone including the person experiencing it.",
