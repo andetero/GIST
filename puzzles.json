@@ -36,7 +36,7 @@
       "misstep"
     ],
     "id": 200,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "triage",
@@ -56,7 +56,7 @@
       "rationing"
     ],
     "id": 199,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "conviction",
@@ -76,7 +76,7 @@
       "belief"
     ],
     "id": 198,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "precedent",
@@ -95,7 +95,7 @@
       "unprecedent"
     ],
     "id": 197,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "closer": [
@@ -121,7 +121,7 @@
       "distance"
     ],
     "id": 196,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "acceleration",
@@ -141,7 +141,7 @@
       "momentum"
     ],
     "id": 195,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "sorrow",
@@ -161,7 +161,7 @@
       "grief"
     ],
     "id": 194,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "rehearsal",
@@ -181,7 +181,7 @@
       "preparation"
     ],
     "id": 193,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "precipitation",
@@ -201,7 +201,7 @@
       "condensation"
     ],
     "id": 192,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "severance",
@@ -221,7 +221,7 @@
       "rupture"
     ],
     "id": 191,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "deflection",
@@ -241,7 +241,7 @@
       "redirection"
     ],
     "id": 190,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "persuasion",
@@ -261,7 +261,7 @@
       "rhetoric"
     ],
     "id": 189,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "intimidation",
@@ -281,7 +281,7 @@
       "menace"
     ],
     "id": 188,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "congratulations",
@@ -301,7 +301,7 @@
       "acknowledgment"
     ],
     "id": 187,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (plural)"
   },
   {
     "answer": "recognition",
@@ -321,7 +321,7 @@
       "familiarity"
     ],
     "id": 186,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "tarnish",
@@ -341,7 +341,7 @@
       "discoloration"
     ],
     "id": 185,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "audacity",
@@ -361,7 +361,7 @@
       "gall"
     ],
     "id": 184,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "sanctimony",
@@ -381,7 +381,7 @@
       "priggishness"
     ],
     "id": 183,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "adaptation",
@@ -401,7 +401,7 @@
       "adjustment"
     ],
     "id": 182,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "acknowledgment",
@@ -421,7 +421,7 @@
       "validation"
     ],
     "id": 181,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "echo",
@@ -441,7 +441,7 @@
       "reflection"
     ],
     "id": 180,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "praise",
@@ -461,7 +461,7 @@
       "acclaim"
     ],
     "id": 179,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "lacquer",
@@ -481,7 +481,7 @@
       "shellac"
     ],
     "id": 178,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "recklessness",
@@ -501,7 +501,7 @@
       "audacity"
     ],
     "id": 177,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "ambiguity",
@@ -521,7 +521,7 @@
       "equivocation"
     ],
     "id": 176,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "concession",
@@ -541,7 +541,7 @@
       "capitulation"
     ],
     "id": 175,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "superstition",
@@ -561,7 +561,7 @@
       "taboo"
     ],
     "id": 174,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "eavesdropping",
@@ -581,7 +581,7 @@
       "listening"
     ],
     "id": 173,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "approval",
@@ -601,7 +601,7 @@
       "acceptance"
     ],
     "id": 172,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "calcification",
@@ -621,7 +621,7 @@
       "calcification"
     ],
     "id": 171,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "deference",
@@ -641,7 +641,7 @@
       "submission"
     ],
     "id": 170,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "sovereignty",
@@ -661,7 +661,7 @@
       "supremacy"
     ],
     "id": 169,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "negotiation",
@@ -681,7 +681,7 @@
       "compromise"
     ],
     "id": 168,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "assumption",
@@ -701,7 +701,7 @@
       "presupposition"
     ],
     "id": 167,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "celebration",
@@ -721,7 +721,7 @@
       "festivity"
     ],
     "id": 166,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "encouragement",
@@ -741,7 +741,7 @@
       "motivation"
     ],
     "id": 165,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "mimicry",
@@ -761,7 +761,7 @@
       "impersonation"
     ],
     "id": 164,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "inference",
@@ -781,7 +781,7 @@
       "conclusion"
     ],
     "id": 163,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "pretense",
@@ -801,7 +801,7 @@
       "pretensions"
     ],
     "id": 162,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "puzzle_number": 161,
@@ -823,7 +823,7 @@
       "uniformity"
     ],
     "id": 161,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "puzzle_number": 160,
@@ -845,7 +845,7 @@
       "observation"
     ],
     "id": 160,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "mercy",
@@ -865,7 +865,7 @@
       "compassion"
     ],
     "id": 159,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "deadline",
@@ -884,7 +884,7 @@
       "timeframe"
     ],
     "id": 158,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "weathering",
@@ -904,7 +904,7 @@
       "patination"
     ],
     "id": 157,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "facade",
@@ -924,7 +924,7 @@
       "veneer"
     ],
     "id": 156,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "alchemy",
@@ -943,7 +943,7 @@
       "transmutation"
     ],
     "id": 155,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "distillation",
@@ -963,7 +963,7 @@
       "refinement"
     ],
     "id": 154,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "puzzle_number": 153,
@@ -985,7 +985,7 @@
       "eagerness"
     ],
     "id": 153,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "farewell",
@@ -1005,7 +1005,7 @@
       "adieu"
     ],
     "id": 152,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "gossip",
@@ -1025,7 +1025,7 @@
       "hearsay"
     ],
     "id": 151,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "camber",
@@ -1045,7 +1045,7 @@
       "crown"
     ],
     "id": 150,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "resignation",
@@ -1065,7 +1065,7 @@
       "acceptance"
     ],
     "id": 149,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "abdication",
@@ -1085,7 +1085,7 @@
       "relinquishment"
     ],
     "id": 148,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "permission",
@@ -1105,7 +1105,7 @@
       "authorization"
     ],
     "id": 147,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "credibility",
@@ -1125,7 +1125,7 @@
       "reliability"
     ],
     "id": 146,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "applause",
@@ -1145,7 +1145,7 @@
       "acclaim"
     ],
     "id": 145,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "scar",
@@ -1165,7 +1165,7 @@
       "mark"
     ],
     "id": 144,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "osmosis",
@@ -1185,7 +1185,7 @@
       "permeability"
     ],
     "id": 143,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "obsolescence",
@@ -1205,7 +1205,7 @@
       "redundancy"
     ],
     "id": 142,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "contagion",
@@ -1225,7 +1225,7 @@
       "spread"
     ],
     "id": 141,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "coincidence",
@@ -1245,7 +1245,7 @@
       "happenstance"
     ],
     "id": 140,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "imitation",
@@ -1265,7 +1265,7 @@
       "emulation"
     ],
     "id": 139,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "compliment",
@@ -1285,7 +1285,7 @@
       "flattery"
     ],
     "id": 138,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "practice",
@@ -1305,7 +1305,7 @@
       "repetition"
     ],
     "id": 137,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "patina",
@@ -1325,7 +1325,7 @@
       "verdigris"
     ],
     "id": 136,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "attrition",
@@ -1345,7 +1345,7 @@
       "exhaustion"
     ],
     "id": 135,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "stagnation",
@@ -1365,7 +1365,7 @@
       "stasis"
     ],
     "id": 134,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "closure",
@@ -1385,7 +1385,7 @@
       "closing"
     ],
     "id": 133,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "obligation",
@@ -1405,7 +1405,7 @@
       "commitment"
     ],
     "id": 132,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "kindness",
@@ -1425,7 +1425,7 @@
       "gentleness"
     ],
     "id": 131,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "homesickness",
@@ -1444,7 +1444,7 @@
       "nostalgia"
     ],
     "id": 130,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "oxidation",
@@ -1464,7 +1464,7 @@
       "rust"
     ],
     "id": 129,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "leverage",
@@ -1484,7 +1484,7 @@
       "clout"
     ],
     "id": 128,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "reckoning",
@@ -1504,7 +1504,7 @@
       "atonement"
     ],
     "id": 127,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "humility",
@@ -1524,7 +1524,7 @@
       "humbling"
     ],
     "id": 126,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "manipulation",
@@ -1544,7 +1544,7 @@
       "coercion"
     ],
     "id": 125,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "flattery",
@@ -1564,7 +1564,7 @@
       "sycophancy"
     ],
     "id": 124,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "distraction",
@@ -1584,7 +1584,7 @@
       "inattention"
     ],
     "id": 123,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "buoyancy",
@@ -1603,7 +1603,7 @@
       "floatation"
     ],
     "id": 122,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "puzzle_number": 121,
@@ -1625,7 +1625,7 @@
       "conspiracy"
     ],
     "id": 121,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "abstinence",
@@ -1645,7 +1645,7 @@
       "restraint"
     ],
     "id": 120,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answers": "delegation",
@@ -1666,7 +1666,7 @@
       "entrust"
     ],
     "id": 119,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "stubbornness",
@@ -1686,7 +1686,7 @@
       "pigheadedness"
     ],
     "id": 118,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "envy",
@@ -1706,7 +1706,7 @@
       "resentment"
     ],
     "id": 117,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answers": "daydream",
@@ -1727,7 +1727,7 @@
       "reverie"
     ],
     "id": 116,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "calibration",
@@ -1747,7 +1747,7 @@
       "adjustment"
     ],
     "id": 115,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "illusion",
@@ -1767,7 +1767,7 @@
       "mirage"
     ],
     "id": 114,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "dissonance",
@@ -1787,7 +1787,7 @@
       "tension"
     ],
     "id": 113,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "inheritance",
@@ -1807,7 +1807,7 @@
       "heirloom"
     ],
     "id": 112,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "regret",
@@ -1827,7 +1827,7 @@
       "rue"
     ],
     "id": 111,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "warmth",
@@ -1847,7 +1847,7 @@
       "coziness"
     ],
     "id": 110,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "habit",
@@ -1867,7 +1867,7 @@
       "reflex"
     ],
     "id": 109,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "camouflage",
@@ -1887,7 +1887,7 @@
       "disguise"
     ],
     "id": 108,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "reconciliation",
@@ -1907,7 +1907,7 @@
       "rapprochement"
     ],
     "id": 107,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "accountability",
@@ -1927,7 +1927,7 @@
       "reckoning"
     ],
     "id": 106,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "plagiarism",
@@ -1947,7 +1947,7 @@
       "copying"
     ],
     "id": 105,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "reputation",
@@ -1967,7 +1967,7 @@
       "renown"
     ],
     "id": 104,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "grief",
@@ -1987,7 +1987,7 @@
       "sorrow"
     ],
     "id": 103,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "relief",
@@ -2007,7 +2007,7 @@
       "comfort"
     ],
     "id": 102,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "topology",
@@ -2026,7 +2026,7 @@
       "geometric"
     ],
     "id": 101,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "epiphany",
@@ -2046,7 +2046,7 @@
       "epiphanies"
     ],
     "id": 100,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "contingency",
@@ -2066,7 +2066,7 @@
       "chance"
     ],
     "id": 99,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "restlessness",
@@ -2086,7 +2086,7 @@
       "unease"
     ],
     "id": 98,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "scrutiny",
@@ -2106,7 +2106,7 @@
       "inspection"
     ],
     "id": 97,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "wonder",
@@ -2126,7 +2126,7 @@
       "awe"
     ],
     "id": 96,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "migration",
@@ -2146,7 +2146,7 @@
       "pilgrimage"
     ],
     "id": 95,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "erosion",
@@ -2166,7 +2166,7 @@
       "corrosion"
     ],
     "id": 94,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "reverie",
@@ -2186,7 +2186,7 @@
       "contemplation"
     ],
     "id": 93,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "transcendence",
@@ -2206,7 +2206,7 @@
       "transcendental"
     ],
     "id": 92,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "loyalty",
@@ -2226,7 +2226,7 @@
       "fidelity"
     ],
     "id": 91,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "addiction",
@@ -2246,7 +2246,7 @@
       "dependence"
     ],
     "id": 90,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "pride",
@@ -2266,7 +2266,7 @@
       "honor"
     ],
     "id": 89,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "panic",
@@ -2286,7 +2286,7 @@
       "dread"
     ],
     "id": 88,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "fervor",
@@ -2306,7 +2306,7 @@
       "fervent"
     ],
     "id": 87,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "symmetry",
@@ -2326,7 +2326,7 @@
       "equilibrium"
     ],
     "id": 86,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "complacency",
@@ -2345,7 +2345,7 @@
       "overconfidence"
     ],
     "id": 85,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "rhythm",
@@ -2365,7 +2365,7 @@
       "pulse"
     ],
     "id": 84,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "compromise",
@@ -2385,7 +2385,7 @@
       "settlement"
     ],
     "id": 83,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "exhaustion",
@@ -2405,7 +2405,7 @@
       "depleted"
     ],
     "id": 82,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "gratitude",
@@ -2424,7 +2424,7 @@
       "gratefulness"
     ],
     "id": 81,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "refraction",
@@ -2444,7 +2444,7 @@
       "diffraction"
     ],
     "id": 80,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "empathy",
@@ -2464,7 +2464,7 @@
       "sympathy"
     ],
     "id": 79,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "vindictiveness",
@@ -2484,7 +2484,7 @@
       "spite"
     ],
     "id": 78,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "discipline",
@@ -2504,7 +2504,7 @@
       "self-control"
     ],
     "id": 77,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "sympathy",
@@ -2524,7 +2524,7 @@
       "compassion"
     ],
     "id": 76,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "courage",
@@ -2544,7 +2544,7 @@
       "brave"
     ],
     "id": 75,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "confusion",
@@ -2564,7 +2564,7 @@
       "perplexity"
     ],
     "id": 74,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "turbulence",
@@ -2584,7 +2584,7 @@
       "agitation"
     ],
     "id": 73,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "schadenfreude",
@@ -2604,7 +2604,7 @@
       "gloating"
     ],
     "id": 72,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "melancholia",
@@ -2624,7 +2624,7 @@
       "gloom"
     ],
     "id": 71,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "deception",
@@ -2644,7 +2644,7 @@
       "deceit"
     ],
     "id": 70,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "guilt",
@@ -2664,7 +2664,7 @@
       "conscience"
     ],
     "id": 69,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "happiness",
@@ -2684,7 +2684,7 @@
       "cheerfulness"
     ],
     "id": 68,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "balance",
@@ -2704,7 +2704,7 @@
       "balancing"
     ],
     "id": 67,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "friction",
@@ -2724,7 +2724,7 @@
       "rubbing"
     ],
     "id": 66,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "reciprocity",
@@ -2744,7 +2744,7 @@
       "exchange"
     ],
     "id": 65,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "inertia",
@@ -2764,7 +2764,7 @@
       "immobility"
     ],
     "id": 64,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "inspiration",
@@ -2784,7 +2784,7 @@
       "motivation"
     ],
     "id": 63,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "temptation",
@@ -2804,7 +2804,7 @@
       "seduction"
     ],
     "id": 62,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "sleep",
@@ -2824,7 +2824,7 @@
       "sleeps"
     ],
     "id": 61,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "surprise",
@@ -2844,7 +2844,7 @@
       "amazement"
     ],
     "id": 60,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "vertigo",
@@ -2864,7 +2864,7 @@
       "acrophobia"
     ],
     "id": 59,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "vindication",
@@ -2884,7 +2884,7 @@
       "justification"
     ],
     "id": 58,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "paradox",
@@ -2904,7 +2904,7 @@
       "antinomy"
     ],
     "id": 57,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "improvisation",
@@ -2924,7 +2924,7 @@
       "adaptation"
     ],
     "id": 56,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "frustration",
@@ -2944,7 +2944,7 @@
       "irritation"
     ],
     "id": 55,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "loneliness",
@@ -2964,7 +2964,7 @@
       "lonely"
     ],
     "id": 54,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "shadow",
@@ -2983,7 +2983,7 @@
       "darkness"
     ],
     "id": 53,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "acoustics",
@@ -3003,7 +3003,7 @@
       "audio"
     ],
     "id": 52,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (plural)"
   },
   {
     "answer": "entropy",
@@ -3023,7 +3023,7 @@
       "entropic"
     ],
     "id": 51,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "catharsis",
@@ -3043,7 +3043,7 @@
       "purgation"
     ],
     "id": 50,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "intuition",
@@ -3063,7 +3063,7 @@
       "gut-feeling"
     ],
     "id": 49,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "serendipity",
@@ -3083,7 +3083,7 @@
       "serendipitous"
     ],
     "id": 48,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "hunger",
@@ -3103,7 +3103,7 @@
       "famished"
     ],
     "id": 47,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "thirst",
@@ -3122,7 +3122,7 @@
       "craving"
     ],
     "id": 46,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "resonance",
@@ -3142,7 +3142,7 @@
       "vibration"
     ],
     "id": 45,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "ambivalence",
@@ -3162,7 +3162,7 @@
       "paradox"
     ],
     "id": 44,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "euphemism",
@@ -3182,7 +3182,7 @@
       "doublespeak"
     ],
     "id": 43,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "betrayal",
@@ -3202,7 +3202,7 @@
       "treachery"
     ],
     "id": 42,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "nostalgia",
@@ -3222,7 +3222,7 @@
       "reminisce"
     ],
     "id": 41,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "memory",
@@ -3242,7 +3242,7 @@
       "recollection"
     ],
     "id": 40,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "gravity",
@@ -3262,7 +3262,7 @@
       "heaviness"
     ],
     "id": 39,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "synesthesia",
@@ -3281,7 +3281,7 @@
       "cross-modal"
     ],
     "id": 38,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "disillusionment",
@@ -3301,7 +3301,7 @@
       "cynicism"
     ],
     "id": 37,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "irony",
@@ -3321,7 +3321,7 @@
       "satirical"
     ],
     "id": 36,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "perspective",
@@ -3341,7 +3341,7 @@
       "perspectives"
     ],
     "id": 35,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "persistence",
@@ -3361,7 +3361,7 @@
       "tenacity"
     ],
     "id": 34,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "doubt",
@@ -3381,7 +3381,7 @@
       "doubting"
     ],
     "id": 33,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "reflection",
@@ -3401,7 +3401,7 @@
       "mirror"
     ],
     "id": 32,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "counterpoint",
@@ -3420,7 +3420,7 @@
       "contrapuntal"
     ],
     "id": 31,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "hubris",
@@ -3440,7 +3440,7 @@
       "hubris"
     ],
     "id": 30,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "metamorphosis",
@@ -3460,7 +3460,7 @@
       "change"
     ],
     "id": 29,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "obsession",
@@ -3480,7 +3480,7 @@
       "compulsion"
     ],
     "id": 28,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "ritual",
@@ -3500,7 +3500,7 @@
       "custom"
     ],
     "id": 27,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "trust",
@@ -3520,7 +3520,7 @@
       "belief"
     ],
     "id": 26,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "patience",
@@ -3540,7 +3540,7 @@
       "forbearance"
     ],
     "id": 25,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "crystallization",
@@ -3560,7 +3560,7 @@
       "solidification"
     ],
     "id": 24,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "vulnerability",
@@ -3580,7 +3580,7 @@
       "susceptibility"
     ],
     "id": 23,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "melancholy",
@@ -3600,7 +3600,7 @@
       "plaintiveness"
     ],
     "id": 22,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "betrayal",
@@ -3620,7 +3620,7 @@
       "disloyalty"
     ],
     "id": 21,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "jealousy",
@@ -3640,7 +3640,7 @@
       "possessiveness"
     ],
     "id": 20,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "boredom",
@@ -3660,7 +3660,7 @@
       "ennui"
     ],
     "id": 19,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "laughter",
@@ -3680,7 +3680,7 @@
       "giggle"
     ],
     "id": 18,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "fermentation",
@@ -3700,7 +3700,7 @@
       "culturing"
     ],
     "id": 17,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "procrastination",
@@ -3720,7 +3720,7 @@
       "avoidance"
     ],
     "id": 16,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "serendipity",
@@ -3740,7 +3740,7 @@
       "destiny"
     ],
     "id": 15,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "anticipation",
@@ -3760,7 +3760,7 @@
       "apprehension"
     ],
     "id": 14,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "momentum",
@@ -3780,7 +3780,7 @@
       "force"
     ],
     "id": 13,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "curiosity",
@@ -3800,7 +3800,7 @@
       "questioning"
     ],
     "id": 12,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "friendship",
@@ -3820,7 +3820,7 @@
       "loyalty"
     ],
     "id": 11,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "resonance",
@@ -3840,7 +3840,7 @@
       "frequency"
     ],
     "id": 10,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "apophenia",
@@ -3859,7 +3859,7 @@
       "projection"
     ],
     "id": 9,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "nostalgia",
@@ -3879,7 +3879,7 @@
       "homesickness"
     ],
     "id": 8,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "ambition",
@@ -3899,7 +3899,7 @@
       "motivation"
     ],
     "id": 7,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "silence",
@@ -3919,7 +3919,7 @@
       "calm"
     ],
     "id": 6,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "forgiveness",
@@ -3939,7 +3939,7 @@
       "grace"
     ],
     "id": 5,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "memory",
@@ -3958,7 +3958,7 @@
       "reminiscence"
     ],
     "id": 4,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "hunger",
@@ -3978,7 +3978,7 @@
       "thirst"
     ],
     "id": 3,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "embarrassment",
@@ -3998,7 +3998,7 @@
       "chagrin"
     ],
     "id": 2,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   },
   {
     "answer": "threshold",
@@ -4018,6 +4018,6 @@
       "margin"
     ],
     "id": 1,
-    "partOfSpeech": "Noun"
+    "partOfSpeech": "Noun (singular)"
   }
 ]
