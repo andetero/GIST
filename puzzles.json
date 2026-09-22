@@ -1,5 +1,23 @@
 [
   {
+    "answer": "forgetting",
+    "difficulty": "EASY",
+    "sentences": [
+      "It is the quiet tide that smooths the shore after every wave, leaving no record of what once broke there.",
+      "Scientists have found it is not a failure of the mind but an active process — the brain deliberately letting go of what it deems unnecessary.",
+      "It can be a mercy after loss, or a small betrayal of someone who deserved to be kept.",
+      "We fear it most when it comes for names, faces, and the details that once felt impossible to lose.",
+      "Without it, every embarrassment, every slight, every grief would remain as vivid as the moment it arrived."
+    ],
+    "close": [
+      "forget",
+      "forgetfulness",
+      "forgotten",
+      "forgets"
+    ],
+    "id": 201
+  },
+  {
     "answer": "mistake",
     "difficulty": "EASY",
     "sentences": [
