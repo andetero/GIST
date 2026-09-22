@@ -74,7 +74,8 @@
 
     .clue-section { padding: 32px 0 24px; flex: 1; }
 
-    .clue-label { font-family: var(--mono); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--mid); margin-bottom: 16px; }
+    .clue-label { font-family: var(--mono); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--mid); margin-bottom: 8px; }
+    .part-of-speech { font-family: var(--mono); font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--mid); margin-bottom: 16px; }
 
     .clues { display: flex; flex-direction: column; }
 
@@ -249,6 +250,7 @@ async function render() {
 
   html += `<div class="clue-section">
     <div class="clue-label">CLUE${revealedSentences.length > 1 ? 'S' : ''} REVEALED — ${revealedSentences.length} of ${PUZZLE.sentences.length}</div>
+    ${PUZZLE.partOfSpeech ? `<div class="part-of-speech">PART OF SPEECH — ${PUZZLE.partOfSpeech}</div>` : ""}
     <div class="clues">`;
   revealedSentences.forEach((s, i) => {
     html += `<div class="clue" style="animation-delay:${i * 0.08}s"><div class="clue-num">— ${i + 1}</div>${s}</div>`;
