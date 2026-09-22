@@ -52,7 +52,8 @@
     .past-banner { background: var(--gold-bg); border: 1px solid var(--faint); border-radius: 8px; padding: 10px 16px; margin: 20px 0 0; font-family: var(--mono); font-size: 11px; color: var(--gold); letter-spacing: 0.1em; text-align: center; }
 
     .clue-section { padding: 24px 0 24px; flex: 1; }
-    .clue-label { font-family: var(--mono); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--mid); margin-bottom: 16px; }
+    .clue-label { font-family: var(--mono); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--mid); margin-bottom: 8px; }
+    .part-of-speech { font-family: var(--mono); font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--mid); margin-bottom: 16px; }
     .clues { display: flex; flex-direction: column; }
 
     .clue { padding: 14px 0; border-bottom: 1px solid var(--faint); font-family: var(--serif); font-size: 17px; line-height: 1.6; color: var(--ink); opacity: 0; transform: translateY(8px); animation: fadeUp 0.5s ease forwards; }
@@ -213,6 +214,7 @@ async function render() {
 
   html += `<div class="clue-section">
     <div class="clue-label">CLUE${revealedSentences.length>1?'S':''} REVEALED — ${revealedSentences.length} of ${PUZZLE.sentences.length}</div>
+    ${PUZZLE.partOfSpeech ? `<div class="part-of-speech">PART OF SPEECH — ${PUZZLE.partOfSpeech}</div>` : ""}
     <div class="clues">`;
   revealedSentences.forEach((s,i) => {
     html += `<div class="clue" style="animation-delay:${i*0.08}s"><div class="clue-num">— ${i+1}</div>${s}</div>`;
