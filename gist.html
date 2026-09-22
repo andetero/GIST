@@ -74,7 +74,8 @@
 
     .clue-section { padding: 32px 0 24px; flex: 1; }
 
-    .clue-label { font-family: var(--mono); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--mid); margin-bottom: 16px; }
+    .clue-label { font-family: var(--mono); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--mid); margin-bottom: 8px; }
+    .part-of-speech { font-family: var(--mono); font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--mid); margin-bottom: 16px; }
 
     .clues { display: flex; flex-direction: column; }
 
@@ -203,7 +204,7 @@
 </div>
 
 <script>
-const PUZZLE = {"answer":"forgetting","difficulty":"EASY","sentences":["It is the quiet tide that smooths the shore after every wave, leaving no record of what once broke there.","Scientists have found it is not a failure of the mind but an active process — the brain deliberately letting go of what it deems unnecessary.","It can be a mercy after loss, or a small betrayal of someone who deserved to be kept.","We fear it most when it comes for names, faces, and the details that once felt impossible to lose.","Without it, every embarrassment, every slight, every grief would remain as vivid as the moment it arrived."],"close":["forget","forgetfulness","forgotten","forgets"],"id":201};
+const PUZZLE = {"answer":"forgetting","difficulty":"EASY","sentences":["It is the quiet tide that smooths the shore after every wave, leaving no record of what once broke there.","Scientists have found it is not a failure of the mind but an active process — the brain deliberately letting go of what it deems unnecessary.","It can be a mercy after loss, or a small betrayal of someone who deserved to be kept.","We fear it most when it comes for names, faces, and the details that once felt impossible to lose.","Without it, every embarrassment, every slight, every grief would remain as vivid as the moment it arrived."],"close":["forget","forgetfulness","forgotten","forgets"],"id":201,"partOfSpeech":"Verb (present participle)"};
 const STORAGE_KEY = `gist-${PUZZLE.id}`;
 
 let state = loadState();
@@ -249,6 +250,7 @@ async function render() {
 
   html += `<div class="clue-section">
     <div class="clue-label">CLUE${revealedSentences.length > 1 ? 'S' : ''} REVEALED — ${revealedSentences.length} of ${PUZZLE.sentences.length}</div>
+    ${PUZZLE.partOfSpeech ? `<div class="part-of-speech">PART OF SPEECH — ${PUZZLE.partOfSpeech}</div>` : ""}
     <div class="clues">`;
   revealedSentences.forEach((s, i) => {
     html += `<div class="clue" style="animation-delay:${i * 0.08}s"><div class="clue-num">— ${i + 1}</div>${s}</div>`;
