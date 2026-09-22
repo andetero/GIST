@@ -15,7 +15,8 @@
       "forgotten",
       "forgets"
     ],
-    "id": 201
+    "id": 201,
+    "partOfSpeech": "Verb (present participle)"
   },
   {
     "answer": "mistake",
@@ -34,7 +35,8 @@
       "blunder",
       "misstep"
     ],
-    "id": 200
+    "id": 200,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "triage",
@@ -53,7 +55,8 @@
       "sorting",
       "rationing"
     ],
-    "id": 199
+    "id": 199,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "conviction",
@@ -72,7 +75,8 @@
       "certainty",
       "belief"
     ],
-    "id": 198
+    "id": 198,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "precedent",
@@ -90,7 +94,8 @@
       "precedented",
       "unprecedent"
     ],
-    "id": 197
+    "id": 197,
+    "partOfSpeech": "Noun"
   },
   {
     "closer": [
@@ -115,7 +120,8 @@
       "indifference",
       "distance"
     ],
-    "id": 196
+    "id": 196,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "acceleration",
@@ -134,7 +140,8 @@
       "velocity",
       "momentum"
     ],
-    "id": 195
+    "id": 195,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "sorrow",
@@ -153,7 +160,8 @@
       "sadness",
       "grief"
     ],
-    "id": 194
+    "id": 194,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "rehearsal",
@@ -172,7 +180,8 @@
       "practice",
       "preparation"
     ],
-    "id": 193
+    "id": 193,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "precipitation",
@@ -191,7 +200,8 @@
       "rainfall",
       "condensation"
     ],
-    "id": 192
+    "id": 192,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "severance",
@@ -210,7 +220,8 @@
       "separation",
       "rupture"
     ],
-    "id": 191
+    "id": 191,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "deflection",
@@ -229,7 +240,8 @@
       "evasion",
       "redirection"
     ],
-    "id": 190
+    "id": 190,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "persuasion",
@@ -248,7 +260,8 @@
       "persuaded",
       "rhetoric"
     ],
-    "id": 189
+    "id": 189,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "intimidation",
@@ -267,7 +280,8 @@
       "coercion",
       "menace"
     ],
-    "id": 188
+    "id": 188,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "congratulations",
@@ -286,7 +300,8 @@
       "celebration",
       "acknowledgment"
     ],
-    "id": 187
+    "id": 187,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "recognition",
@@ -305,7 +320,8 @@
       "acknowledgment",
       "familiarity"
     ],
-    "id": 186
+    "id": 186,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "tarnish",
@@ -324,7 +340,8 @@
       "corrosion",
       "discoloration"
     ],
-    "id": 185
+    "id": 185,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "audacity",
@@ -343,7 +360,8 @@
       "nerve",
       "gall"
     ],
-    "id": 184
+    "id": 184,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "sanctimony",
@@ -362,7 +380,8 @@
       "moralizing",
       "priggishness"
     ],
-    "id": 183
+    "id": 183,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "adaptation",
@@ -381,7 +400,8 @@
       "adaptability",
       "adjustment"
     ],
-    "id": 182
+    "id": 182,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "acknowledgment",
@@ -400,7 +420,8 @@
       "recognition",
       "validation"
     ],
-    "id": 181
+    "id": 181,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "echo",
@@ -419,7 +440,8 @@
       "reverberation",
       "reflection"
     ],
-    "id": 180
+    "id": 180,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "praise",
@@ -438,7 +460,8 @@
       "admiration",
       "acclaim"
     ],
-    "id": 179
+    "id": 179,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "lacquer",
@@ -457,7 +480,8 @@
       "varnish",
       "shellac"
     ],
-    "id": 178
+    "id": 178,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "recklessness",
@@ -476,7 +500,8 @@
       "rash",
       "audacity"
     ],
-    "id": 177
+    "id": 177,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "ambiguity",
@@ -495,7 +520,8 @@
       "uncertainty",
       "equivocation"
     ],
-    "id": 176
+    "id": 176,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "concession",
@@ -514,7 +540,8 @@
       "concessions",
       "capitulation"
     ],
-    "id": 175
+    "id": 175,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "superstition",
@@ -533,7 +560,8 @@
       "omen",
       "taboo"
     ],
-    "id": 174
+    "id": 174,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "eavesdropping",
@@ -552,7 +580,8 @@
       "snooping",
       "listening"
     ],
-    "id": 173
+    "id": 173,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "approval",
@@ -571,7 +600,8 @@
       "validation",
       "acceptance"
     ],
-    "id": 172
+    "id": 172,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "calcification",
@@ -590,7 +620,8 @@
       "calcifies",
       "calcification"
     ],
-    "id": 171
+    "id": 171,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "deference",
@@ -609,7 +640,8 @@
       "deferred",
       "submission"
     ],
-    "id": 170
+    "id": 170,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "sovereignty",
@@ -628,7 +660,8 @@
       "self-determination",
       "supremacy"
     ],
-    "id": 169
+    "id": 169,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "negotiation",
@@ -647,7 +680,8 @@
       "bargaining",
       "compromise"
     ],
-    "id": 168
+    "id": 168,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "assumption",
@@ -666,7 +700,8 @@
       "presumption",
       "presupposition"
     ],
-    "id": 167
+    "id": 167,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "celebration",
@@ -685,7 +720,8 @@
       "festivities",
       "festivity"
     ],
-    "id": 166
+    "id": 166,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "encouragement",
@@ -704,7 +740,8 @@
       "support",
       "motivation"
     ],
-    "id": 165
+    "id": 165,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "mimicry",
@@ -723,7 +760,8 @@
       "mimesis",
       "impersonation"
     ],
-    "id": 164
+    "id": 164,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "inference",
@@ -742,7 +780,8 @@
       "deduction",
       "conclusion"
     ],
-    "id": 163
+    "id": 163,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "pretense",
@@ -761,7 +800,8 @@
       "pretension",
       "pretensions"
     ],
-    "id": 162
+    "id": 162,
+    "partOfSpeech": "Noun"
   },
   {
     "puzzle_number": 161,
@@ -782,7 +822,8 @@
       "compliance",
       "uniformity"
     ],
-    "id": 161
+    "id": 161,
+    "partOfSpeech": "Noun"
   },
   {
     "puzzle_number": 160,
@@ -803,7 +844,8 @@
       "awareness",
       "observation"
     ],
-    "id": 160
+    "id": 160,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "mercy",
@@ -822,7 +864,8 @@
       "clemency",
       "compassion"
     ],
-    "id": 159
+    "id": 159,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "deadline",
@@ -840,7 +883,8 @@
       "cutoff",
       "timeframe"
     ],
-    "id": 158
+    "id": 158,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "weathering",
@@ -859,7 +903,8 @@
       "wear",
       "patination"
     ],
-    "id": 157
+    "id": 157,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "facade",
@@ -878,7 +923,8 @@
       "mask",
       "veneer"
     ],
-    "id": 156
+    "id": 156,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "alchemy",
@@ -896,7 +942,8 @@
       "alchemists",
       "transmutation"
     ],
-    "id": 155
+    "id": 155,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "distillation",
@@ -915,7 +962,8 @@
       "essence",
       "refinement"
     ],
-    "id": 154
+    "id": 154,
+    "partOfSpeech": "Noun"
   },
   {
     "puzzle_number": 153,
@@ -936,7 +984,8 @@
       "urgency",
       "eagerness"
     ],
-    "id": 153
+    "id": 153,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "farewell",
@@ -955,7 +1004,8 @@
       "leave-taking",
       "adieu"
     ],
-    "id": 152
+    "id": 152,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "gossip",
@@ -974,7 +1024,8 @@
       "rumor",
       "hearsay"
     ],
-    "id": 151
+    "id": 151,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "camber",
@@ -993,7 +1044,8 @@
       "slope",
       "crown"
     ],
-    "id": 150
+    "id": 150,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "resignation",
@@ -1012,7 +1064,8 @@
       "acquiescence",
       "acceptance"
     ],
-    "id": 149
+    "id": 149,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "abdication",
@@ -1031,7 +1084,8 @@
       "renunciation",
       "relinquishment"
     ],
-    "id": 148
+    "id": 148,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "permission",
@@ -1050,7 +1104,8 @@
       "consent",
       "authorization"
     ],
-    "id": 147
+    "id": 147,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "credibility",
@@ -1069,7 +1124,8 @@
       "authority",
       "reliability"
     ],
-    "id": 146
+    "id": 146,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "applause",
@@ -1088,7 +1144,8 @@
       "cheering",
       "acclaim"
     ],
-    "id": 145
+    "id": 145,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "scar",
@@ -1107,7 +1164,8 @@
       "wound",
       "mark"
     ],
-    "id": 144
+    "id": 144,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "osmosis",
@@ -1126,7 +1184,8 @@
       "permeation",
       "permeability"
     ],
-    "id": 143
+    "id": 143,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "obsolescence",
@@ -1145,7 +1204,8 @@
       "irrelevance",
       "redundancy"
     ],
-    "id": 142
+    "id": 142,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "contagion",
@@ -1164,7 +1224,8 @@
       "infection",
       "spread"
     ],
-    "id": 141
+    "id": 141,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "coincidence",
@@ -1183,7 +1244,8 @@
       "synchronicity",
       "happenstance"
     ],
-    "id": 140
+    "id": 140,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "imitation",
@@ -1202,7 +1264,8 @@
       "mimicry",
       "emulation"
     ],
-    "id": 139
+    "id": 139,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "compliment",
@@ -1221,7 +1284,8 @@
       "praise",
       "flattery"
     ],
-    "id": 138
+    "id": 138,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "practice",
@@ -1240,7 +1304,8 @@
       "drill",
       "repetition"
     ],
-    "id": 137
+    "id": 137,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "patina",
@@ -1259,7 +1324,8 @@
       "aging",
       "verdigris"
     ],
-    "id": 136
+    "id": 136,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "attrition",
@@ -1278,7 +1344,8 @@
       "wearing",
       "exhaustion"
     ],
-    "id": 135
+    "id": 135,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "stagnation",
@@ -1297,7 +1364,8 @@
       "inertia",
       "stasis"
     ],
-    "id": 134
+    "id": 134,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "closure",
@@ -1316,7 +1384,8 @@
       "closed",
       "closing"
     ],
-    "id": 133
+    "id": 133,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "obligation",
@@ -1335,7 +1404,8 @@
       "duty",
       "commitment"
     ],
-    "id": 132
+    "id": 132,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "kindness",
@@ -1354,7 +1424,8 @@
       "generosity",
       "gentleness"
     ],
-    "id": 131
+    "id": 131,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "homesickness",
@@ -1372,7 +1443,8 @@
       "yearning",
       "nostalgia"
     ],
-    "id": 130
+    "id": 130,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "oxidation",
@@ -1391,7 +1463,8 @@
       "corrosion",
       "rust"
     ],
-    "id": 129
+    "id": 129,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "leverage",
@@ -1410,7 +1483,8 @@
       "advantage",
       "clout"
     ],
-    "id": 128
+    "id": 128,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "reckoning",
@@ -1429,7 +1503,8 @@
       "judgment",
       "atonement"
     ],
-    "id": 127
+    "id": 127,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "humility",
@@ -1448,7 +1523,8 @@
       "meekness",
       "humbling"
     ],
-    "id": 126
+    "id": 126,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "manipulation",
@@ -1467,7 +1543,8 @@
       "manipulative",
       "coercion"
     ],
-    "id": 125
+    "id": 125,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "flattery",
@@ -1486,7 +1563,8 @@
       "adulation",
       "sycophancy"
     ],
-    "id": 124
+    "id": 124,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "distraction",
@@ -1505,7 +1583,8 @@
       "distract",
       "inattention"
     ],
-    "id": 123
+    "id": 123,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "buoyancy",
@@ -1523,7 +1602,8 @@
       "flotation",
       "floatation"
     ],
-    "id": 122
+    "id": 122,
+    "partOfSpeech": "Noun"
   },
   {
     "puzzle_number": 121,
@@ -1544,7 +1624,8 @@
       "collaboration",
       "conspiracy"
     ],
-    "id": 121
+    "id": 121,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "abstinence",
@@ -1563,7 +1644,8 @@
       "temperance",
       "restraint"
     ],
-    "id": 120
+    "id": 120,
+    "partOfSpeech": "Noun"
   },
   {
     "answers": "delegation",
@@ -1583,7 +1665,8 @@
       "authority",
       "entrust"
     ],
-    "id": 119
+    "id": 119,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "stubbornness",
@@ -1602,7 +1685,8 @@
       "tenacity",
       "pigheadedness"
     ],
-    "id": 118
+    "id": 118,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "envy",
@@ -1621,7 +1705,8 @@
       "covetous",
       "resentment"
     ],
-    "id": 117
+    "id": 117,
+    "partOfSpeech": "Noun"
   },
   {
     "answers": "daydream",
@@ -1641,7 +1726,8 @@
       "fantasy",
       "reverie"
     ],
-    "id": 116
+    "id": 116,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "calibration",
@@ -1660,7 +1746,8 @@
       "recalibration",
       "adjustment"
     ],
-    "id": 115
+    "id": 115,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "illusion",
@@ -1679,7 +1766,8 @@
       "delusion",
       "mirage"
     ],
-    "id": 114
+    "id": 114,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "dissonance",
@@ -1698,7 +1786,8 @@
       "incongruence",
       "tension"
     ],
-    "id": 113
+    "id": 113,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "inheritance",
@@ -1717,7 +1806,8 @@
       "legacy",
       "heirloom"
     ],
-    "id": 112
+    "id": 112,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "regret",
@@ -1736,7 +1826,8 @@
       "remorse",
       "rue"
     ],
-    "id": 111
+    "id": 111,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "warmth",
@@ -1755,7 +1846,8 @@
       "warmness",
       "coziness"
     ],
-    "id": 110
+    "id": 110,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "habit",
@@ -1774,7 +1866,8 @@
       "custom",
       "reflex"
     ],
-    "id": 109
+    "id": 109,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "camouflage",
@@ -1793,7 +1886,8 @@
       "mimicry",
       "disguise"
     ],
-    "id": 108
+    "id": 108,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "reconciliation",
@@ -1812,7 +1906,8 @@
       "reparation",
       "rapprochement"
     ],
-    "id": 107
+    "id": 107,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "accountability",
@@ -1831,7 +1926,8 @@
       "culpability",
       "reckoning"
     ],
-    "id": 106
+    "id": 106,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "plagiarism",
@@ -1850,7 +1946,8 @@
       "plagiarist",
       "copying"
     ],
-    "id": 105
+    "id": 105,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "reputation",
@@ -1869,7 +1966,8 @@
       "prestige",
       "renown"
     ],
-    "id": 104
+    "id": 104,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "grief",
@@ -1888,7 +1986,8 @@
       "mourning",
       "sorrow"
     ],
-    "id": 103
+    "id": 103,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "relief",
@@ -1907,7 +2006,8 @@
       "release",
       "comfort"
     ],
-    "id": 102
+    "id": 102,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "topology",
@@ -1925,7 +2025,8 @@
       "topologies",
       "geometric"
     ],
-    "id": 101
+    "id": 101,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "epiphany",
@@ -1944,7 +2045,8 @@
       "enlightenment",
       "epiphanies"
     ],
-    "id": 100
+    "id": 100,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "contingency",
@@ -1963,7 +2065,8 @@
       "possibility",
       "chance"
     ],
-    "id": 99
+    "id": 99,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "restlessness",
@@ -1982,7 +2085,8 @@
       "fidgeting",
       "unease"
     ],
-    "id": 98
+    "id": 98,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "scrutiny",
@@ -2001,7 +2105,8 @@
       "examination",
       "inspection"
     ],
-    "id": 97
+    "id": 97,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "wonder",
@@ -2020,7 +2125,8 @@
       "amazement",
       "awe"
     ],
-    "id": 96
+    "id": 96,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "migration",
@@ -2039,7 +2145,8 @@
       "journey",
       "pilgrimage"
     ],
-    "id": 95
+    "id": 95,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "erosion",
@@ -2058,7 +2165,8 @@
       "weathering",
       "corrosion"
     ],
-    "id": 94
+    "id": 94,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "reverie",
@@ -2077,7 +2185,8 @@
       "musing",
       "contemplation"
     ],
-    "id": 93
+    "id": 93,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "transcendence",
@@ -2096,7 +2205,8 @@
       "transcends",
       "transcendental"
     ],
-    "id": 92
+    "id": 92,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "loyalty",
@@ -2115,7 +2225,8 @@
       "loyal",
       "fidelity"
     ],
-    "id": 91
+    "id": 91,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "addiction",
@@ -2134,7 +2245,8 @@
       "compulsion",
       "dependence"
     ],
-    "id": 90
+    "id": 90,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "pride",
@@ -2153,7 +2265,8 @@
       "dignity",
       "honor"
     ],
-    "id": 89
+    "id": 89,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "panic",
@@ -2172,7 +2285,8 @@
       "alarm",
       "dread"
     ],
-    "id": 88
+    "id": 88,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "fervor",
@@ -2191,7 +2305,8 @@
       "fervency",
       "fervent"
     ],
-    "id": 87
+    "id": 87,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "symmetry",
@@ -2210,7 +2325,8 @@
       "harmony",
       "equilibrium"
     ],
-    "id": 86
+    "id": 86,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "complacency",
@@ -2228,7 +2344,8 @@
       "self-satisfaction",
       "overconfidence"
     ],
-    "id": 85
+    "id": 85,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "rhythm",
@@ -2247,7 +2364,8 @@
       "tempo",
       "pulse"
     ],
-    "id": 84
+    "id": 84,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "compromise",
@@ -2266,7 +2384,8 @@
       "negotiation",
       "settlement"
     ],
-    "id": 83
+    "id": 83,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "exhaustion",
@@ -2285,7 +2404,8 @@
       "weariness",
       "depleted"
     ],
-    "id": 82
+    "id": 82,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "gratitude",
@@ -2303,7 +2423,8 @@
       "thankfulness",
       "gratefulness"
     ],
-    "id": 81
+    "id": 81,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "refraction",
@@ -2322,7 +2443,8 @@
       "refractive",
       "diffraction"
     ],
-    "id": 80
+    "id": 80,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "empathy",
@@ -2341,7 +2463,8 @@
       "compassion",
       "sympathy"
     ],
-    "id": 79
+    "id": 79,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "vindictiveness",
@@ -2360,7 +2483,8 @@
       "retribution",
       "spite"
     ],
-    "id": 78
+    "id": 78,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "discipline",
@@ -2379,7 +2503,8 @@
       "undisciplined",
       "self-control"
     ],
-    "id": 77
+    "id": 77,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "sympathy",
@@ -2398,7 +2523,8 @@
       "empathy",
       "compassion"
     ],
-    "id": 76
+    "id": 76,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "courage",
@@ -2417,7 +2543,8 @@
       "courageous",
       "brave"
     ],
-    "id": 75
+    "id": 75,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "confusion",
@@ -2436,7 +2563,8 @@
       "bewilderment",
       "perplexity"
     ],
-    "id": 74
+    "id": 74,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "turbulence",
@@ -2455,7 +2583,8 @@
       "disturbance",
       "agitation"
     ],
-    "id": 73
+    "id": 73,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "schadenfreude",
@@ -2474,7 +2603,8 @@
       "satisfaction",
       "gloating"
     ],
-    "id": 72
+    "id": 72,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "melancholia",
@@ -2493,7 +2623,8 @@
       "despondency",
       "gloom"
     ],
-    "id": 71
+    "id": 71,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "deception",
@@ -2512,7 +2643,8 @@
       "deceptive",
       "deceit"
     ],
-    "id": 70
+    "id": 70,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "guilt",
@@ -2531,7 +2663,8 @@
       "shame",
       "conscience"
     ],
-    "id": 69
+    "id": 69,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "happiness",
@@ -2550,7 +2683,8 @@
       "happy",
       "cheerfulness"
     ],
-    "id": 68
+    "id": 68,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "balance",
@@ -2569,7 +2703,8 @@
       "balanced",
       "balancing"
     ],
-    "id": 67
+    "id": 67,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "friction",
@@ -2588,7 +2723,8 @@
       "abrasion",
       "rubbing"
     ],
-    "id": 66
+    "id": 66,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "reciprocity",
@@ -2607,7 +2743,8 @@
       "mutuality",
       "exchange"
     ],
-    "id": 65
+    "id": 65,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "inertia",
@@ -2626,7 +2763,8 @@
       "lethargy",
       "immobility"
     ],
-    "id": 64
+    "id": 64,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "inspiration",
@@ -2645,7 +2783,8 @@
       "creativity",
       "motivation"
     ],
-    "id": 63
+    "id": 63,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "temptation",
@@ -2664,7 +2803,8 @@
       "allure",
       "seduction"
     ],
-    "id": 62
+    "id": 62,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "sleep",
@@ -2683,7 +2823,8 @@
       "nap",
       "sleeps"
     ],
-    "id": 61
+    "id": 61,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "surprise",
@@ -2702,7 +2843,8 @@
       "shock",
       "amazement"
     ],
-    "id": 60
+    "id": 60,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "vertigo",
@@ -2721,7 +2863,8 @@
       "vertiginous",
       "acrophobia"
     ],
-    "id": 59
+    "id": 59,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "vindication",
@@ -2740,7 +2883,8 @@
       "exoneration",
       "justification"
     ],
-    "id": 58
+    "id": 58,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "paradox",
@@ -2759,7 +2903,8 @@
       "conundrum",
       "antinomy"
     ],
-    "id": 57
+    "id": 57,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "improvisation",
@@ -2778,7 +2923,8 @@
       "spontaneity",
       "adaptation"
     ],
-    "id": 56
+    "id": 56,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "frustration",
@@ -2797,7 +2943,8 @@
       "exasperation",
       "irritation"
     ],
-    "id": 55
+    "id": 55,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "loneliness",
@@ -2816,7 +2963,8 @@
       "emptiness",
       "lonely"
     ],
-    "id": 54
+    "id": 54,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "shadow",
@@ -2834,7 +2982,8 @@
       "shade",
       "darkness"
     ],
-    "id": 53
+    "id": 53,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "acoustics",
@@ -2853,7 +3002,8 @@
       "resonance",
       "audio"
     ],
-    "id": 52
+    "id": 52,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "entropy",
@@ -2872,7 +3022,8 @@
       "degradation",
       "entropic"
     ],
-    "id": 51
+    "id": 51,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "catharsis",
@@ -2891,7 +3042,8 @@
       "cleansing",
       "purgation"
     ],
-    "id": 50
+    "id": 50,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "intuition",
@@ -2910,7 +3062,8 @@
       "hunches",
       "gut-feeling"
     ],
-    "id": 49
+    "id": 49,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "serendipity",
@@ -2929,7 +3082,8 @@
       "chance",
       "serendipitous"
     ],
-    "id": 48
+    "id": 48,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "hunger",
@@ -2948,7 +3102,8 @@
       "craving",
       "famished"
     ],
-    "id": 47
+    "id": 47,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "thirst",
@@ -2966,7 +3121,8 @@
       "dehydration",
       "craving"
     ],
-    "id": 46
+    "id": 46,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "resonance",
@@ -2985,7 +3141,8 @@
       "resonated",
       "vibration"
     ],
-    "id": 45
+    "id": 45,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "ambivalence",
@@ -3004,7 +3161,8 @@
       "contradiction",
       "paradox"
     ],
-    "id": 44
+    "id": 44,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "euphemism",
@@ -3023,7 +3181,8 @@
       "understatement",
       "doublespeak"
     ],
-    "id": 43
+    "id": 43,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "betrayal",
@@ -3042,7 +3201,8 @@
       "betraying",
       "treachery"
     ],
-    "id": 42
+    "id": 42,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "nostalgia",
@@ -3061,7 +3221,8 @@
       "longing",
       "reminisce"
     ],
-    "id": 41
+    "id": 41,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "memory",
@@ -3080,7 +3241,8 @@
       "remembered",
       "recollection"
     ],
-    "id": 40
+    "id": 40,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "gravity",
@@ -3099,7 +3261,8 @@
       "attraction",
       "heaviness"
     ],
-    "id": 39
+    "id": 39,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "synesthesia",
@@ -3117,7 +3280,8 @@
       "synaesthetic",
       "cross-modal"
     ],
-    "id": 38
+    "id": 38,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "disillusionment",
@@ -3136,7 +3300,8 @@
       "disappointment",
       "cynicism"
     ],
-    "id": 37
+    "id": 37,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "irony",
@@ -3155,7 +3320,8 @@
       "sarcasm",
       "satirical"
     ],
-    "id": 36
+    "id": 36,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "perspective",
@@ -3174,7 +3340,8 @@
       "perception",
       "perspectives"
     ],
-    "id": 35
+    "id": 35,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "persistence",
@@ -3193,7 +3360,8 @@
       "perseverance",
       "tenacity"
     ],
-    "id": 34
+    "id": 34,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "doubt",
@@ -3212,7 +3380,8 @@
       "doubtful",
       "doubting"
     ],
-    "id": 33
+    "id": 33,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "reflection",
@@ -3231,7 +3400,8 @@
       "reflective",
       "mirror"
     ],
-    "id": 32
+    "id": 32,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "counterpoint",
@@ -3249,7 +3419,8 @@
       "countermelody",
       "contrapuntal"
     ],
-    "id": 31
+    "id": 31,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "hubris",
@@ -3268,7 +3439,8 @@
       "conceit",
       "hubris"
     ],
-    "id": 30
+    "id": 30,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "metamorphosis",
@@ -3287,7 +3459,8 @@
       "metamorphoses",
       "change"
     ],
-    "id": 29
+    "id": 29,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "obsession",
@@ -3306,7 +3479,8 @@
       "fixation",
       "compulsion"
     ],
-    "id": 28
+    "id": 28,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "ritual",
@@ -3325,7 +3499,8 @@
       "rite",
       "custom"
     ],
-    "id": 27
+    "id": 27,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "trust",
@@ -3344,7 +3519,8 @@
       "confidence",
       "belief"
     ],
-    "id": 26
+    "id": 26,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "patience",
@@ -3363,7 +3539,8 @@
       "tolerance",
       "forbearance"
     ],
-    "id": 25
+    "id": 25,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "crystallization",
@@ -3382,7 +3559,8 @@
       "precipitation",
       "solidification"
     ],
-    "id": 24
+    "id": 24,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "vulnerability",
@@ -3401,7 +3579,8 @@
       "openness",
       "susceptibility"
     ],
-    "id": 23
+    "id": 23,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "melancholy",
@@ -3420,7 +3599,8 @@
       "mournfulness",
       "plaintiveness"
     ],
-    "id": 22
+    "id": 22,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "betrayal",
@@ -3439,7 +3619,8 @@
       "treachery",
       "disloyalty"
     ],
-    "id": 21
+    "id": 21,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "jealousy",
@@ -3458,7 +3639,8 @@
       "resentment",
       "possessiveness"
     ],
-    "id": 20
+    "id": 20,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "boredom",
@@ -3477,7 +3659,8 @@
       "restlessness",
       "ennui"
     ],
-    "id": 19
+    "id": 19,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "laughter",
@@ -3496,7 +3679,8 @@
       "chuckle",
       "giggle"
     ],
-    "id": 18
+    "id": 18,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "fermentation",
@@ -3515,7 +3699,8 @@
       "brewing",
       "culturing"
     ],
-    "id": 17
+    "id": 17,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "procrastination",
@@ -3534,7 +3719,8 @@
       "delay",
       "avoidance"
     ],
-    "id": 16
+    "id": 16,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "serendipity",
@@ -3553,7 +3739,8 @@
       "fortune",
       "destiny"
     ],
-    "id": 15
+    "id": 15,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "anticipation",
@@ -3572,7 +3759,8 @@
       "eagerness",
       "apprehension"
     ],
-    "id": 14
+    "id": 14,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "momentum",
@@ -3591,7 +3779,8 @@
       "drive",
       "force"
     ],
-    "id": 13
+    "id": 13,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "curiosity",
@@ -3610,7 +3799,8 @@
       "fascination",
       "questioning"
     ],
-    "id": 12
+    "id": 12,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "friendship",
@@ -3629,7 +3819,8 @@
       "affection",
       "loyalty"
     ],
-    "id": 11
+    "id": 11,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "resonance",
@@ -3648,7 +3839,8 @@
       "amplification",
       "frequency"
     ],
-    "id": 10
+    "id": 10,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "apophenia",
@@ -3666,7 +3858,8 @@
       "delusion",
       "projection"
     ],
-    "id": 9
+    "id": 9,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "nostalgia",
@@ -3685,7 +3878,8 @@
       "yearning",
       "homesickness"
     ],
-    "id": 8
+    "id": 8,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "ambition",
@@ -3704,7 +3898,8 @@
       "hunger",
       "motivation"
     ],
-    "id": 7
+    "id": 7,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "silence",
@@ -3723,7 +3918,8 @@
       "muteness",
       "calm"
     ],
-    "id": 6
+    "id": 6,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "forgiveness",
@@ -3742,7 +3938,8 @@
       "clemency",
       "grace"
     ],
-    "id": 5
+    "id": 5,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "memory",
@@ -3760,7 +3957,8 @@
       "recall",
       "reminiscence"
     ],
-    "id": 4
+    "id": 4,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "hunger",
@@ -3779,7 +3977,8 @@
       "desire",
       "thirst"
     ],
-    "id": 3
+    "id": 3,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "embarrassment",
@@ -3798,7 +3997,8 @@
       "awkwardness",
       "chagrin"
     ],
-    "id": 2
+    "id": 2,
+    "partOfSpeech": "Noun"
   },
   {
     "answer": "threshold",
@@ -3817,6 +4017,7 @@
       "edge",
       "margin"
     ],
-    "id": 1
+    "id": 1,
+    "partOfSpeech": "Noun"
   }
 ]
