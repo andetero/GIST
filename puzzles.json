@@ -1,5 +1,25 @@
 [
   {
+    "answer": "surrender",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "There is a strange paradox in the act: strength is required to perform it, yet it is so often mistaken for weakness.",
+      "It arrives at the edge of resistance, when the cost of holding on finally exceeds the cost of letting go.",
+      "In warfare it is marked by a white flag; in therapy it is often the turning point that practitioners quietly wait for.",
+      "It differs from defeat in that it carries an element of will — the one who enacts it chooses, however reluctantly, to stop fighting.",
+      "Whether releasing a long-held argument, a dying relationship, or the illusion of control, the gesture is the same: open hands, lowered defenses, a quiet yes to what is."
+    ],
+    "close": [
+      "surrendering",
+      "surrendered",
+      "capitulation",
+      "yielding",
+      "submission"
+    ],
+    "id": 202
+  },
+  {
     "answer": "forgetting",
     "difficulty": "EASY",
     "sentences": [
