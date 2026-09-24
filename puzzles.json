@@ -1,5 +1,25 @@
 [
   {
+    "answer": "stalling",
+    "partOfSpeech": "Verb (present participle)",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "There is a particular texture to time when it is being spent rather than used — neither wasted nor invested, but held in suspension.",
+      "It can look like diligence from the outside: papers shuffled, questions asked, small tasks completed with great care.",
+      "Aviators and engineers use the same word for an engine losing thrust, a wing losing lift — the moment forward motion can no longer be sustained.",
+      "A conversation can be kept alive this way for hours, its real purpose never quite arrived at, its ending indefinitely postponed.",
+      "The tactic buys time at the cost of progress, and its practitioners often know, somewhere beneath the busyness, that the inevitable is only being delayed."
+    ],
+    "close": [
+      "stall",
+      "stalled",
+      "delaying",
+      "hesitating",
+      "procrastinating"
+    ],
+    "id": 203
+  },
+  {
     "answer": "surrender",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "MEDIUM",
