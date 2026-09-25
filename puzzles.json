@@ -1,5 +1,25 @@
 [
   {
+    "answer": "allegiance",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "HARD",
+    "sentences": [
+      "It is the invisible architecture of belonging — a structure that holds not by force but by something closer to gravity.",
+      "Philosophers distinguish it from mere obedience, arguing that it requires an interior assent that commands cannot manufacture.",
+      "Empires have crumbled precisely when the thing they demanded ceased to be felt, existing only on paper and in ceremony.",
+      "It is tested most honestly not in moments of reward but in moments when abandonment would come at no cost.",
+      "Soldiers swear it, citizens pledge it, and lovers offer it without ever quite using the word — a commitment of the self to something beyond the self."
+    ],
+    "close": [
+      "allegiances",
+      "loyalty",
+      "fealty",
+      "fidelity",
+      "devotion"
+    ],
+    "id": 204
+  },
+  {
     "answer": "stalling",
     "partOfSpeech": "Verb (present participle)",
     "difficulty": "MEDIUM",
