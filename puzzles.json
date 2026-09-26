@@ -1,5 +1,25 @@
 [
   {
+    "answer": "defiance",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "HARD",
+    "sentences": [
+      "It is the posture of the self when the self refuses to be diminished by what surrounds it.",
+      "Psychologists note it can emerge from powerlessness as readily as from strength — a paradox that makes it difficult to judge from the outside.",
+      "Its most celebrated expressions are quiet: a single figure refusing to move, a letter signed knowing what will follow, a song sung in a place where singing is forbidden.",
+      "It differs from rebellion in that it does not necessarily seek to overthrow anything — it is content simply to remain, unmoved, in the face of pressure.",
+      "The word derives from the Old French for 'renouncing allegiance,' and carries within it the idea that one has weighed what is being asked and chosen, deliberately, to say no."
+    ],
+    "close": [
+      "defiant",
+      "defy",
+      "defying",
+      "defied",
+      "resistance"
+    ],
+    "id": 205
+  },
+  {
     "answer": "allegiance",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "HARD",
