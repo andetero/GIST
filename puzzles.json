@@ -1,5 +1,25 @@
 [
   {
+    "answer": "palimpsest",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "WILDCARD",
+    "sentences": [
+      "It is a thing that holds its own erasure inside itself, where every overwriting becomes a kind of confession about what came before.",
+      "Scholars of antiquity prized the phenomenon it describes: a medieval monk's prayer that, under ultraviolet light, dissolves into Cicero.",
+      "The concept migrated from manuscript culture into geology, urban planning, and psychoanalysis, wherever the present sits visibly atop a buried past.",
+      "A city that tears down its Roman walls to build a cathedral, then converts the cathedral into apartments, becomes one in stone.",
+      "The word derives from Greek roots meaning 'scraped again,' referring to a writing surface — parchment or wax — that was cleaned for reuse but never fully purged of its previous text."
+    ],
+    "close": [
+      "palimpsests",
+      "overwriting",
+      "manuscript",
+      "stratigraphy",
+      "layering"
+    ],
+    "id": 206
+  },
+  {
     "answer": "defiance",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "HARD",
