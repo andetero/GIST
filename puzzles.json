@@ -1,5 +1,25 @@
 [
   {
+    "answer": "interruption",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "EASY",
+    "sentences": [
+      "It is a small collision between two streams of time, one forcing the other off its course.",
+      "Studies show it takes the average person more than twenty minutes to fully return to a task after experiencing one.",
+      "A ringing phone, a knock at the door, a sudden noise — any of these can shatter the fragile architecture of concentration.",
+      "It can be rude or welcome depending on what it displaces: a tedious meeting or a moment of quiet joy.",
+      "At its core, it is simply one thing stopping another thing before it is finished."
+    ],
+    "close": [
+      "interrupt",
+      "interrupting",
+      "interrupted",
+      "disturbance",
+      "disruption"
+    ],
+    "id": 208
+  },
+  {
     "answer": "acceptance",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "EASY",
