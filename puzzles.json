@@ -1,5 +1,25 @@
 [
   {
+    "answer": "reassurance",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "It is a kind of gift that costs the giver almost nothing yet arrives, for the receiver, like ballast against an unseen tipping point.",
+      "The need for it tends to surface not in crisis but in the quiet moments before one — when doubt is still hypothetical and the mind rehearses its worst possibilities.",
+      "A doctor's steady voice, a parent's hand on a shoulder, a second opinion that confirms the first: all are delivery mechanisms for the same essential substance.",
+      "Its power depends almost entirely on credibility — offered by someone untrustworthy, it may deepen the very anxiety it was meant to dissolve.",
+      "At its best, it does not change the facts of a situation but changes a person's capacity to bear them, transforming trembling uncertainty into something close to calm."
+    ],
+    "close": [
+      "reassure",
+      "reassuring",
+      "reassured",
+      "comfort",
+      "consolation"
+    ],
+    "id": 210
+  },
+  {
     "answer": "projection",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "MEDIUM",
