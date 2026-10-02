@@ -1,5 +1,25 @@
 [
   {
+    "answer": "clarity",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "HARD",
+    "sentences": [
+      "It arrives most often uninvited, in the aftermath of noise, and is gone before you can explain to anyone what you briefly understood.",
+      "Ancient thinkers prized it above beauty, believing that the mind which could achieve it had touched something closer to truth than any feeling could offer.",
+      "Grief, fever, and long solitude are among its strangest and most reliable doorways, as though the self must first be stripped of comfort before it can see plainly.",
+      "It is not certainty — certainty can be wrong, and sometimes is — but rather the sudden absence of the fog that made a question feel unanswerable.",
+      "Writers pursue it through revision, scientists through experiment, and meditators through stillness, each discipline a different technique for removing what obscures."
+    ],
+    "close": [
+      "clear",
+      "lucidity",
+      "clearness",
+      "transparency",
+      "precision"
+    ],
+    "id": 211
+  },
+  {
     "answer": "reassurance",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "MEDIUM",
