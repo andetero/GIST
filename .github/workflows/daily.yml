@@ -1,8 +1,5 @@
 name: Daily Puzzle
 on:
-  push:
-    paths:
-      - '.github/workflows/daily.yml'
   schedule:
     - cron: '59 21 * * *'
       timezone: 'America/Denver'
