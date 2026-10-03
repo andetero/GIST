@@ -63,7 +63,73 @@ function normalizeAnswer(value) {
 }
 
 function parsePuzzleJson(raw) {
-  return JSON.parse(String(raw).replace(/```json|```/g, "").trim());
+  const cleaned = String(raw)
+    .replace(/```json/gi, "")
+    .replace(/```/g, "")
+    .trim();
+
+  try {
+    return JSON.parse(cleaned);
+  } catch (originalError) {
+    const start = cleaned.indexOf("{");
+    if (start < 0) throw originalError;
+
+    let depth = 0;
+    let inString = false;
+    let escaped = false;
+
+    for (let i = start; i < cleaned.length; i += 1) {
+      const char = cleaned[i];
+
+      if (inString) {
+        if (escaped) {
+          escaped = false;
+        } else if (char === "\\") {
+          escaped = true;
+        } else if (char === '"') {
+          inString = false;
+        }
+        continue;
+      }
+
+      if (char === '"') {
+        inString = true;
+      } else if (char === "{") {
+        depth += 1;
+      } else if (char === "}") {
+        depth -= 1;
+        if (depth === 0) {
+          return JSON.parse(cleaned.slice(start, i + 1));
+        }
+      }
+    }
+
+    throw originalError;
+  }
+}
+
+function sanitizePuzzle(puzzle) {
+  if (!puzzle || typeof puzzle !== "object" || !Array.isArray(puzzle.close)) {
+    return puzzle;
+  }
+
+  const seen = new Set();
+  const close = [];
+
+  for (const value of puzzle.close) {
+    if (typeof value !== "string") continue;
+
+    const word = value.trim();
+    const normalized = normalizeAnswer(word);
+    if (!normalized || seen.has(normalized)) continue;
+
+    seen.add(normalized);
+    close.push(word);
+
+    if (close.length === 5) break;
+  }
+
+  return { ...puzzle, close };
 }
 
 function validatePuzzleShape(puzzle) {
@@ -277,7 +343,7 @@ for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt += 1) {
   try {
     console.log(`🔁 Attempt ${attempt}/${MAX_ATTEMPTS}`);
     const raw = await callClaude(buildPrompt({ rejectedAnswers }));
-    const candidate = parsePuzzleJson(raw);
+    const candidate = sanitizePuzzle(parsePuzzleJson(raw));
     validatePuzzleShape(candidate);
 
     const normalized = normalizeAnswer(candidate.answer);
