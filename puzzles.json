@@ -1,5 +1,25 @@
 [
   {
+    "answer": "absolution",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "HARD",
+    "sentences": [
+      "It is the thing sought when consequence alone cannot quiet the interior weather that follows a wrong.",
+      "Unlike punishment, which operates on the body or the future, it works backward through time, reaching into the wound itself.",
+      "Some traditions require a mediator — a priest, a elder, a court — while others insist it can only be granted by the one who was harmed.",
+      "Without it, even the sincerely repentant may find themselves trapped in a loop, replaying the offense long after the world has moved on.",
+      "Its Latin root means to loosen or set free, and that is precisely what it does: it unbinds a person from the weight of what they have done."
+    ],
+    "close": [
+      "absolve",
+      "absolved",
+      "absolving",
+      "exoneration",
+      "pardon"
+    ],
+    "id": 212
+  },
+  {
     "answer": "clarity",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "HARD",
