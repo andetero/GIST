@@ -1,5 +1,27 @@
 [
   {
+    "answer": "rumor",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "EASY",
+    "sentences": [
+      "It travels faster than the truth it often distorts, gathering weight with every pair of hands it passes through.",
+      "No one can quite say where it started, and that uncertainty is part of what keeps it alive.",
+      "It thrives in hallways, break rooms, and anywhere people gather and wonder aloud about things they do not know for certain.",
+      "It may contain a grain of something real, but by the time it arrives, that grain is buried under layers of assumption and embellishment.",
+      "Entire reputations have been built or destroyed by nothing more than an unverified story passed from one person to the next."
+    ],
+    "close": [
+      "rumors",
+      "rumored",
+      "rumoring",
+      "gossip",
+      "hearsay",
+      "whisper",
+      "speculation"
+    ],
+    "id": 214
+  },
+  {
     "answer": "kindling",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "WILDCARD",
