@@ -9,6 +9,8 @@ if (!ANTHROPIC_API_KEY) {
 
 const TIME_ZONE = "America/Denver";
 const MAX_ATTEMPTS = 20;
+const MIN_CLOSE_WORDS = 3;
+const MAX_CLOSE_WORDS = 10;
 const ALLOWED_PARTS_OF_SPEECH = new Set([
   "Noun (singular)",
   "Noun (plural)",
@@ -99,7 +101,13 @@ function parsePuzzleJson(raw) {
       } else if (char === "}") {
         depth -= 1;
         if (depth === 0) {
-          return JSON.parse(cleaned.slice(start, i + 1));
+          const jsonText = cleaned.slice(start, i + 1);
+          const extraText = `${cleaned.slice(0, start)} ${cleaned.slice(i + 1)}`.trim();
+          if (extraText) {
+            const preview = extraText.replace(/\s+/g, " ").slice(0, 200);
+            console.warn(`⚠️ Ignored extra model text around JSON: "${preview}"`);
+          }
+          return JSON.parse(jsonText);
         }
       }
     }
@@ -113,6 +121,7 @@ function sanitizePuzzle(puzzle) {
     return puzzle;
   }
 
+  const receivedCloseCount = puzzle.close.length;
   const seen = new Set();
   const close = [];
 
@@ -126,7 +135,11 @@ function sanitizePuzzle(puzzle) {
     seen.add(normalized);
     close.push(word);
 
-    if (close.length === 5) break;
+    if (close.length === MAX_CLOSE_WORDS) break;
+  }
+
+  if (receivedCloseCount !== close.length || receivedCloseCount < MIN_CLOSE_WORDS || receivedCloseCount > MAX_CLOSE_WORDS) {
+    console.warn(`⚠️ Close words received: ${receivedCloseCount}; kept after cleanup: ${close.length}`);
   }
 
   return { ...puzzle, close };
@@ -154,8 +167,8 @@ function validatePuzzleShape(puzzle) {
     throw new Error("Puzzle must contain exactly 5 sentences");
   }
 
-  if (!Array.isArray(puzzle.close) || puzzle.close.length < 3 || puzzle.close.length > 5) {
-    throw new Error("Puzzle close array must contain 3 to 5 words");
+  if (!Array.isArray(puzzle.close) || puzzle.close.length < MIN_CLOSE_WORDS || puzzle.close.length > MAX_CLOSE_WORDS) {
+    throw new Error(`Puzzle close array must contain ${MIN_CLOSE_WORDS} to ${MAX_CLOSE_WORDS} words (received ${Array.isArray(puzzle.close) ? puzzle.close.length : "non-array"})`);
   }
 }
 
@@ -313,7 +326,7 @@ Rules:
 - Sentence 1 should be the hardest clue (most abstract/indirect)
 - Sentence 5 should be the most revealing
 - The paragraph should feel like elegant, precise writing — not a riddle
-- Also provide 3-5 "close" words that are near-synonyms (a player guessing these gets a yellow result)
+- Also provide 3-10 "close" words that are near-synonyms or useful word-form variations (a player guessing these gets a yellow result)
 - The "close" array MUST include common variations of the answer word (verb forms, plural, adjective forms, past tense, etc.) — for example if the answer is "anticipation" include "anticipate", "anticipating", "anticipated"
 
 Return ONLY valid JSON, no markdown, exactly this format:
