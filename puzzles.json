@@ -1,5 +1,27 @@
 [
   {
+    "answer": "heartbreak",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "EASY",
+    "sentences": [
+      "It arrives not like a wound but like a door closing — a sound that keeps echoing long after the room has gone quiet.",
+      "Poets have spent centuries reaching for it, and doctors have confirmed it can mimic the symptoms of a genuine cardiac event.",
+      "It tends to strike hardest not in the moment of loss but in the ordinary moments afterward — a song on the radio, a half-empty coffee cup.",
+      "It is the particular ache of having loved something deeply and found that love insufficient to keep it.",
+      "Though the word suggests the physical organ, what breaks is something closer to the architecture of how you imagined your future."
+    ],
+    "close": [
+      "heartbroken",
+      "heartbreaking",
+      "heartbreakingly",
+      "devastation",
+      "loss",
+      "anguish",
+      "grief"
+    ],
+    "id": 215
+  },
+  {
     "answer": "rumor",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "EASY",
