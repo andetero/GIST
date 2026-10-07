@@ -1,5 +1,28 @@
 [
   {
+    "answer": "deduction",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "It is the quiet architecture of certainty, built from what is already known rather than what must be discovered.",
+      "Unlike its cousin, which leaps toward the probable, this process moves only where the evidence compels it — no farther, no less.",
+      "Mathematicians depend on it absolutely, constructing cathedrals of proof where each stone is guaranteed to hold the next.",
+      "A detective employing it does not guess; every conclusion arrived at was already latent in the premises, waiting to be uncovered.",
+      "From Sherlock Holmes to Euclid, the method earns its authority by promising that if the premises are true, the conclusion cannot be otherwise."
+    ],
+    "close": [
+      "deduce",
+      "deducing",
+      "deduced",
+      "deductive",
+      "inference",
+      "reasoning",
+      "logic",
+      "conclusion"
+    ],
+    "id": 216
+  },
+  {
     "answer": "heartbreak",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "EASY",
