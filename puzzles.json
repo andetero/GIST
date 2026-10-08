@@ -1,5 +1,27 @@
 [
   {
+    "answer": "credence",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "It is the invisible currency exchanged whenever one mind decides to accept what another mind offers as true.",
+      "Without it, even the most carefully reasoned argument remains a sound without a listener — energy expended in a vacuum.",
+      "It differs from proof in that it asks nothing of evidence, only of the receiver's willingness to extend a kind of interior hospitality.",
+      "We grant it to experts, to eyewitnesses, to old books and trusted friends, often without examining the habit itself.",
+      "When someone says they 'lend' it to a claim, they are acknowledging that belief is a resource that can be given, withheld, or recalled."
+    ],
+    "close": [
+      "credibility",
+      "belief",
+      "credulity",
+      "trust",
+      "acceptance",
+      "plausibility",
+      "faith"
+    ],
+    "id": 217
+  },
+  {
     "answer": "deduction",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "MEDIUM",
