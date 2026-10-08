@@ -126,10 +126,24 @@ function getAllLocalStates() {
   return states;
 }
 
+function localDateString() {
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, '0');
+  const day = String(now.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
+function isPuzzleAvailableToday(puzzle, today = localDateString()) {
+  const date = puzzle?.date || '';
+  return !/^\d{4}-\d{2}-\d{2}$/.test(date) || date <= today;
+}
+
 async function fetchPuzzleArchive() {
   try {
     const res = await fetch('/puzzles.json?t=' + Date.now());
-    return await res.json();
+    const puzzles = await res.json();
+    return puzzles.filter(p => isPuzzleAvailableToday(p));
   } catch(e) { return []; }
 }
 
