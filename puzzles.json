@@ -1,5 +1,27 @@
 [
   {
+    "answer": "absurdity",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "HARD",
+    "sentences": [
+      "It lives in the gap between what we demand of the universe and what the universe sees fit to offer.",
+      "Camus made it the cornerstone of an entire philosophy, arguing that the honest response to it was neither denial nor despair but revolt.",
+      "It can be comic or tragic depending almost entirely on whether it is happening to you or to someone else.",
+      "A man in a tuxedo slipping on a banana peel is its most ancient theatrical form, but its deeper versions leave no one laughing.",
+      "It arises whenever a serious, meaning-seeking creature confronts a world that is constitutionally indifferent to its questions."
+    ],
+    "close": [
+      "absurd",
+      "absurdism",
+      "absurdist",
+      "absurdness",
+      "absurdities",
+      "ridiculousness",
+      "ludicrousness"
+    ],
+    "id": 218
+  },
+  {
     "answer": "credence",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "MEDIUM",
