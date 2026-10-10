@@ -1,5 +1,27 @@
 [
   {
+    "answer": "desolation",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "HARD",
+    "sentences": [
+      "It is what remains when meaning has been subtracted from space, leaving a geometry that no longer answers to the human gaze.",
+      "Explorers have described it not as the absence of life but as the active presence of a force that resists habitation, as though the land itself has declined the invitation.",
+      "It exists in both the physical and emotional registers with equal authority — a bombed city and a bereaved heart can share the same essential quality.",
+      "Unlike mere emptiness, it carries a historical shadow: the implication that something once flourished here and chose, or was forced, to stop.",
+      "The word traces through Old French and Latin to a root meaning 'utterly abandoned,' and it has described wastelands, ruins, and certain faces caught in unguarded moments."
+    ],
+    "close": [
+      "desolate",
+      "desolated",
+      "devastation",
+      "barrenness",
+      "abandonment",
+      "bleakness",
+      "wasteland"
+    ],
+    "id": 219
+  },
+  {
     "answer": "absurdity",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "HARD",
