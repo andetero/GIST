@@ -266,36 +266,38 @@ const DIFFICULTY = DIFFICULTY_MAP[DOW];
 const DIFFICULTY_INSTRUCTIONS = {
   easy: `
 DIFFICULTY: EASY
-- The answer word should be concrete and universally familiar but not instantly obvious
-- Examples of appropriate answer words: sleep, laughter, hunger, embarrassment, boredom, jealousy, curiosity
-- The paragraph clues should be warm and accessible — someone should get it in 2-3 guesses
-- Sentence 1 can be poetic but should not be impenetrable
-- Avoid obscure vocabulary in the clues
-- The word should be familiar but require a moment of thought`,
+- Choose an ordinary word almost everyone knows and uses in everyday conversation; a common feeling, action, object, or experience is ideal
+- Examples of the level of familiarity: sleep, laughter, hunger, embarrassment, boredom, jealousy, curiosity (examples only; do not reuse historical answers)
+- Make it genuinely approachable: a typical player should have a fair chance by clue 2 or 3
+- Sentence 1 can be intriguing but should be understandable without decoding elaborate metaphors
+- Sentence 2 MUST include a specific, recognizable everyday situation or example that points toward the answer
+- Use simple vocabulary and increasingly concrete clues; avoid overly poetic, technical, or philosophical descriptions`,
 
   medium: `
 DIFFICULTY: MEDIUM
-- The answer word should be familiar but more conceptual or abstract
-- Examples: nostalgia, ambition, coincidence, forgiveness, procrastination, momentum, compromise, reputation
-- A thoughtful person should get it in 3-4 guesses
-- Sentence 1 should be indirect and sentence 4 should make it fairly clear
-- The word should be something most adults use regularly but wouldn't guess immediately`,
+- Choose a familiar word or concept most adults would recognize and encounter in normal reading or conversation
+- Avoid academic jargon, obscure literary words, rare dictionary terms, or specialist vocabulary; do not make unfamiliar vocabulary the challenge
+- Examples of the intended familiarity: nostalgia, ambition, coincidence, forgiveness, momentum, compromise, reputation (examples only; do not reuse historical answers)
+- Clue 1 may be indirect, but include an ordinary real-world situation by clue 3
+- By clue 4, a thoughtful player should reasonably be able to identify the specific answer instead of several equally plausible synonyms
+- Aim for a fair solve in 3-4 guesses`,
 
   hard: `
 DIFFICULTY: HARD
-- The answer word should be abstract or nuanced but still something an educated person would know
-- Examples: schadenfreude, catharsis, paradox, cognitive dissonance, entropy, inertia, zeitgeist, empathy, resilience
-- Most players will need 4-5 clues to get it
-- Sentence 1 should be cryptic but not impossible
-- Avoid highly obscure academic terms from philosophy or linguistics that most people have never heard of
-- The word should be something you might read in a quality newspaper`,
+- Choose a nuanced, challenging word that is still recognizable to a general adult audience; difficulty should come from inference, not from an unknown technical term
+- Sentence 1 can be cryptic but must have a meaningful connection to the answer
+- Build toward concrete, distinguishing evidence, not just increasingly elaborate metaphors
+- Clues 4 and 5 MUST include a defining characteristic, contrast, or recognizable situation that distinguishes the answer from likely near-synonyms
+- Avoid puzzles where several common answers remain equally valid even after the final clue
+- A thoughtful player should have a realistic chance by clue 5, even if clues 1-3 are difficult`,
 
   wildcard: `
 DIFFICULTY: WILDCARD (Sunday)
-- Surprise us. Pick any difficulty level you want — could be easy, could be hard
-- The topic should be unexpected and unlike anything from a typical weekday
-- Consider unusual domains: architecture, cooking, mathematics, music theory, geology, linguistics
-- Make it memorable and fun`,
+- Surprise players with an unexpected subject or everyday phenomenon; it should feel fresh and fun, not like an obscure vocabulary exam
+- Choose a recognizable answer word, even when the clues involve an interesting field such as cooking, weather, architecture, music, or science
+- Avoid specialist terminology that would normally require formal training or a dictionary to identify
+- Connect the topic to an accessible real-life example by clue 3, and make the answer clearly distinguishable by clue 5
+- Vary the challenge between easy and medium most Sundays; keep occasional harder Sundays fair and solvable`,
 };
 
 const allUsedAnswers = Array.from(usedAnswers).sort();
@@ -314,7 +316,7 @@ In GIST, a paragraph is revealed one sentence at a time. Players guess the ONE W
 
 ${DIFFICULTY_INSTRUCTIONS[DIFFICULTY.level]}
 ${usedAnswersBlock}${rejectedBlock}
-Your job: create a puzzle. Choose a concept, emotion, phenomenon, idea, or everyday object as the answer word. Write a 5-sentence paragraph that describes it without ever saying the word. The paragraph should be beautifully written — like an encyclopedia crossed with a prose poem.
+Your job: create a puzzle. Choose a concept, emotion, phenomenon, action, or everyday object as the answer word. Write a clear, engaging 5-sentence paragraph that describes it without ever saying the word. Favor the satisfaction of recognizing a specific answer over impressively abstract prose. Elegant language is welcome, but fairness and clarity come first.
 
 Rules:
 - The answer must be a single English word (not a proper noun, not a phrase)
@@ -323,9 +325,13 @@ Rules:
 - The part of speech must match how the answer itself is intended. For an -ing answer used as an action/verb form, use "Verb (present participle)"; if an -ing form is intended as a noun/gerund concept, use "Noun (singular)" unless the answer itself is plural
 - The answer must be different from every prior GIST answer listed above
 - The paragraph must NOT contain the answer word or obvious synonyms
-- Sentence 1 should be the hardest clue (most abstract/indirect)
-- Sentence 5 should be the most revealing
-- The paragraph should feel like elegant, precise writing — not a riddle
+- Sentence 1 should be the most indirect clue, but still understandable rather than intentionally vague
+- Each following sentence must add genuinely new information and progressively narrow the possibilities
+- The final two clues should make the intended answer distinguishable from plausible near-synonyms; do not rely on subjective or generic descriptions
+- Sentence 5 should be the most revealing, with an unambiguous real-world example or defining characteristic (without saying the answer)
+- Limit abstract metaphors; use concrete examples and natural language instead of repeated phrases like "invisible architecture" or "the space between"
+- Do not make Latin/Greek roots, historical etymology, or a technical definition the only revealing part of the final clue
+- The paragraph should feel precise, vivid, and fair to a general audience — not like a riddle or a vocabulary test
 - Also provide 3-10 "close" words that are near-synonyms or useful word-form variations (a player guessing these gets a yellow result)
 - The "close" array MUST include common variations of the answer word (verb forms, plural, adjective forms, past tense, etc.) — for example if the answer is "anticipation" include "anticipate", "anticipating", "anticipated"
 
@@ -335,11 +341,11 @@ Return ONLY valid JSON, no markdown, exactly this format:
   "partOfSpeech": "Noun (singular)",
   "difficulty": "EASY",
   "sentences": [
-    "It can exist in the middle of a crowd, invisible to everyone including the person experiencing it.",
-    "Philosophers have argued it is the fundamental condition of consciousness — the irreducible gap between any two minds.",
-    "Children rarely feel it; the capacity seems to develop alongside self-awareness.",
-    "It is distinct from solitude, which is chosen, and from isolation, which is imposed.",
-    "The word comes from 'lone' — the state of being the only one of its kind in a particular place."
+    "A room can be full of people and still feel strangely empty.",
+    "When a close friend moves away, even familiar places may feel different without them.",
+    "It is not the same as being alone, because you can enjoy time by yourself and still feel connected.",
+    "Calls and messages may help, but they cannot always replace feeling understood or having someone nearby.",
+    "It is the painful feeling of wanting companionship or connection and finding it missing."
   ],
   "close": ["isolation", "solitude", "alienation", "emptiness"]
 }
