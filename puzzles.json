@@ -1,5 +1,29 @@
 [
   {
+    "answer": "shortcuts",
+    "partOfSpeech": "Noun (plural)",
+    "difficulty": "WILDCARD",
+    "sentences": [
+      "Humans have always been drawn to paths that promise the same destination with less effort.",
+      "Sometimes they genuinely save time, but other times they skip steps that quietly mattered.",
+      "A student who skips the rough draft and goes straight to the final version is betting on one, often at the cost of quality.",
+      "They appear everywhere from kitchen recipes to navigation apps, and we celebrate them when they work and curse them when they backfire.",
+      "That little icon on your desktop that opens a program without digging through folders is one of the most literal versions of the concept."
+    ],
+    "close": [
+      "shortcut",
+      "workaround",
+      "bypass",
+      "detour",
+      "workarounds",
+      "bypasses",
+      "detours",
+      "hack",
+      "hacks"
+    ],
+    "id": 220
+  },
+  {
     "answer": "desolation",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "HARD",
