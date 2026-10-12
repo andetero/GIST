@@ -1,7 +1,7 @@
 name: Daily Puzzle
 on:
   schedule:
-    - cron: '5 0,8,16 * * *'
+    - cron: '5 0 * * *'
   workflow_dispatch:
     inputs:
       puzzle_id:
@@ -23,13 +23,18 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: '20'
-      - name: Generate current and following UTC dates
+      - name: Replenish rolling three-day puzzle buffer
         run: |
           ARGS=""
           [ -n "${{ github.event.inputs.puzzle_id }}" ] && ARGS="$ARGS --id=${{ github.event.inputs.puzzle_id }}"
           [ -n "${{ github.event.inputs.puzzle_date }}" ] && ARGS="$ARGS --date=${{ github.event.inputs.puzzle_date }}"
-          node generate.mjs $ARGS
-          if [ -z "$ARGS" ]; then node generate.mjs; fi
+          if [ -n "$ARGS" ]; then
+            node generate.mjs $ARGS
+          else
+            for attempt in 1 2 3 4; do
+              node generate.mjs
+            done
+          fi
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       - name: Commit and push
