@@ -228,9 +228,9 @@ const usedAnswers = new Set(
 // Puzzle number: days since launch (March 6, 2026 in Denver time)
 const LAUNCH_DATE = "2026-03-06";
 
-// A scheduled run repairs the current UTC date if necessary, then prepares
-// the following day's puzzle. Run twice to fill both in a single workflow.
-// Explicit --id/--date overrides remain available for manual backfills.
+// Each daily scheduled run fills any gaps from the current UTC date through
+// three days ahead. The workflow invokes this script four times.
+ // Explicit --id/--date overrides remain available for manual backfills.
 const idArg = process.argv.find((arg) => arg.startsWith("--id="));
 const dateArg = process.argv.find((arg) => arg.startsWith("--date="));
 
@@ -270,7 +270,11 @@ function refreshHtmlFallback() {
 }
 
 const utcToday = new Date().toISOString().slice(0, 10);
-const utcTomorrow = shiftISODate(utcToday, 1);
+const BUFFER_DAYS_AHEAD = 3;
+const bufferDates = Array.from(
+  { length: BUFFER_DAYS_AHEAD + 1 },
+  (_, days) => shiftISODate(utcToday, days)
+);
 const requestedId = idArg ? Number(idArg.slice("--id=".length)) : null;
 if (requestedId !== null && (!Number.isInteger(requestedId) || requestedId < 1)) {
   throw new Error(`Invalid puzzle ID override: ${idArg}`);
@@ -278,7 +282,12 @@ if (requestedId !== null && (!Number.isInteger(requestedId) || requestedId < 1))
 const requestedDate = dateArg ? dateArg.slice("--date=".length) : null;
 const TARGET_ISO = requestedDate ||
   (requestedId !== null ? shiftISODate(LAUNCH_DATE, requestedId - 1) :
-    [utcToday, utcTomorrow].find((date) => !dateExists(date)) || utcTomorrow);
+    bufferDates.find((date) => !dateExists(date)));
+if (!TARGET_ISO) {
+  console.log(`✅ Three-day puzzle buffer complete through ${bufferDates.at(-1)}.`);
+  refreshHtmlFallback();
+  process.exit(0);
+}
 shiftISODate(TARGET_ISO, 0);
 
 const NOW = new Date(`${TARGET_ISO}T12:00:00Z`);
