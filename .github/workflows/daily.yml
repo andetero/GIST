@@ -1,8 +1,7 @@
 name: Daily Puzzle
 on:
   schedule:
-    - cron: '59 21 * * *'
-      timezone: 'America/Denver'
+    - cron: '5 0,8,16 * * *'
   workflow_dispatch:
     inputs:
       puzzle_id:
@@ -11,6 +10,9 @@ on:
       puzzle_date:
         description: 'Date for difficulty (YYYY-MM-DD, leave empty for today)'
         required: false
+concurrency:
+  group: gist-daily-generator
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
@@ -21,12 +23,13 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: '20'
-      - name: Generate today's puzzle
+      - name: Generate current and following UTC dates
         run: |
           ARGS=""
           [ -n "${{ github.event.inputs.puzzle_id }}" ] && ARGS="$ARGS --id=${{ github.event.inputs.puzzle_id }}"
           [ -n "${{ github.event.inputs.puzzle_date }}" ] && ARGS="$ARGS --date=${{ github.event.inputs.puzzle_date }}"
           node generate.mjs $ARGS
+          if [ -z "$ARGS" ]; then node generate.mjs; fi
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       - name: Commit and push
