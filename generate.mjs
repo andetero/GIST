@@ -228,11 +228,60 @@ const usedAnswers = new Set(
 // Puzzle number: days since launch (March 6, 2026 in Denver time)
 const LAUNCH_DATE = "2026-03-06";
 
-// Allow overrides: node generate.mjs --id=5 --date=2026-03-10
+// A scheduled run repairs the current UTC date if necessary, then prepares
+// the following day's puzzle. Run twice to fill both in a single workflow.
+// Explicit --id/--date overrides remain available for manual backfills.
 const idArg = process.argv.find((arg) => arg.startsWith("--id="));
 const dateArg = process.argv.find((arg) => arg.startsWith("--date="));
 
-const NOW = dateArg ? new Date(`${dateArg.split("=")[1]}T12:00:00Z`) : new Date();
+function shiftISODate(iso, days) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(iso)) throw new Error(`Invalid ISO date: ${iso}`);
+  const date = new Date(`${iso}T00:00:00Z`);
+  if (!Number.isFinite(date.getTime()) || date.toISOString().slice(0, 10) !== iso) {
+    throw new Error(`Invalid calendar date: ${iso}`);
+  }
+  date.setUTCDate(date.getUTCDate() + days);
+  return date.toISOString().slice(0, 10);
+}
+
+function puzzleIdForDate(iso) {
+  return getPuzzleId(new Date(`${iso}T12:00:00Z`), LAUNCH_DATE);
+}
+
+function dateExists(iso) {
+  const id = puzzleIdForDate(iso);
+  return archive.some((item) => item.id === id || item.date === iso);
+}
+
+function refreshHtmlFallback() {
+  const denverToday = getLocalDateString(new Date());
+  // Undated historical puzzles remain available; hide future-dated entries.
+  const current = archive
+    .filter((item) => !/^\d{4}-\d{2}-\d{2}$/.test(item.date || "") || item.date <= denverToday)
+    .sort((a, b) => b.id - a.id)[0];
+  if (!current) return;
+  const template = fs.readFileSync("template.html", "utf8");
+  if (!template.includes("__PUZZLE_DATA__")) throw new Error("Missing puzzle data placeholder in template.html");
+  const output = template.replace("__PUZZLE_DATA__", JSON.stringify(current));
+  if (!fs.existsSync("gist.html") || fs.readFileSync("gist.html", "utf8") !== output) {
+    fs.writeFileSync("gist.html", output);
+    console.log(`📄 gist.html fallback now points to puzzle #${current.id}`);
+  }
+}
+
+const utcToday = new Date().toISOString().slice(0, 10);
+const utcTomorrow = shiftISODate(utcToday, 1);
+const requestedId = idArg ? Number(idArg.slice("--id=".length)) : null;
+if (requestedId !== null && (!Number.isInteger(requestedId) || requestedId < 1)) {
+  throw new Error(`Invalid puzzle ID override: ${idArg}`);
+}
+const requestedDate = dateArg ? dateArg.slice("--date=".length) : null;
+const TARGET_ISO = requestedDate ||
+  (requestedId !== null ? shiftISODate(LAUNCH_DATE, requestedId - 1) :
+    [utcToday, utcTomorrow].find((date) => !dateExists(date)) || utcTomorrow);
+shiftISODate(TARGET_ISO, 0);
+
+const NOW = new Date(`${TARGET_ISO}T12:00:00Z`);
 const localParts = getLocalParts(NOW);
 const TODAY_ISO = `${localParts.year}-${localParts.month}-${localParts.day}`;
 const TODAY = new Intl.DateTimeFormat("en-US", {
@@ -242,10 +291,16 @@ const TODAY = new Intl.DateTimeFormat("en-US", {
   day: "numeric",
   timeZone: TIME_ZONE,
 }).format(NOW);
+const PUZZLE_ID = requestedId ?? puzzleIdForDate(TODAY_ISO);
 
-const PUZZLE_ID = idArg
-  ? parseInt(idArg.split("=")[1], 10)
-  : getPuzzleId(NOW, LAUNCH_DATE);
+if (puzzleIdForDate(TODAY_ISO) !== PUZZLE_ID) {
+  throw new Error(`Puzzle ID #${PUZZLE_ID} doesn't match ${TODAY_ISO}`);
+}
+if (dateExists(TODAY_ISO)) {
+  console.log(`⏭️ Puzzle #${PUZZLE_ID} for ${TODAY_ISO} already exists. Skipping generation.`);
+  refreshHtmlFallback();
+  process.exit(0);
+}
 
 // Day of week in Denver (0 = Sunday, 1 = Monday ... 6 = Saturday)
 const DOW = new Date(`${TODAY_ISO}T00:00:00Z`).getUTCDay();
@@ -401,26 +456,16 @@ for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt += 1) {
 }
 
 puzzle.id = PUZZLE_ID;
+puzzle.date = TODAY_ISO;
 puzzle.difficulty = DIFFICULTY.label;
-console.log(`✅ Answer: "${puzzle.answer}" [${puzzle.partOfSpeech}; ${puzzle.difficulty}]`);
+console.log(`✅ Answer: "${puzzle.answer}" [${puzzle.partOfSpeech}; ${puzzle.difficulty}; ${puzzle.date}]`);
 console.log(`📝 Sentences: ${puzzle.sentences.length}`);
 
-// Read template and inject puzzle data
-const template = fs.readFileSync("template.html", "utf8");
-const output = template.replace("__PUZZLE_DATA__", JSON.stringify(puzzle));
-
-fs.writeFileSync("gist.html", output);
-console.log(`📄 gist.html written for puzzle #${PUZZLE_ID}`);
-
-// Update or insert
-const existingIdx = archive.findIndex((entry) => entry.id === puzzle.id);
-if (existingIdx >= 0) {
-  archive[existingIdx] = puzzle;
-} else {
-  archive.push(puzzle);
-}
-
-// Sort descending by id
+// Add new dated puzzles without modifying historical entries.
+archive.push(puzzle);
 archive.sort((a, b) => b.id - a.id);
 fs.writeFileSync("puzzles.json", JSON.stringify(archive, null, 2));
 console.log(`📚 puzzles.json updated (${archive.length} puzzles total)`);
+
+// The static HTML fallback must not contain an unpublished future puzzle.
+refreshHtmlFallback();
