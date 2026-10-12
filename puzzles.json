@@ -1,5 +1,98 @@
 [
   {
+    "answer": "overconfidence",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "There is a particular kind of blindness that comes not from ignorance but from being sure you already see clearly.",
+      "It tends to peak right after a string of successes, when the lessons of past failures start to feel irrelevant.",
+      "A student who aces a few practice tests may stop reviewing material altogether, only to be caught off guard by the real exam.",
+      "Unlike genuine confidence, it resists feedback and treats caution as unnecessary — which is precisely what makes it dangerous.",
+      "Investors, athletes, and surgeons all fall prey to it: the unwavering belief that skill or luck will hold, right up until it doesn't."
+    ],
+    "close": [
+      "overconfident",
+      "arrogance",
+      "cockiness",
+      "presumption",
+      "hubris",
+      "certainty",
+      "bravado",
+      "self-assurance"
+    ],
+    "id": 224,
+    "date": "2026-10-15"
+  },
+  {
+    "answer": "reluctance",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "It often shows up at the edge of something new, just before a decision has to be made.",
+      "It is not the same as refusal — the action may eventually happen, but something inside pulls back against it.",
+      "A child dragging their feet on the way to the dentist, or an adult staring at an unanswered email for days, both know the feeling well.",
+      "Unlike fear, which points to a specific threat, this feeling can linger even when there is no clear reason to hold back.",
+      "When someone finally says yes but their voice and body language suggest they would rather not, that hesitation has a name."
+    ],
+    "close": [
+      "reluctant",
+      "reluctantly",
+      "hesitation",
+      "hesitance",
+      "unwillingness",
+      "resistance",
+      "reticence"
+    ],
+    "id": 223,
+    "date": "2026-10-14"
+  },
+  {
+    "answer": "excitement",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "EASY",
+    "sentences": [
+      "It is hard to sit still when this feeling takes over, and your mind races ahead to what is coming.",
+      "The night before a birthday party, a vacation, or a big game, children often struggle to fall asleep because of it.",
+      "Your heart beats faster, your energy rises, and even ordinary tasks feel hard to focus on.",
+      "It is different from happiness, because it points forward — toward something that has not happened yet.",
+      "Whether you are about to open a gift, board a plane, or hear big news, this feeling is that surge of eager energy right before something great begins."
+    ],
+    "close": [
+      "excited",
+      "excite",
+      "exciting",
+      "excitedly",
+      "thrill",
+      "eagerness",
+      "anticipation"
+    ],
+    "id": 222,
+    "date": "2026-10-13"
+  },
+  {
+    "answer": "apology",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "EASY",
+    "sentences": [
+      "It often costs nothing to give, yet many people find it surprisingly hard to offer.",
+      "After snapping at a friend over something small, most people eventually feel the urge to say those two familiar words: 'I'm sorry.'",
+      "It works best when it is specific and sincere — naming what went wrong rather than just smoothing things over.",
+      "A hollow or forced version can actually make things worse, while a genuine one can repair a relationship almost instantly.",
+      "It is the act of acknowledging that you hurt or wronged someone and expressing that you wish you had not."
+    ],
+    "close": [
+      "apologize",
+      "apologizing",
+      "apologized",
+      "apologies",
+      "sorry",
+      "remorse",
+      "atonement"
+    ],
+    "id": 221,
+    "date": "2026-10-12"
+  },
+  {
     "answer": "shortcuts",
     "partOfSpeech": "Noun (plural)",
     "difficulty": "WILDCARD",
