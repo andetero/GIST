@@ -1,5 +1,29 @@
 [
   {
+    "answer": "coercion",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "HARD",
+    "sentences": [
+      "It operates best when the door is left visibly open, even though everyone in the room understands it is not really a choice.",
+      "A signature obtained this way may be legally binding, but courts in many countries recognize that willingness was never truly present.",
+      "Unlike outright force, it works through threat — of job loss, social exclusion, or harm — rather than through direct physical action.",
+      "The distinction from persuasion is critical: persuasion changes what someone wants, while this changes only what someone feels they can safely refuse.",
+      "A classic example is an employer telling a worker to sign a waiver or lose their position — the worker technically agrees, but the agreement is not free."
+    ],
+    "close": [
+      "coerce",
+      "coerced",
+      "coercing",
+      "coercive",
+      "compulsion",
+      "duress",
+      "intimidation",
+      "pressure"
+    ],
+    "id": 225,
+    "date": "2026-10-16"
+  },
+  {
     "answer": "overconfidence",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "MEDIUM",
