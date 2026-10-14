@@ -1,5 +1,27 @@
 [
   {
+    "answer": "placebo",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "HARD",
+    "sentences": [
+      "Belief, it turns out, is sometimes the most active ingredient of all.",
+      "A person can experience genuine, measurable improvement from something that does nothing on its own.",
+      "The effect is not faked or imagined away — symptoms actually change, pain actually lessens, even when the mechanism is inert.",
+      "It is distinct from wishful thinking because the body produces real physiological responses, not merely a change in attitude or mood.",
+      "In clinical drug trials, one group receives the actual medication while another receives a sugar pill or saline injection — and that second treatment has a name."
+    ],
+    "close": [
+      "placebos",
+      "placebo effect",
+      "nocebo",
+      "sham",
+      "inert",
+      "dummy"
+    ],
+    "id": 226,
+    "date": "2026-10-17"
+  },
+  {
     "answer": "coercion",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "HARD",
