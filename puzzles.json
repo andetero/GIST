@@ -1,5 +1,30 @@
 [
   {
+    "answer": "bluffing",
+    "partOfSpeech": "Verb (present participle)",
+    "difficulty": "WILDCARD",
+    "sentences": [
+      "Sometimes the most powerful move you can make is one you have no intention of following through on.",
+      "It works because the other person cannot see what you actually have, and your confidence does the heavy lifting.",
+      "A poker player who keeps raising the bet with a weak hand is relying entirely on this to win the pot.",
+      "Unlike lying about facts, this is about misrepresenting your position or strength in a high-stakes situation where the truth might be revealed at any moment.",
+      "The whole strategy collapses the moment someone calls your bet and forces you to show your cards."
+    ],
+    "close": [
+      "bluff",
+      "bluffed",
+      "bluffer",
+      "bluffs",
+      "deceiving",
+      "faking",
+      "pretending",
+      "posturing",
+      "misleading"
+    ],
+    "id": 227,
+    "date": "2026-10-18"
+  },
+  {
     "answer": "placebo",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "HARD",
