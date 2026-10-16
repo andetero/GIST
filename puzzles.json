@@ -1,5 +1,29 @@
 [
   {
+    "answer": "worry",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "EASY",
+    "sentences": [
+      "It tends to show up uninvited, especially late at night when there is nothing left to keep your mind busy.",
+      "You might feel it before a job interview, a doctor's appointment, or sending an important message and waiting for a reply.",
+      "Unlike fear, it often has no single clear trigger — your mind runs through bad things that might happen, even when nothing is actually wrong right now.",
+      "It can cause physical sensations too, like a tight chest or a churning stomach, even though the threat is only imagined.",
+      "Parents feel it when a child is out past curfew; students feel it the night before a big exam — that restless, uneasy feeling that something might go wrong."
+    ],
+    "close": [
+      "worried",
+      "worries",
+      "worrying",
+      "anxious",
+      "anxiety",
+      "concern",
+      "dread",
+      "unease"
+    ],
+    "id": 228,
+    "date": "2026-10-19"
+  },
+  {
     "answer": "bluffing",
     "partOfSpeech": "Verb (present participle)",
     "difficulty": "WILDCARD",
