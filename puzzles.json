@@ -1,5 +1,29 @@
 [
   {
+    "answer": "complaining",
+    "partOfSpeech": "Verb (present participle)",
+    "difficulty": "EASY",
+    "sentences": [
+      "It is something most people do every day, often without noticing how much they are doing it.",
+      "When the line at the coffee shop is too long or the weather ruins your plans, this is usually the first thing that happens.",
+      "It can feel satisfying in the moment, like releasing pressure from a valve, but it rarely changes the situation.",
+      "Done too often, it can wear out the people around you, even those who genuinely want to help.",
+      "It is the act of expressing unhappiness or dissatisfaction out loud, whether to a friend, a stranger, or no one in particular."
+    ],
+    "close": [
+      "complain",
+      "complained",
+      "complaint",
+      "complaints",
+      "grumbling",
+      "gripe",
+      "whining",
+      "venting"
+    ],
+    "id": 229,
+    "date": "2026-10-20"
+  },
+  {
     "answer": "worry",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "EASY",
