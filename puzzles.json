@@ -1,5 +1,30 @@
 [
   {
+    "answer": "exaggeration",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "It has a way of making small things feel enormous and rare things feel commonplace.",
+      "People reach for it instinctively when a plain account of events doesn't feel satisfying enough to tell.",
+      "A fisherman describing the one that got away, or a child insisting they've been waiting forever for dinner, both rely on it.",
+      "Unlike lying, it starts with something true and stretches it — the cold wasn't imaginary, but calling it the coldest day in history probably was.",
+      "When someone says 'I've told you a million times,' they are not reporting a count; they are using it to signal frustration through deliberate overstatement."
+    ],
+    "close": [
+      "exaggerate",
+      "exaggerated",
+      "exaggerating",
+      "overstatement",
+      "hyperbole",
+      "embellishment",
+      "embellish",
+      "inflate",
+      "inflation"
+    ],
+    "id": 230,
+    "date": "2026-10-21"
+  },
+  {
     "answer": "complaining",
     "partOfSpeech": "Verb (present participle)",
     "difficulty": "EASY",
