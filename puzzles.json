@@ -1,5 +1,28 @@
 [
   {
+    "answer": "sarcasm",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "Sometimes the sharpest point is made by saying the exact opposite of what you mean.",
+      "It relies on tone, timing, and a shared understanding between speaker and listener — without those, it simply lands as a compliment.",
+      "A coworker hands in a report an hour late, and the manager says, 'Wow, right on schedule,' without cracking a smile.",
+      "Unlike a sincere joke, it carries an edge — the speaker knows the listener knows they don't mean it, and that gap is precisely what makes it sting or amuse.",
+      "When someone drops their phone for the third time in a day and a friend says, 'Oh, you're so graceful,' that dry reversal is its purest form."
+    ],
+    "close": [
+      "sarcastic",
+      "sarcastically",
+      "irony",
+      "snark",
+      "snarky",
+      "mockery",
+      "cynicism"
+    ],
+    "id": 231,
+    "date": "2026-10-22"
+  },
+  {
     "answer": "exaggeration",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "MEDIUM",
