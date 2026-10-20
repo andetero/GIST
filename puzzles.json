@@ -1,5 +1,27 @@
 [
   {
+    "answer": "alibi",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "HARD",
+    "sentences": [
+      "The truth of where you were matters far less than whether anyone can confirm it.",
+      "It is something people construct carefully after the fact, even when they have nothing to hide.",
+      "A timestamped receipt, a friend's testimony, or a credit card record can all serve this purpose.",
+      "Unlike an excuse, which explains why something happened, this specifically establishes that you could not have been responsible because you were somewhere else entirely.",
+      "In a courtroom, a defendant who can prove they were across town when the crime occurred has a solid one — and without it, innocence alone may not be enough."
+    ],
+    "close": [
+      "alibis",
+      "excuse",
+      "alibi'd",
+      "defense",
+      "pretext",
+      "cover"
+    ],
+    "id": 232,
+    "date": "2026-10-23"
+  },
+  {
     "answer": "sarcasm",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "MEDIUM",
