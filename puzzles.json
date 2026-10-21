@@ -1,5 +1,27 @@
 [
   {
+    "answer": "deflation",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "HARD",
+    "sentences": [
+      "What was once firm and pressurized becomes slack, not through destruction, but through a quiet escape.",
+      "It can describe something physical, but it also names what happens to confidence or excitement when reality pushes back against expectation.",
+      "Economists watch for it carefully, because while falling prices sound appealing, a prolonged version of this signals something deeply wrong in an economy.",
+      "Unlike its opposite, which erodes purchasing power by making money worth less, this condition makes money worth more — but suppresses spending, wages, and growth in the process.",
+      "Japan spent much of the 1990s and 2000s unable to escape it: prices fell, consumers waited for them to fall further, businesses cut costs, and the whole cycle fed itself."
+    ],
+    "close": [
+      "deflate",
+      "deflated",
+      "deflating",
+      "inflation",
+      "disinflation",
+      "contraction"
+    ],
+    "id": 233,
+    "date": "2026-10-24"
+  },
+  {
     "answer": "alibi",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "HARD",
