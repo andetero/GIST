@@ -1,5 +1,27 @@
 [
   {
+    "answer": "blinking",
+    "partOfSpeech": "Verb (present participle)",
+    "difficulty": "WILDCARD",
+    "sentences": [
+      "Your body does it thousands of times a day without you ever deciding to.",
+      "It takes roughly a tenth of a second, yet your brain quietly fills in the gap so you never notice the darkness.",
+      "Researchers have found that people tend to do it at natural pauses — the end of a sentence, the moment an actor looks away — as if the mind knows when it can briefly close the curtain.",
+      "It keeps the surface of the eye moist and clean, sweeping away dust and debris with each pass.",
+      "When you stare at a screen for too long, you do it far less often, which is why your eyes start to sting — your body's reminder to let your eyelids do their quiet, constant work."
+    ],
+    "close": [
+      "blink",
+      "blinked",
+      "blinks",
+      "winking",
+      "flicker",
+      "flutter"
+    ],
+    "id": 234,
+    "date": "2026-10-25"
+  },
+  {
     "answer": "deflation",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "HARD",
