@@ -1,5 +1,27 @@
 [
   {
+    "answer": "yawning",
+    "partOfSpeech": "Verb (present participle)",
+    "difficulty": "EASY",
+    "sentences": [
+      "It is something your body does automatically, often without any warning, and you cannot always stop it once it starts.",
+      "It happens most often when you are tired or sitting through a long, dull meeting at work.",
+      "Scientists still debate exactly why it occurs, but most people notice it spreading instantly when they see someone else do it.",
+      "It involves opening your mouth very wide, taking a deep breath in, and slowly releasing it — sometimes with a sound.",
+      "If you even read the word for what this action is, there is a good chance you will do it right now."
+    ],
+    "close": [
+      "yawn",
+      "yawns",
+      "yawned",
+      "yawner",
+      "drowsiness",
+      "tiredness"
+    ],
+    "id": 235,
+    "date": "2026-10-26"
+  },
+  {
     "answer": "blinking",
     "partOfSpeech": "Verb (present participle)",
     "difficulty": "WILDCARD",
