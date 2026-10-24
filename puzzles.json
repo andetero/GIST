@@ -1,5 +1,28 @@
 [
   {
+    "answer": "sharing",
+    "partOfSpeech": "Verb (present participle)",
+    "difficulty": "EASY",
+    "sentences": [
+      "It is one of the first social lessons children are taught, and it never really stops mattering.",
+      "When someone passes around a bag of chips at a movie night so everyone can have some, that is exactly what this is.",
+      "It can involve physical things like food or belongings, but also intangible things like stories, feelings, or news.",
+      "It requires a willingness to give up some of what you have or know, trusting that others will benefit from it.",
+      "Whether splitting a pizza with friends or telling someone about your day, the act always involves giving a part of something to another person."
+    ],
+    "close": [
+      "share",
+      "shared",
+      "shares",
+      "generosity",
+      "dividing",
+      "giving",
+      "distribution"
+    ],
+    "id": 236,
+    "date": "2026-10-27"
+  },
+  {
     "answer": "yawning",
     "partOfSpeech": "Verb (present participle)",
     "difficulty": "EASY",
