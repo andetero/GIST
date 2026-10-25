@@ -1,5 +1,29 @@
 [
   {
+    "answer": "hesitation",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "It occupies the brief gap between knowing what you want to do and actually doing it.",
+      "Sometimes it protects you — a moment of caution before stepping onto ice that might not hold — but it can also cost you an opportunity that won't come back.",
+      "A person standing at a job application page, cursor hovering over the submit button, feels it acutely.",
+      "Unlike reluctance, it doesn't mean you've decided against something; unlike patience, it isn't deliberate or calm — it's suspended motion, caught between yes and no.",
+      "When someone asks a simple question and the person being asked pauses too long before answering, that pause itself becomes readable, often revealing uncertainty or discomfort even without a single word."
+    ],
+    "close": [
+      "hesitate",
+      "hesitating",
+      "hesitated",
+      "hesitant",
+      "reluctance",
+      "indecision",
+      "pause",
+      "wavering"
+    ],
+    "id": 237,
+    "date": "2026-10-28"
+  },
+  {
     "answer": "sharing",
     "partOfSpeech": "Verb (present participle)",
     "difficulty": "EASY",
