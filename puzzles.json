@@ -1,5 +1,28 @@
 [
   {
+    "answer": "incentive",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "It is the reason a person decides that doing something is worth the effort.",
+      "Governments use it when they offer tax breaks to companies that build factories in struggling regions.",
+      "Without it, many people would not go to work, study for exams, or change their behavior at all.",
+      "It differs from a threat because it pulls you toward an action rather than pushing you away from its absence.",
+      "A store offering a free gift with purchase, or an employer offering a bonus for hitting targets, is providing exactly this."
+    ],
+    "close": [
+      "incentives",
+      "incentivize",
+      "incentivized",
+      "motivation",
+      "reward",
+      "enticement",
+      "inducement"
+    ],
+    "id": 238,
+    "date": "2026-10-29"
+  },
+  {
     "answer": "hesitation",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "MEDIUM",
