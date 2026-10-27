@@ -1,5 +1,28 @@
 [
   {
+    "answer": "rationing",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "HARD",
+    "sentences": [
+      "There is a strange arithmetic to scarcity that turns ordinary decisions into moral ones.",
+      "When something essential runs short, the question is no longer simply who wants it most, but how to divide what remains among those who need it.",
+      "It requires someone — a person, a government, a household — to impose limits on individual consumption in the name of collective survival.",
+      "Unlike pricing, which lets the wealthy take more, this approach deliberately overrides the market to ensure distribution is controlled and capped per person.",
+      "Families during wartime were issued books of stamps authorizing limited weekly amounts of sugar, meat, and fuel — the stamps themselves being proof that the system was enforced, not voluntary."
+    ],
+    "close": [
+      "ration",
+      "rations",
+      "rationed",
+      "allocation",
+      "allotment",
+      "distribution",
+      "apportionment"
+    ],
+    "id": 239,
+    "date": "2026-10-30"
+  },
+  {
     "answer": "incentive",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "MEDIUM",
