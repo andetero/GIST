@@ -1,5 +1,28 @@
 [
   {
+    "answer": "conceit",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "HARD",
+    "sentences": [
+      "It is the thing that makes a person stop listening before the other has finished speaking.",
+      "It often grows in the absence of meaningful challenge, feeding on a steady diet of easy praise and few real setbacks.",
+      "Unlike confidence, which can coexist with openness to being wrong, this quality actively resists correction.",
+      "A colleague who dismisses every suggestion in a meeting because they privately believe no one in the room is their equal is demonstrating it clearly.",
+      "It differs from arrogance in being more inward and self-absorbed — where arrogance performs superiority outwardly, this is the quiet, settled belief that one simply is better, requiring no audience at all."
+    ],
+    "close": [
+      "conceited",
+      "conceits",
+      "arrogance",
+      "vanity",
+      "smugness",
+      "self-importance",
+      "egotism"
+    ],
+    "id": 240,
+    "date": "2026-10-31"
+  },
+  {
     "answer": "rationing",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "HARD",
