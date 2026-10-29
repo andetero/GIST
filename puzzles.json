@@ -1,5 +1,28 @@
 [
   {
+    "answer": "fading",
+    "partOfSpeech": "Verb (present participle)",
+    "difficulty": "WILDCARD",
+    "sentences": [
+      "It is something that happens gradually, often so slowly that you only notice it when you compare the before and after.",
+      "Sunlight is one of the most common causes, quietly working on curtains, photographs, and painted walls over months and years.",
+      "A beloved band t-shirt worn and washed dozens of times eventually loses the crisp colors it had when new.",
+      "Unlike sudden damage, this process cannot be reversed — you cannot add back what has slowly disappeared.",
+      "When an old photograph looks washed out and pale compared to how vivid it once was, that is exactly what has happened to it."
+    ],
+    "close": [
+      "fade",
+      "faded",
+      "fades",
+      "dimming",
+      "bleaching",
+      "discoloration",
+      "faintness"
+    ],
+    "id": 241,
+    "date": "2026-11-01"
+  },
+  {
     "answer": "conceit",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "HARD",
