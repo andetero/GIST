@@ -73,15 +73,24 @@ function parsePuzzleJson(raw) {
   try {
     return JSON.parse(cleaned);
   } catch (originalError) {
-    const start = cleaned.indexOf("{");
-    if (start < 0) throw originalError;
-
+    // Claude can return a complete draft followed by "wait, that answer
+    // was already used" and a corrected JSON object. Use its last
+    // COMPLETE puzzle object rather than repeatedly rejecting the draft.
+    const candidates = [];
+    let start = -1;
     let depth = 0;
     let inString = false;
     let escaped = false;
 
-    for (let i = start; i < cleaned.length; i += 1) {
+    for (let i = 0; i < cleaned.length; i += 1) {
       const char = cleaned[i];
+      if (start < 0) {
+        if (char === "{") {
+          start = i;
+          depth = 1;
+        }
+        continue;
+      }
 
       if (inString) {
         if (escaped) {
@@ -91,28 +100,34 @@ function parsePuzzleJson(raw) {
         } else if (char === '"') {
           inString = false;
         }
-        continue;
-      }
-
-      if (char === '"') {
+      } else if (char === '"') {
         inString = true;
       } else if (char === "{") {
         depth += 1;
       } else if (char === "}") {
         depth -= 1;
         if (depth === 0) {
-          const jsonText = cleaned.slice(start, i + 1);
-          const extraText = `${cleaned.slice(0, start)} ${cleaned.slice(i + 1)}`.trim();
-          if (extraText) {
-            const preview = extraText.replace(/\s+/g, " ").slice(0, 200);
-            console.warn(`⚠️ Ignored extra model text around JSON: "${preview}"`);
+          try {
+            const candidate = JSON.parse(cleaned.slice(start, i + 1));
+            if (candidate && typeof candidate.answer === "string" &&
+                Array.isArray(candidate.sentences) && Array.isArray(candidate.close)) {
+              candidates.push(candidate);
+            }
+          } catch {
+            // Ignore invalid draft JSON; another complete object may follow.
           }
-          return JSON.parse(jsonText);
+          start = -1;
+          inString = false;
+          escaped = false;
         }
       }
     }
 
-    throw originalError;
+    if (candidates.length === 0) throw originalError;
+    console.warn(candidates.length > 1
+      ? `⚠️ Found ${candidates.length} puzzle JSON objects; using the final complete one.`
+      : "⚠️ Ignored extra model text around puzzle JSON.");
+    return candidates.at(-1);
   }
 }
 
