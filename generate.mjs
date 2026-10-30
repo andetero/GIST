@@ -14,6 +14,7 @@ const MAX_CLOSE_WORDS = 10;
 const ALLOWED_PARTS_OF_SPEECH = new Set([
   "Noun (singular)",
   "Noun (plural)",
+  "Gerund (noun)",
   "Verb",
   "Verb (infinitive)",
   "Verb (present participle)",
@@ -176,6 +177,10 @@ function validatePuzzleShape(puzzle) {
 
   if (typeof puzzle.partOfSpeech !== "string" || !ALLOWED_PARTS_OF_SPEECH.has(puzzle.partOfSpeech)) {
     throw new Error(`Puzzle partOfSpeech must be one of: ${Array.from(ALLOWED_PARTS_OF_SPEECH).join(", ")}`);
+  }
+
+  if (puzzle.partOfSpeech === "Gerund (noun)" && !answer.toLowerCase().endsWith("ing")) {
+    throw new Error(`Gerund answer must end in -ing: ${answer}`);
   }
 
   if (!Array.isArray(puzzle.sentences) || puzzle.sentences.length !== 5) {
@@ -399,9 +404,10 @@ Your job: create a puzzle. Choose a concept, emotion, phenomenon, action, or eve
 
 Rules:
 - The answer must be a single English word (not a proper noun, not a phrase)
-- Include "partOfSpeech" for the exact intended grammatical form of the answer. Use exactly one of: "Noun (singular)", "Noun (plural)", "Verb", "Verb (infinitive)", "Verb (present participle)", "Verb (past participle)", "Adjective", "Adverb"
+- Include "partOfSpeech" for the exact intended grammatical form of the answer. Use exactly one of: "Noun (singular)", "Noun (plural)", "Gerund (noun)", "Verb", "Verb (infinitive)", "Verb (present participle)", "Verb (past participle)", "Adjective", "Adverb"
 - Every noun MUST specify number: use "Noun (singular)" for singular or mass/uncountable nouns, and "Noun (plural)" for plural nouns
-- The part of speech must match how the answer itself is intended. For an -ing answer used as an action/verb form, use "Verb (present participle)"; if an -ing form is intended as a noun/gerund concept, use "Noun (singular)" unless the answer itself is plural
+- The part of speech must match how the answer itself is intended. For an -ing answer naming an activity or process as a noun, use "Gerund (noun)" (e.g. "Planning takes time"). For an -ing verb indicating an ongoing action, use "Verb (present participle)" (e.g. "They are planning"). An ordinary lexical noun ending in -ing that is not acting as a gerund may still use "Noun (singular)" or "Noun (plural)" as appropriate.
+- Do not use "Gerund (noun)" for an answer that does not end in -ing; choose a different allowed part of speech instead.
 - The answer must be different from every prior GIST answer listed above
 - The paragraph must NOT contain the answer word or obvious synonyms
 - Sentence 1 should be the most indirect clue, but still understandable rather than intentionally vague
