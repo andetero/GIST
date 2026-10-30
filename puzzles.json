@@ -1,5 +1,28 @@
 [
   {
+    "answer": "laziness",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "EASY",
+    "sentences": [
+      "It has a way of making the easiest tasks feel oddly monumental.",
+      "You know you need to reply to that email or wash the dishes, but somehow the couch keeps winning.",
+      "It is not the same as being tired, because rest restores you while this feeling just keeps you stuck.",
+      "It often comes with a low-level guilt — you know you could act, but something resists the first move.",
+      "When you spend an entire afternoon doing nothing useful and then scramble at the last minute, this is usually why."
+    ],
+    "close": [
+      "lazy",
+      "lazily",
+      "idleness",
+      "idle",
+      "sloth",
+      "sluggishness",
+      "procrastination"
+    ],
+    "id": 242,
+    "date": "2026-11-02"
+  },
+  {
     "answer": "fading",
     "partOfSpeech": "Verb (present participle)",
     "difficulty": "WILDCARD",
