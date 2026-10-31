@@ -1,5 +1,28 @@
 [
   {
+    "answer": "planning",
+    "partOfSpeech": "Gerund (noun)",
+    "difficulty": "EASY",
+    "sentences": [
+      "It happens before the doing, and sometimes it feels more satisfying than the thing itself.",
+      "Before a vacation, you might spend hours looking up hotels, mapping out routes, and listing activities you want to try.",
+      "It involves thinking ahead, making decisions in advance, and organizing steps so that something goes smoothly.",
+      "Unlike daydreaming, it produces something concrete — a list, a schedule, a timeline — that actually guides future action.",
+      "Whether you're preparing a dinner party or a work project, you're arranging the pieces beforehand so the real event can unfold without chaos."
+    ],
+    "close": [
+      "plan",
+      "plans",
+      "planned",
+      "planner",
+      "preparation",
+      "organizing",
+      "organize"
+    ],
+    "id": 243,
+    "date": "2026-11-03"
+  },
+  {
     "answer": "laziness",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "EASY",
