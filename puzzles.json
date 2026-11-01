@@ -1,5 +1,29 @@
 [
   {
+    "answer": "sycophancy",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "Some people seem to have a remarkable talent for always agreeing with whoever holds the most power in the room.",
+      "It is not the same as genuine admiration, because the approval shifts effortlessly depending on who is listening.",
+      "A new employee might laugh at every joke the boss makes, volunteer endless compliments, and never once push back on a bad idea.",
+      "The person doing it is usually motivated by personal gain rather than honest feeling, and most observers can sense the insincerity even when the target cannot.",
+      "When someone tells a manager that every decision they make is brilliant, not because they believe it but because they want a promotion, that calculated, self-serving praise is the clearest example of it."
+    ],
+    "close": [
+      "sycophant",
+      "sycophantic",
+      "sycophants",
+      "obsequiousness",
+      "obsequious",
+      "fawning",
+      "toadying",
+      "ingratiation"
+    ],
+    "id": 244,
+    "date": "2026-11-04"
+  },
+  {
     "answer": "planning",
     "partOfSpeech": "Gerund (noun)",
     "difficulty": "EASY",
