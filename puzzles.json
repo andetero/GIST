@@ -1,5 +1,27 @@
 [
   {
+    "answer": "seniority",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "In many organized groups, the longer you have been part of something, the more weight your presence carries.",
+      "It is not the same as skill or talent — someone newer might be more capable, yet still rank lower by this measure.",
+      "In a workplace, it often determines who gets first choice of vacation days, office assignments, or shift schedules.",
+      "Labor unions frequently rely on it to settle layoffs, promotions, and transfers in a way that feels objective and fair to members.",
+      "When two employees are equally qualified for a promotion, the one who has worked there longer often wins simply because of the years they have put in."
+    ],
+    "close": [
+      "senior",
+      "seniorities",
+      "tenure",
+      "rank",
+      "standing",
+      "precedence"
+    ],
+    "id": 245,
+    "date": "2026-11-05"
+  },
+  {
     "answer": "sycophancy",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "MEDIUM",
