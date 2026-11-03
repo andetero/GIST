@@ -1,5 +1,29 @@
 [
   {
+    "answer": "deferral",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "HARD",
+    "sentences": [
+      "It is the official cousin of putting something off, but with paperwork behind it.",
+      "A student who gets into college but asks to begin a year later has been granted one, and so has a soldier whose deployment has been pushed back.",
+      "Unlike a cancellation, it preserves the original commitment entirely — it simply relocates it in time.",
+      "It differs from a delay in that it typically requires a formal request or approval, not just a change in circumstance.",
+      "When a borrower asks their lender to pause loan payments for three months without penalty, and the lender agrees in writing, that arrangement has a specific name in finance and law."
+    ],
+    "close": [
+      "defer",
+      "deferred",
+      "deferring",
+      "deferment",
+      "postponement",
+      "delay",
+      "extension",
+      "adjournment"
+    ],
+    "id": 246,
+    "date": "2026-11-06"
+  },
+  {
     "answer": "seniority",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "MEDIUM",
