@@ -1,5 +1,28 @@
 [
   {
+    "answer": "rationalization",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "HARD",
+    "sentences": [
+      "The mind is remarkably skilled at arriving at the destination it already wanted to reach.",
+      "It is not the same as reasoning, because the conclusion comes first and the logic is assembled around it afterward.",
+      "People do it constantly without noticing — explaining a selfish choice in terms that make it sound principled, or a cowardly one in terms that make it sound wise.",
+      "Unlike self-deception, which involves suppressing the truth, this process is active: the person constructs a genuinely believable argument, and may even convince themselves it was their real motivation all along.",
+      "A smoker who says cigarettes keep them calm and productive, a person who cuts in line and decides the rules don't apply to their special circumstances — both are doing exactly this."
+    ],
+    "close": [
+      "rationalize",
+      "rationalizing",
+      "rationalized",
+      "rationalizations",
+      "justification",
+      "excuse",
+      "reasoning"
+    ],
+    "id": 247,
+    "date": "2026-11-07"
+  },
+  {
     "answer": "deferral",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "HARD",
