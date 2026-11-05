@@ -1,5 +1,28 @@
 [
   {
+    "answer": "blending",
+    "partOfSpeech": "Gerund (noun)",
+    "difficulty": "WILDCARD",
+    "sentences": [
+      "It is one of the oldest ways humans have made something greater than the sum of its parts.",
+      "The goal is not to erase each ingredient's identity entirely, but to create a result where no single element dominates the others.",
+      "A skilled coffee roaster does this with beans from different regions so that the final cup hits the right balance of acidity, body, and sweetness.",
+      "Unlike mixing, which often keeps components visually distinct, this process aims for a seamless, unified whole that is difficult to reverse.",
+      "Whether a winemaker is combining grape varieties or a paint manufacturer is combining pigments, the craft lies in knowing exactly how much of each to bring together."
+    ],
+    "close": [
+      "blend",
+      "blended",
+      "blends",
+      "mixing",
+      "merging",
+      "combining",
+      "fusion"
+    ],
+    "id": 248,
+    "date": "2026-11-08"
+  },
+  {
     "answer": "rationalization",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "HARD",
