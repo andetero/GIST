@@ -1,5 +1,25 @@
 [
   {
+    "answer": "sneeze",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "EASY",
+    "sentences": [
+      "It arrives with almost no warning and cannot be stopped once it begins.",
+      "You might feel it building when you walk into bright sunlight or when dust gets into your nose.",
+      "Your eyes close automatically, your whole body tenses, and air bursts out of your nose and mouth in an instant.",
+      "People around you will often say 'bless you' immediately after it happens, almost out of reflex.",
+      "It is the body's way of forcefully clearing an irritant from the nasal passages, and trying to hold one back almost never works."
+    ],
+    "close": [
+      "sneezing",
+      "sneezed",
+      "sneezes",
+      "achoo"
+    ],
+    "id": 249,
+    "date": "2026-11-09"
+  },
+  {
     "answer": "blending",
     "partOfSpeech": "Gerund (noun)",
     "difficulty": "WILDCARD",
