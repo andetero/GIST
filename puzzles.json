@@ -1,5 +1,28 @@
 [
   {
+    "answer": "waving",
+    "partOfSpeech": "Gerund (noun)",
+    "difficulty": "EASY",
+    "sentences": [
+      "It is one of the simplest things a person can do with their hand to communicate across a distance.",
+      "When someone drops you off at the airport, you both do it as they drive away and you walk inside.",
+      "It requires no words, no special skill, and no physical contact — just a raised arm moving side to side.",
+      "It can mean hello, goodbye, or simply 'I see you,' depending entirely on the moment.",
+      "A child spotting a parent through a school window will press their hand to the glass and do it without thinking twice."
+    ],
+    "close": [
+      "wave",
+      "waves",
+      "waved",
+      "waver",
+      "gesturing",
+      "greeting",
+      "beckoning"
+    ],
+    "id": 250,
+    "date": "2026-11-10"
+  },
+  {
     "answer": "sneeze",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "EASY",
