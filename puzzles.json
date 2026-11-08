@@ -1,5 +1,28 @@
 [
   {
+    "answer": "distrust",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "It often arrives quietly, long before anyone has done anything clearly wrong.",
+      "A friend who has lied once may find that every future explanation, however honest, is received with a slight internal reservation.",
+      "It is not the same as dislike — you can enjoy someone's company while still keeping certain things close to your chest around them.",
+      "Unlike suspicion, which tends to focus on a specific worry, this feeling is more general: a background reluctance to take someone fully at their word.",
+      "When a person checks the receipt after a mechanic's repair, or reads the fine print even when assured everything is straightforward, they are acting out of it."
+    ],
+    "close": [
+      "mistrust",
+      "suspicion",
+      "skepticism",
+      "wariness",
+      "distrustful",
+      "distrusting",
+      "distrusted"
+    ],
+    "id": 251,
+    "date": "2026-11-11"
+  },
+  {
     "answer": "waving",
     "partOfSpeech": "Gerund (noun)",
     "difficulty": "EASY",
