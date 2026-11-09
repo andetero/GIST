@@ -1,5 +1,28 @@
 [
   {
+    "answer": "confession",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "Carrying a secret for a long time creates a particular kind of weight that most people eventually want to put down.",
+      "The act of voicing something hidden — whether to a friend, a stranger, or in writing — can bring unexpected relief even when no forgiveness is offered.",
+      "It is distinct from an apology, because it focuses on revealing what happened rather than expressing remorse for it.",
+      "A suspect who finally tells a detective what they did, or a teenager who admits to a parent what really happened that night, is engaging in this act.",
+      "Whether whispered in a church booth, written in a letter never meant to be sent, or blurted out at the worst possible moment, it is the act of bringing a hidden truth into the open."
+    ],
+    "close": [
+      "confess",
+      "confessing",
+      "confessed",
+      "confessions",
+      "admission",
+      "disclosure",
+      "reveal"
+    ],
+    "id": 252,
+    "date": "2026-11-12"
+  },
+  {
     "answer": "distrust",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "MEDIUM",
