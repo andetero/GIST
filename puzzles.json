@@ -1,5 +1,29 @@
 [
   {
+    "answer": "collusion",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "HARD",
+    "sentences": [
+      "Some agreements are never written down, yet they shape outcomes just as surely as any contract.",
+      "It requires at least two parties who quietly coordinate their actions while presenting themselves to others as independent.",
+      "Unlike a simple alliance, it carries a deliberate intent to deceive a third party — often for mutual gain.",
+      "Regulators investigating price-fixing look for it: competitors whose bids mysteriously align without any apparent communication.",
+      "When two rival bidders at an auction secretly agree that one will hold back so the other wins cheaply, that is a textbook example."
+    ],
+    "close": [
+      "collude",
+      "colluding",
+      "colluded",
+      "collusive",
+      "conspiracy",
+      "coordination",
+      "corruption",
+      "connivance"
+    ],
+    "id": 254,
+    "date": "2026-11-14"
+  },
+  {
     "answer": "overture",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "HARD",
