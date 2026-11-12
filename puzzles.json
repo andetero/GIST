@@ -1,5 +1,27 @@
 [
   {
+    "answer": "blush",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "WILDCARD",
+    "sentences": [
+      "The body sometimes responds to social moments before the mind has had a chance to react.",
+      "It tends to appear at the worst possible times — when you are trying to seem calm or composed.",
+      "Blood rushes to the capillaries near the surface of the skin, particularly on the face, without any conscious instruction.",
+      "It is most common when someone receives unexpected attention, is caught in an embarrassing moment, or hears an unexpected compliment.",
+      "Unlike a sunburn or a rash, it typically fades within seconds to minutes and is caused entirely by emotion rather than heat or irritation."
+    ],
+    "close": [
+      "blushing",
+      "blushed",
+      "blushes",
+      "flush",
+      "flushing",
+      "reddening"
+    ],
+    "id": 255,
+    "date": "2026-11-15"
+  },
+  {
     "answer": "collusion",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "HARD",
