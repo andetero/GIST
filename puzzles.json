@@ -1,5 +1,25 @@
 [
   {
+    "answer": "sneezing",
+    "partOfSpeech": "Gerund (noun)",
+    "difficulty": "EASY",
+    "sentences": [
+      "It happens suddenly, usually without much warning, and your body takes over completely for a split second.",
+      "A bit of dust, a whiff of pepper, or stepping into bright sunlight can set it off.",
+      "You often feel it building up just before it happens — that tickling sensation in your nose that is almost impossible to stop.",
+      "It expels air from your nose and mouth at remarkable speed, and most people cover their face to avoid spreading germs.",
+      "In many cultures, the people around you will say 'bless you' or 'gesundheit' the moment it happens."
+    ],
+    "close": [
+      "sneeze",
+      "sneezes",
+      "sneezed",
+      "sneezy"
+    ],
+    "id": 256,
+    "date": "2026-11-16"
+  },
+  {
     "answer": "blush",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "WILDCARD",
