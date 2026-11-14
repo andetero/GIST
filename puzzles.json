@@ -1,5 +1,27 @@
 [
   {
+    "answer": "waiting",
+    "partOfSpeech": "Gerund (noun)",
+    "difficulty": "EASY",
+    "sentences": [
+      "Time seems to move differently when you have nothing to do but watch for something to happen.",
+      "You feel it every time you sit in a doctor's office, staring at a magazine you have no interest in reading.",
+      "It is not the same as resting, because your attention is fixed on something that has not arrived yet.",
+      "The longer it goes on, the harder it becomes to focus on anything else, and small delays start to feel enormous.",
+      "Whether it is a text back from someone you care about or a flight that is running late, the experience is the same: you are ready, but the moment you need has not come."
+    ],
+    "close": [
+      "wait",
+      "waits",
+      "waited",
+      "anticipating",
+      "expecting",
+      "expectation"
+    ],
+    "id": 257,
+    "date": "2026-11-17"
+  },
+  {
     "answer": "sneezing",
     "partOfSpeech": "Gerund (noun)",
     "difficulty": "EASY",
