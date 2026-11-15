@@ -1,5 +1,27 @@
 [
   {
+    "answer": "sincerity",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "It is one of those qualities people say they value above almost everything else, yet often find difficult to fully trust when they encounter it.",
+      "A person can say exactly the right words, but without it, the words ring hollow and the listener senses something is missing.",
+      "It is distinct from politeness, which follows social rules, and from enthusiasm, which can be performed — this quality comes from genuinely meaning what you say or do.",
+      "A child thanking a grandparent with a homemade card is often seen as a perfect example of it, precisely because children lack the motive or skill to fake it.",
+      "When a friend apologizes and you believe they truly mean it — not because it benefits them, not because they were pressured, but because they actually feel it — that is exactly what you are recognizing."
+    ],
+    "close": [
+      "sincere",
+      "sincerely",
+      "genuineness",
+      "authenticity",
+      "genuine",
+      "heartfelt"
+    ],
+    "id": 258,
+    "date": "2026-11-18"
+  },
+  {
     "answer": "waiting",
     "partOfSpeech": "Gerund (noun)",
     "difficulty": "EASY",
