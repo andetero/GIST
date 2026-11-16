@@ -1,5 +1,29 @@
 [
   {
+    "answer": "commitment",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "MEDIUM",
+    "sentences": [
+      "Some things only become meaningful when you stop leaving yourself a way out.",
+      "It's the difference between someone who says they'll try to show up and someone you can actually count on.",
+      "A person signing a lease, joining a team, or making a promise is stepping into it, often aware of what they're giving up.",
+      "Unlike motivation, which can come and go, this is what keeps someone going to the gym in February when the initial excitement has worn off.",
+      "It's the decision to stay bound to a course of action, a relationship, or a goal — not because it's always easy, but because you chose it."
+    ],
+    "close": [
+      "commit",
+      "commits",
+      "committed",
+      "committing",
+      "dedication",
+      "devotion",
+      "pledge",
+      "resolve"
+    ],
+    "id": 259,
+    "date": "2026-11-19"
+  },
+  {
     "answer": "sincerity",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "MEDIUM",
