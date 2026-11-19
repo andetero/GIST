@@ -1,5 +1,29 @@
 [
   {
+    "answer": "echoing",
+    "partOfSpeech": "Verb (present participle)",
+    "difficulty": "WILDCARD",
+    "sentences": [
+      "Something that began in one place can seem to come back from somewhere else entirely, arriving slightly delayed and a little softer than before.",
+      "Hard, bare surfaces—like concrete walls, cave ceilings, or empty gymnasiums—make this happen far more noticeably than soft, furnished rooms.",
+      "When you shout your name across a canyon or an empty stadium, you can hear your own voice returning to you a moment later.",
+      "This happens because sound waves travel outward, strike a distant surface, and bounce back to the listener, reproducing the original sound without its source still being active.",
+      "It is what you experience when you clap once in a large empty hall and hear the clap come back a half-second later from the far wall."
+    ],
+    "close": [
+      "echo",
+      "echoes",
+      "echoed",
+      "reverberate",
+      "reverberating",
+      "reverberation",
+      "reflecting",
+      "bouncing"
+    ],
+    "id": 262,
+    "date": "2026-11-22"
+  },
+  {
     "answer": "coasting",
     "partOfSpeech": "Gerund (noun)",
     "difficulty": "HARD",
