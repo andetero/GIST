@@ -1,5 +1,28 @@
 [
   {
+    "answer": "smile",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "EASY",
+    "sentences": [
+      "It costs nothing to give away and yet it can change the feeling of an entire interaction.",
+      "When a stranger holds the door open for you, it is usually the first thing you offer in return.",
+      "Babies learn to do it within weeks of being born, long before they can speak a single word.",
+      "It involves the muscles around the mouth and eyes, and people can often tell when it is genuine versus forced.",
+      "It is the upward curve of the lips that signals friendliness, happiness, or warmth without saying a word."
+    ],
+    "close": [
+      "smiling",
+      "smiles",
+      "grin",
+      "grinning",
+      "beam",
+      "beaming",
+      "smirk"
+    ],
+    "id": 263,
+    "date": "2026-11-23"
+  },
+  {
     "answer": "echoing",
     "partOfSpeech": "Verb (present participle)",
     "difficulty": "WILDCARD",
