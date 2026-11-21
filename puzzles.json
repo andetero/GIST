@@ -1,5 +1,26 @@
 [
   {
+    "answer": "hiccup",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "EASY",
+    "sentences": [
+      "It arrives without warning and refuses to leave on your schedule.",
+      "You might get one after eating too fast or drinking a carbonated drink too quickly.",
+      "People around you will suggest remedies like holding your breath, drinking water upside down, or being startled.",
+      "It is caused by a sudden, involuntary contraction of the diaphragm, followed by an abrupt intake of air that makes a distinctive sound.",
+      "That sharp \"hic\" noise you make repeatedly and can't seem to stop, usually lasting a few minutes, is exactly this."
+    ],
+    "close": [
+      "hiccups",
+      "hiccupping",
+      "hiccupped",
+      "spasm",
+      "jolt"
+    ],
+    "id": 264,
+    "date": "2026-11-24"
+  },
+  {
     "answer": "smile",
     "partOfSpeech": "Noun (singular)",
     "difficulty": "EASY",
