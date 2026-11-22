@@ -384,23 +384,62 @@ DIFFICULTY: WILDCARD (Sunday)
 - Vary the challenge between easy and medium most Sundays; keep occasional harder Sundays fair and solvable`,
 };
 
-const allUsedAnswers = Array.from(usedAnswers).sort();
-const usedAnswersBlock = allUsedAnswers.length
-  ? `\nDo NOT use any of these answers. They have already been used in prior GIST puzzles:\n${allUsedAnswers.join(", ")}\n`
-  : "";
+// Do not include the historical answer list in the model prompt: supplying
+// hundreds of old answers repeatedly caused the model to copy them.
+const ANSWER_THEMES = [
+  "everyday routines and household life",
+  "people and relationships",
+  "nature, weather and the outdoors",
+  "sports, movement and physical sensations",
+  "tools, objects and practical tasks",
+  "workplace or school experiences",
+  "music, art and communication",
+  "cooking, food and travel",
+  "decision-making and ordinary emotions",
+  "science concepts familiar to nonspecialists",
+];
 
-function buildPrompt({ rejectedAnswers = [] } = {}) {
-  const rejectedBlock = rejectedAnswers.length
-    ? `\nPreviously rejected answers in this run (do NOT use any of them again):\n${rejectedAnswers.join(", ")}\n`
-    : "";
+function buildAnswerSelectionPrompt(batchNumber) {
+  const theme = ANSWER_THEMES[batchNumber % ANSWER_THEMES.length];
+  return `Select 12 DISTINCT candidate answer words for a GIST daily word puzzle.
+Difficulty is ${DIFFICULTY.label}. Target words must fit the following difficulty guidance:
+${DIFFICULTY_INSTRUCTIONS[DIFFICULTY.level]}
 
-  return `Today is ${TODAY}. You are generating puzzle #${PUZZLE_ID} for GIST, a daily word game.
+For variety, emphasize ${theme}. Choose words a general adult audience will understand;
+avoid obscure or technical vocabulary. Use a mix of nouns, verbs and adjectives where natural.
+Each candidate must be ONE ordinary English word, not a phrase, proper noun, or pluralized
+version of another candidate. Do not write clues yet. The application checks the complete
+historical archive and will discard previously used answers. Return ONLY valid JSON:
+{"answers":["word1","word2","word3","word4","word5","word6","word7","word8","word9","word10","word11","word12"]}`;
+}
+
+function parseAnswerCandidates(raw) {
+  const cleaned = String(raw).replace(/```json/gi, "").replace(/```/g, "").trim();
+  const parsed = JSON.parse(cleaned);
+  const answers = Array.isArray(parsed) ? parsed : parsed?.answers;
+  if (!Array.isArray(answers)) throw new Error("Candidate response did not contain an answers array");
+  const unique = new Set();
+  return answers.filter((word) => {
+    if (typeof word !== "string" || !/^[A-Za-z][A-Za-z-]*$/.test(word)) return false;
+    const normalized = normalizeAnswer(word);
+    if (!normalized || unique.has(normalized)) return false;
+    unique.add(normalized);
+    return true;
+  });
+}
+
+function buildPrompt({ targetAnswer }) {
+  if (!targetAnswer) throw new Error("Missing preselected answer");
+  return `Today is ${TODAY}. You are writing puzzle #${PUZZLE_ID} for GIST, a daily word game.
+The answer has ALREADY been selected and checked against the entire historical archive:
+${targetAnswer}
+You MUST write clues for this exact answer, not a different word. Do not select or
+substitute another answer, even if you think another would be better.
 
 In GIST, a paragraph is revealed one sentence at a time. Players guess the ONE WORD that captures its essence. Each wrong guess reveals one more sentence of the paragraph as a clue. There are 5 sentences total, revealed one by one.
 
 ${DIFFICULTY_INSTRUCTIONS[DIFFICULTY.level]}
-${usedAnswersBlock}${rejectedBlock}
-Your job: create a puzzle. Choose a concept, emotion, phenomenon, action, or everyday object as the answer word. Write a clear, engaging 5-sentence paragraph that describes it without ever saying the word. Favor the satisfaction of recognizing a specific answer over impressively abstract prose. Elegant language is welcome, but fairness and clarity come first.
+Your job: write a 5-sentence paragraph for the preselected answer "${targetAnswer}" without ever saying that word. Favor the satisfaction of recognizing a specific answer over impressively abstract prose. Elegant language is welcome, but fairness and clarity come first.
 
 Rules:
 - The answer must be a single English word (not a proper noun, not a phrase)
@@ -408,7 +447,7 @@ Rules:
 - Every noun MUST specify number: use "Noun (singular)" for singular or mass/uncountable nouns, and "Noun (plural)" for plural nouns
 - The part of speech must match how the answer itself is intended. For an -ing answer naming an activity or process as a noun, use "Gerund (noun)" (e.g. "Planning takes time"). For an -ing verb indicating an ongoing action, use "Verb (present participle)" (e.g. "They are planning"). An ordinary lexical noun ending in -ing that is not acting as a gerund may still use "Noun (singular)" or "Noun (plural)" as appropriate.
 - Do not use "Gerund (noun)" for an answer that does not end in -ing; choose a different allowed part of speech instead.
-- The answer must be different from every prior GIST answer listed above
+- The answer MUST be exactly "${targetAnswer}". It was selected and checked for uniqueness before this request.
 - The paragraph must NOT contain the answer word or obvious synonyms
 - Sentence 1 should be the most indirect clue, but still understandable rather than intentionally vague
 - Each following sentence must add genuinely new information and progressively narrow the possibilities
@@ -420,20 +459,12 @@ Rules:
 - Also provide 3-10 "close" words that are near-synonyms or useful word-form variations (a player guessing these gets a yellow result)
 - The "close" array MUST include common variations of the answer word (verb forms, plural, adjective forms, past tense, etc.) — for example if the answer is "anticipation" include "anticipate", "anticipating", "anticipated"
 
-Return ONLY valid JSON, no markdown, exactly this format:
-{
-  "answer": "loneliness",
-  "partOfSpeech": "Noun (singular)",
-  "difficulty": "EASY",
-  "sentences": [
-    "A room can be full of people and still feel strangely empty.",
-    "When a close friend moves away, even familiar places may feel different without them.",
-    "It is not the same as being alone, because you can enjoy time by yourself and still feel connected.",
-    "Calls and messages may help, but they cannot always replace feeling understood or having someone nearby.",
-    "It is the painful feeling of wanting companionship or connection and finding it missing."
-  ],
-  "close": ["isolation", "solitude", "alienation", "emptiness"]
-}
+Return ONLY valid JSON, with no markdown or commentary, with precisely these fields:
+- "answer": "${targetAnswer}" (exactly; do not change it)
+- "partOfSpeech": one allowed grammatical hint appropriate to that answer
+- "difficulty": "${DIFFICULTY.label}"
+- "sentences": an array of exactly 5 original, progressively revealing clue sentences
+- "close": an array of 3-10 real near-synonyms or useful word forms
 
 Set "difficulty" in the JSON to exactly: "${DIFFICULTY.label}"`;
 }
@@ -441,42 +472,40 @@ Set "difficulty" in the JSON to exactly: "${DIFFICULTY.label}"`;
 console.log(`🧩 Generating GIST puzzle #${PUZZLE_ID} [${DIFFICULTY.label} — ${TODAY} / ${TIME_ZONE}]...`);
 
 let puzzle;
-const rejectedAnswers = [];
+const rejectedAnswers = new Set();
+const pendingAnswers = [];
+let batchNumber = 0;
 
 for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt += 1) {
   try {
     console.log(`🔁 Attempt ${attempt}/${MAX_ATTEMPTS}`);
-    const raw = await callClaude(buildPrompt({ rejectedAnswers }));
+    if (pendingAnswers.length === 0) {
+      const rawChoices = await callClaude(buildAnswerSelectionPrompt(batchNumber++));
+      const choices = parseAnswerCandidates(rawChoices).filter((word) => {
+        const normalized = normalizeAnswer(word);
+        return !usedAnswers.has(normalized) && !rejectedAnswers.has(normalized);
+      });
+      if (choices.length === 0) throw new Error("No unused candidate answers in selection batch");
+      pendingAnswers.push(...choices);
+      console.log(`🔎 Found ${choices.length} unused candidate answers after archive filtering.`);
+    }
+
+    const targetAnswer = pendingAnswers.shift();
+    rejectedAnswers.add(normalizeAnswer(targetAnswer));
+    const raw = await callClaude(buildPrompt({ targetAnswer }));
     const candidate = sanitizePuzzle(parsePuzzleJson(raw));
     validatePuzzleShape(candidate);
 
-    const normalized = normalizeAnswer(candidate.answer);
-    if (!normalized) {
-      throw new Error("Answer normalized to an empty value");
+    if (normalizeAnswer(candidate.answer) !== normalizeAnswer(targetAnswer)) {
+      throw new Error(`Model changed preselected answer from "${targetAnswer}" to "${candidate.answer}"`);
     }
-
-    if (usedAnswers.has(normalized)) {
+    if (usedAnswers.has(normalizeAnswer(candidate.answer))) {
       throw new Error(`Duplicate historical answer: ${candidate.answer}`);
-    }
-
-    if (rejectedAnswers.includes(normalized)) {
-      throw new Error(`Duplicate answer within retry loop: ${candidate.answer}`);
     }
 
     puzzle = candidate;
     break;
   } catch (error) {
-    const duplicateMatch = String(error.message || "").match(/Duplicate (?:historical answer|answer within retry loop):\s*(.+)$/);
-    if (duplicateMatch) {
-      const rejected = normalizeAnswer(duplicateMatch[1]);
-      if (rejected && !rejectedAnswers.includes(rejected)) rejectedAnswers.push(rejected);
-    }
-
-    if (error.message?.startsWith("Answer must be a single word:")) {
-      const invalid = normalizeAnswer(error.message.replace("Answer must be a single word:", ""));
-      if (invalid && !rejectedAnswers.includes(invalid)) rejectedAnswers.push(invalid);
-    }
-
     console.warn(`⚠️ Attempt ${attempt} failed: ${error.message}`);
     if (attempt === MAX_ATTEMPTS) {
       console.error(`❌ Failed to generate a unique puzzle after ${MAX_ATTEMPTS} attempts.`);
