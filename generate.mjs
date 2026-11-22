@@ -409,8 +409,8 @@ For variety, emphasize ${theme}. Choose words a general adult audience will unde
 avoid obscure or technical vocabulary. Use a mix of nouns, verbs and adjectives where natural.
 Each candidate must be ONE ordinary English word, not a phrase, proper noun, or pluralized
 version of another candidate. Do not write clues yet. The application checks the complete
-historical archive and will discard previously used answers. Return ONLY valid JSON:
-{"answers":["word1","word2","word3","word4","word5","word6","word7","word8","word9","word10","word11","word12"]}`;
+historical archive and will discard previously used answers. Return ONLY valid JSON with an "answers" array containing 12 distinct English answer words.
+Do not include numbering, explanations, code fences, or placeholder words.`;
 }
 
 function parseAnswerCandidates(raw) {
