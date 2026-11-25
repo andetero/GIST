@@ -1,5 +1,30 @@
 [
   {
+    "answer": "cluttered",
+    "partOfSpeech": "Adjective",
+    "difficulty": "HARD",
+    "sentences": [
+      "Too much of everything leaves no room for anything.",
+      "The eye moves frantically from object to object, unable to settle or rest.",
+      "A desk in this condition might have three half-finished coffee cups, unopened mail, tangled cables, and a stapler buried under last year's receipts.",
+      "Unlike simply messy, this word implies an accumulation so dense that the space itself feels consumed and navigation becomes difficult.",
+      "When a realtor warns that a room 'photographs small' because of too many knickknacks and stacked boxes crowding every surface, this is exactly the word they would use to describe it."
+    ],
+    "close": [
+      "clutter",
+      "clutters",
+      "cluttering",
+      "messy",
+      "crowded",
+      "jumbled",
+      "chaotic",
+      "disorganized",
+      "overcrowded"
+    ],
+    "id": 268,
+    "date": "2026-11-28"
+  },
+  {
     "answer": "simmer",
     "partOfSpeech": "Verb",
     "difficulty": "HARD",
