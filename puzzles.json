@@ -1,5 +1,29 @@
 [
   {
+    "answer": "scrub",
+    "partOfSpeech": "Verb (infinitive)",
+    "difficulty": "WILDCARD",
+    "sentences": [
+      "This action involves applying vigorous friction to a surface to make it cleaner or clearer.",
+      "It can refer to canceling something at the last minute, like a rocket launch that never leaves the pad.",
+      "In the kitchen, cooks do this to potatoes before boiling them — using a stiff brush under running water.",
+      "It also names a type of low, sparse vegetation found in dry regions, where hardy shrubs barely reach knee height.",
+      "Healthcare workers wear garments named after this word — loose, easy-to-clean outfits typically seen in hospitals and operating rooms."
+    ],
+    "close": [
+      "scrubs",
+      "scrubbed",
+      "scrubbing",
+      "scour",
+      "scrubber",
+      "wash",
+      "cancel",
+      "brush"
+    ],
+    "id": 269,
+    "date": "2026-11-29"
+  },
+  {
     "answer": "cluttered",
     "partOfSpeech": "Adjective",
     "difficulty": "HARD",
