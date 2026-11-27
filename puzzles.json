@@ -1,5 +1,27 @@
 [
   {
+    "answer": "rinse",
+    "partOfSpeech": "Verb",
+    "difficulty": "EASY",
+    "sentences": [
+      "This quick action uses water to carry something away without much effort.",
+      "After washing your hair with shampoo, you do this to wash out all the soap before you get out of the shower.",
+      "It is lighter and faster than a full wash — you are not scrubbing, just letting water flow over something.",
+      "You might also do this to dishes right after eating, before they go in the dishwasher, to remove leftover food.",
+      "The goal is simply to clear away suds, residue, or loose dirt using plain water, not soap or cleaner."
+    ],
+    "close": [
+      "rinsing",
+      "rinsed",
+      "rinses",
+      "wash",
+      "flush",
+      "clean"
+    ],
+    "id": 270,
+    "date": "2026-11-30"
+  },
+  {
     "answer": "scrub",
     "partOfSpeech": "Verb (infinitive)",
     "difficulty": "WILDCARD",
