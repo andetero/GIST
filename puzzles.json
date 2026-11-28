@@ -1,5 +1,27 @@
 [
   {
+    "answer": "laundry",
+    "partOfSpeech": "Noun (singular)",
+    "difficulty": "EASY",
+    "sentences": [
+      "Most households set aside a regular time each week to tackle this familiar chore.",
+      "You sort items by color, add detergent, and run a cycle in the washing machine.",
+      "Whites, darks, and delicates are common categories people separate before getting started.",
+      "The pile waiting to be washed can grow surprisingly fast, especially after a busy week of work and exercise.",
+      "When the dryer buzzes, you pull out shirts, socks, and towels and fold them before putting everything away."
+    ],
+    "close": [
+      "laundries",
+      "washing",
+      "clothes",
+      "linens",
+      "wash",
+      "cleaning"
+    ],
+    "id": 271,
+    "date": "2026-12-01"
+  },
+  {
     "answer": "rinse",
     "partOfSpeech": "Verb",
     "difficulty": "EASY",
